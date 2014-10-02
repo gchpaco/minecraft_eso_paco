@@ -5,7 +5,19 @@
 
 ====== [ SETTINGS ] ======
 
-D LOCKED
+D1 sword
+D2 pickaxe
+D3 lighting
+D4 hammer
+D5 crafting
+D6 utility
+D7 edibleFood
+D8 shovel
+D9 bow
+
+A1-C4 bags
+B5-C5 bags
+C9 ammunition
 
 ======== [ GETTING STARTED ] ========
 

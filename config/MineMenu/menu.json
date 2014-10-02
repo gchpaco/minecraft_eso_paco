@@ -20,6 +20,19 @@
       "action": {
         "command": "/cofh clearblocks BevoLJ 100 200 100 lava water stone dirt gravel netherrack grass snow sand"
       }
+    },
+    "9": {
+      "title": "Crafting grid",
+      "icon": {
+        "name": "minecraft:crafting_table",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.craftingGrid",
+          "toggle": false
+        }
+      }
     }
   }
 }

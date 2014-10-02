@@ -1,0 +1,10 @@
+
+Loading excluded list from: /Users/ghughes/Applications/ATLauncher/Instances/EsoPacoServer/saves/New World/DIM-100
+No exclusions found for this world.
+
+Loading options from: /Users/ghughes/Applications/ATLauncher/Instances/EsoPacoServer/saves/New World/DIM-100
+tries_per_chunk_normal = 2
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 256.0
+anyRuinsMinDistance = 64.0
+Ruins mod loaded successfully for world /Users/ghughes/Applications/ATLauncher/Instances/EsoPacoServer/saves/New World/DIM-100, template files: 32

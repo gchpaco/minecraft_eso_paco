@@ -4,6 +4,9 @@
 # Explicitly declare text files you want to always be normalized and converted
 # to native line endings on checkout.
 *.cfg text
+*.conf text
+*.txt text
+*.prop text
 *.json text
 *.xml text
 *.tml text

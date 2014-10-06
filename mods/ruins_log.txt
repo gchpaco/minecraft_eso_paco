@@ -1,4 +1,3 @@
-
 Loading excluded list from: /Users/ghughes/Applications/ATLauncher/Instances/EsoPacoServer/saves/New World/DIM-100
 No exclusions found for this world.
 

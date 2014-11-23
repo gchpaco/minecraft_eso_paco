@@ -1,0 +1,434 @@
+Starting NEI Filter scripting. This might take a moment to load all the modules...
+Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
+Bootstrap setting found. Loading: Bootstrap.js
+Loading: vanilla.js
+hide_block called. Params: minecraft, portal
+Found block minecraft:portal
+hide_block called. Params: minecraft, end_portal
+Found block minecraft:end_portal
+hide_block called. Params: minecraft, fire
+Found block minecraft:fire
+hide_block called. Params: minecraft, water
+Found block minecraft:water
+hide_block called. Params: minecraft, lava
+Found block minecraft:lava
+hide_block called. Params: minecraft, mob_spawner
+Found block minecraft:mob_spawner
+override_item called. Params: minecraft, potion, 0
+Found item minecraft:potion
+override_block called. Params: minecraft, potion, 0
+Cannot find block minecraft:potion
+override_item called. Params: minecraft, spawn_egg, 0
+Found item minecraft:spawn_egg
+override_block called. Params: minecraft, spawn_egg, 0
+Cannot find block minecraft:spawn_egg
+Loading: ThermalExpansion.js
+override_item called. Params: ThermalExpansion, florb, 0,1
+Found item ThermalExpansion:florb
+Loading: Mekanism.js
+override_block called. Params: Mekanism, GasTank, 100
+Found block Mekanism:GasTank
+override_block called. Params: Mekanism, *PlasticBlock, 0
+Wildcard found in parameters. Running through RegxEngine...
+Regx match found! Mekanism:*PlasticBlock matches Mekanism:GlowPlasticBlock.
+override_block called. Params: Mekanism, GlowPlasticBlock, 0
+Found block Mekanism:GlowPlasticBlock
+Regx match found! Mekanism:*PlasticBlock matches Mekanism:PlasticBlock.
+override_block called. Params: Mekanism, PlasticBlock, 0
+Found block Mekanism:PlasticBlock
+Regx match found! Mekanism:*PlasticBlock matches Mekanism:ReinforcedPlasticBlock.
+override_block called. Params: Mekanism, ReinforcedPlasticBlock, 0
+Found block Mekanism:ReinforcedPlasticBlock
+Regx match found! Mekanism:*PlasticBlock matches Mekanism:RoadPlasticBlock.
+override_block called. Params: Mekanism, RoadPlasticBlock, 0
+Found block Mekanism:RoadPlasticBlock
+Regx match found! Mekanism:*PlasticBlock matches Mekanism:SlickPlasticBlock.
+override_block called. Params: Mekanism, SlickPlasticBlock, 0
+Found block Mekanism:SlickPlasticBlock
+Cannot find block Mekanism:*PlasticBlock
+override_item called. Params: Mekanism, Balloon, 0
+Found item Mekanism:Balloon
+override_block called. Params: Mekanism, Balloon, 0
+Cannot find block Mekanism:Balloon
+override_item called. Params: Mekanism, GlowPanel, 0
+Found item Mekanism:GlowPanel
+override_block called. Params: Mekanism, GlowPanel, 0
+Cannot find block Mekanism:GlowPanel
+Loading: ForgeMicroblock.js
+getRandomMaterial called. Returned: tile.blockCarpet
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.blockCarpet
+Loading: ExtraUtilities.js
+override_block called. Params: ExtraUtilities, drum, 0,1
+Found block ExtraUtilities:drum
+getRandomMaterial called. Returned: tile.appliedenergistics2.BlockSkyStone_3
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.appliedenergistics2.BlockSkyStone_3
+Loading: BuildCraft.js
+getFacadesSize called. Returned: 1359
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1069
+Loading: Bibliocraft.js
+override_item called. Params: BiblioCraft, *, 0
+Wildcard found in parameters. Running through RegxEngine...
+Regx match found! BiblioCraft:* matches BiblioCraft:Armor.
+override_item called. Params: BiblioCraft, Armor, 0
+Cannot find item BiblioCraft:Armor
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioBell.
+override_item called. Params: BiblioCraft, BiblioBell, 0
+Found item BiblioCraft:BiblioBell
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioBorderlessPainting.
+override_item called. Params: BiblioCraft, BiblioBorderlessPainting, 0
+Found item BiblioCraft:BiblioBorderlessPainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioCase.
+override_item called. Params: BiblioCraft, BiblioCase, 0
+Found item BiblioCraft:BiblioCase
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioClock.
+override_item called. Params: BiblioCraft, BiblioClock, 0
+Found item BiblioCraft:BiblioClock
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioDesk.
+override_item called. Params: BiblioCraft, BiblioDesk, 0
+Found item BiblioCraft:BiblioDesk
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioFancyPainting.
+override_item called. Params: BiblioCraft, BiblioFancyPainting, 0
+Found item BiblioCraft:BiblioFancyPainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioFancySign.
+override_item called. Params: BiblioCraft, BiblioFancySign, 0
+Found item BiblioCraft:BiblioFancySign
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioFlatPainting.
+override_item called. Params: BiblioCraft, BiblioFlatPainting, 0
+Found item BiblioCraft:BiblioFlatPainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioIronLamp.
+override_item called. Params: BiblioCraft, BiblioIronLamp, 0
+Found item BiblioCraft:BiblioIronLamp
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioIronLantern.
+override_item called. Params: BiblioCraft, BiblioIronLantern, 0
+Found item BiblioCraft:BiblioIronLantern
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioLabel.
+override_item called. Params: BiblioCraft, BiblioLabel, 0
+Found item BiblioCraft:BiblioLabel
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioLamp.
+override_item called. Params: BiblioCraft, BiblioLamp, 0
+Found item BiblioCraft:BiblioLamp
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioLantern.
+override_item called. Params: BiblioCraft, BiblioLantern, 0
+Found item BiblioCraft:BiblioLantern
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioMapFrames.
+override_item called. Params: BiblioCraft, BiblioMapFrames, 0
+Found item BiblioCraft:BiblioMapFrames
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioMiddlePainting.
+override_item called. Params: BiblioCraft, BiblioMiddlePainting, 0
+Found item BiblioCraft:BiblioMiddlePainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioPaintPress.
+override_item called. Params: BiblioCraft, BiblioPaintPress, 0
+Found item BiblioCraft:BiblioPaintPress
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioPotionShelf.
+override_item called. Params: BiblioCraft, BiblioPotionShelf, 0
+Found item BiblioCraft:BiblioPotionShelf
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioRack.
+override_item called. Params: BiblioCraft, BiblioRack, 0
+Found item BiblioCraft:BiblioRack
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioSeats.
+override_item called. Params: BiblioCraft, BiblioSeats, 0
+Found item BiblioCraft:BiblioSeats
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioShelf.
+override_item called. Params: BiblioCraft, BiblioShelf, 0
+Found item BiblioCraft:BiblioShelf
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioSimplePainting.
+override_item called. Params: BiblioCraft, BiblioSimplePainting, 0
+Found item BiblioCraft:BiblioSimplePainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioStuffs.
+override_item called. Params: BiblioCraft, BiblioStuffs, 0
+Found item BiblioCraft:BiblioStuffs
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioSwordPedestal.
+override_item called. Params: BiblioCraft, BiblioSwordPedestal, 0
+Found item BiblioCraft:BiblioSwordPedestal
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioTable.
+override_item called. Params: BiblioCraft, BiblioTable, 0
+Found item BiblioCraft:BiblioTable
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioTypewriter.
+override_item called. Params: BiblioCraft, BiblioTypewriter, 0
+Found item BiblioCraft:BiblioTypewriter
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioWorkbench.
+override_item called. Params: BiblioCraft, BiblioWorkbench, 0
+Found item BiblioCraft:BiblioWorkbench
+Regx match found! BiblioCraft:* matches BiblioCraft:Bibliotheca.
+override_item called. Params: BiblioCraft, Bibliotheca, 0
+Found item BiblioCraft:Bibliotheca
+Regx match found! BiblioCraft:* matches BiblioCraft:Printing.
+override_item called. Params: BiblioCraft, Printing, 0
+Cannot find item BiblioCraft:Printing
+Regx match found! BiblioCraft:* matches BiblioCraft:Typesetting.
+override_item called. Params: BiblioCraft, Typesetting, 0
+Cannot find item BiblioCraft:Typesetting
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioChase.
+override_item called. Params: BiblioCraft, item.BiblioChase, 0
+Found item BiblioCraft:item.BiblioChase
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioClipboard.
+override_item called. Params: BiblioCraft, item.BiblioClipboard, 0
+Found item BiblioCraft:item.BiblioClipboard
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioCreativeLock.
+override_item called. Params: BiblioCraft, item.BiblioCreativeLock, 0
+Found item BiblioCraft:item.BiblioCreativeLock
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioDrill.
+override_item called. Params: BiblioCraft, item.BiblioDrill, 0
+Found item BiblioCraft:item.BiblioDrill
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioGlasses.
+override_item called. Params: BiblioCraft, item.BiblioGlasses, 0
+Found item BiblioCraft:item.BiblioGlasses
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioMapTool.
+override_item called. Params: BiblioCraft, item.BiblioMapTool, 0
+Found item BiblioCraft:item.BiblioMapTool
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioRedBook.
+override_item called. Params: BiblioCraft, item.BiblioRedBook, 0
+Found item BiblioCraft:item.BiblioRedBook
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioWayPointCompass.
+override_item called. Params: BiblioCraft, item.BiblioWayPointCompass, 0
+Found item BiblioCraft:item.BiblioWayPointCompass
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BigBook.
+override_item called. Params: BiblioCraft, item.BigBook, 0
+Found item BiblioCraft:item.BigBook
+Regx match found! BiblioCraft:* matches BiblioCraft:item.EnchantedPlate.
+override_item called. Params: BiblioCraft, item.EnchantedPlate, 0
+Found item BiblioCraft:item.EnchantedPlate
+Regx match found! BiblioCraft:* matches BiblioCraft:item.HandDrill.
+override_item called. Params: BiblioCraft, item.HandDrill, 0
+Found item BiblioCraft:item.HandDrill
+Regx match found! BiblioCraft:* matches BiblioCraft:item.PaintingCanvas.
+override_item called. Params: BiblioCraft, item.PaintingCanvas, 0
+Found item BiblioCraft:item.PaintingCanvas
+Regx match found! BiblioCraft:* matches BiblioCraft:item.PrintPlate.
+override_item called. Params: BiblioCraft, item.PrintPlate, 0
+Found item BiblioCraft:item.PrintPlate
+Regx match found! BiblioCraft:* matches BiblioCraft:item.RecipeBook.
+override_item called. Params: BiblioCraft, item.RecipeBook, 0
+Found item BiblioCraft:item.RecipeBook
+Regx match found! BiblioCraft:* matches BiblioCraft:item.SlottedBook.
+override_item called. Params: BiblioCraft, item.SlottedBook, 0
+Found item BiblioCraft:item.SlottedBook
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack.
+override_item called. Params: BiblioCraft, item.seatBack, 0
+Found item BiblioCraft:item.seatBack
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack2.
+override_item called. Params: BiblioCraft, item.seatBack2, 0
+Found item BiblioCraft:item.seatBack2
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack3.
+override_item called. Params: BiblioCraft, item.seatBack3, 0
+Found item BiblioCraft:item.seatBack3
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack4.
+override_item called. Params: BiblioCraft, item.seatBack4, 0
+Found item BiblioCraft:item.seatBack4
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack5.
+override_item called. Params: BiblioCraft, item.seatBack5, 0
+Found item BiblioCraft:item.seatBack5
+Regx match found! BiblioCraft:* matches BiblioCraft:item.tape.
+override_item called. Params: BiblioCraft, item.tape, 0
+Found item BiblioCraft:item.tape
+Regx match found! BiblioCraft:* matches BiblioCraft:item.tapeMeasure.
+override_item called. Params: BiblioCraft, item.tapeMeasure, 0
+Found item BiblioCraft:item.tapeMeasure
+override_block called. Params: BiblioCraft, *, 0
+Wildcard found in parameters. Running through RegxEngine...
+Regx match found! BiblioCraft:* matches BiblioCraft:Armor.
+override_block called. Params: BiblioCraft, Armor, 0
+Cannot find block BiblioCraft:Armor
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioBell.
+override_block called. Params: BiblioCraft, BiblioBell, 0
+Found block BiblioCraft:BiblioBell
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioBorderlessPainting.
+override_block called. Params: BiblioCraft, BiblioBorderlessPainting, 0
+Found block BiblioCraft:BiblioBorderlessPainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioCase.
+override_block called. Params: BiblioCraft, BiblioCase, 0
+Found block BiblioCraft:BiblioCase
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioClock.
+override_block called. Params: BiblioCraft, BiblioClock, 0
+Found block BiblioCraft:BiblioClock
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioDesk.
+override_block called. Params: BiblioCraft, BiblioDesk, 0
+Found block BiblioCraft:BiblioDesk
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioFancyPainting.
+override_block called. Params: BiblioCraft, BiblioFancyPainting, 0
+Found block BiblioCraft:BiblioFancyPainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioFancySign.
+override_block called. Params: BiblioCraft, BiblioFancySign, 0
+Found block BiblioCraft:BiblioFancySign
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioFlatPainting.
+override_block called. Params: BiblioCraft, BiblioFlatPainting, 0
+Found block BiblioCraft:BiblioFlatPainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioIronLamp.
+override_block called. Params: BiblioCraft, BiblioIronLamp, 0
+Found block BiblioCraft:BiblioIronLamp
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioIronLantern.
+override_block called. Params: BiblioCraft, BiblioIronLantern, 0
+Found block BiblioCraft:BiblioIronLantern
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioLabel.
+override_block called. Params: BiblioCraft, BiblioLabel, 0
+Found block BiblioCraft:BiblioLabel
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioLamp.
+override_block called. Params: BiblioCraft, BiblioLamp, 0
+Found block BiblioCraft:BiblioLamp
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioLantern.
+override_block called. Params: BiblioCraft, BiblioLantern, 0
+Found block BiblioCraft:BiblioLantern
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioMapFrames.
+override_block called. Params: BiblioCraft, BiblioMapFrames, 0
+Found block BiblioCraft:BiblioMapFrames
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioMiddlePainting.
+override_block called. Params: BiblioCraft, BiblioMiddlePainting, 0
+Found block BiblioCraft:BiblioMiddlePainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioPaintPress.
+override_block called. Params: BiblioCraft, BiblioPaintPress, 0
+Found block BiblioCraft:BiblioPaintPress
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioPotionShelf.
+override_block called. Params: BiblioCraft, BiblioPotionShelf, 0
+Found block BiblioCraft:BiblioPotionShelf
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioRack.
+override_block called. Params: BiblioCraft, BiblioRack, 0
+Found block BiblioCraft:BiblioRack
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioSeats.
+override_block called. Params: BiblioCraft, BiblioSeats, 0
+Found block BiblioCraft:BiblioSeats
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioShelf.
+override_block called. Params: BiblioCraft, BiblioShelf, 0
+Found block BiblioCraft:BiblioShelf
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioSimplePainting.
+override_block called. Params: BiblioCraft, BiblioSimplePainting, 0
+Found block BiblioCraft:BiblioSimplePainting
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioStuffs.
+override_block called. Params: BiblioCraft, BiblioStuffs, 0
+Found block BiblioCraft:BiblioStuffs
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioSwordPedestal.
+override_block called. Params: BiblioCraft, BiblioSwordPedestal, 0
+Found block BiblioCraft:BiblioSwordPedestal
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioTable.
+override_block called. Params: BiblioCraft, BiblioTable, 0
+Found block BiblioCraft:BiblioTable
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioTypewriter.
+override_block called. Params: BiblioCraft, BiblioTypewriter, 0
+Found block BiblioCraft:BiblioTypewriter
+Regx match found! BiblioCraft:* matches BiblioCraft:BiblioWorkbench.
+override_block called. Params: BiblioCraft, BiblioWorkbench, 0
+Found block BiblioCraft:BiblioWorkbench
+Regx match found! BiblioCraft:* matches BiblioCraft:Bibliotheca.
+override_block called. Params: BiblioCraft, Bibliotheca, 0
+Found block BiblioCraft:Bibliotheca
+Regx match found! BiblioCraft:* matches BiblioCraft:Printing.
+override_block called. Params: BiblioCraft, Printing, 0
+Cannot find block BiblioCraft:Printing
+Regx match found! BiblioCraft:* matches BiblioCraft:Typesetting.
+override_block called. Params: BiblioCraft, Typesetting, 0
+Cannot find block BiblioCraft:Typesetting
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioChase.
+override_block called. Params: BiblioCraft, item.BiblioChase, 0
+Cannot find block BiblioCraft:item.BiblioChase
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioClipboard.
+override_block called. Params: BiblioCraft, item.BiblioClipboard, 0
+Cannot find block BiblioCraft:item.BiblioClipboard
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioCreativeLock.
+override_block called. Params: BiblioCraft, item.BiblioCreativeLock, 0
+Cannot find block BiblioCraft:item.BiblioCreativeLock
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioDrill.
+override_block called. Params: BiblioCraft, item.BiblioDrill, 0
+Cannot find block BiblioCraft:item.BiblioDrill
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioGlasses.
+override_block called. Params: BiblioCraft, item.BiblioGlasses, 0
+Cannot find block BiblioCraft:item.BiblioGlasses
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioMapTool.
+override_block called. Params: BiblioCraft, item.BiblioMapTool, 0
+Cannot find block BiblioCraft:item.BiblioMapTool
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioRedBook.
+override_block called. Params: BiblioCraft, item.BiblioRedBook, 0
+Cannot find block BiblioCraft:item.BiblioRedBook
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BiblioWayPointCompass.
+override_block called. Params: BiblioCraft, item.BiblioWayPointCompass, 0
+Cannot find block BiblioCraft:item.BiblioWayPointCompass
+Regx match found! BiblioCraft:* matches BiblioCraft:item.BigBook.
+override_block called. Params: BiblioCraft, item.BigBook, 0
+Cannot find block BiblioCraft:item.BigBook
+Regx match found! BiblioCraft:* matches BiblioCraft:item.EnchantedPlate.
+override_block called. Params: BiblioCraft, item.EnchantedPlate, 0
+Cannot find block BiblioCraft:item.EnchantedPlate
+Regx match found! BiblioCraft:* matches BiblioCraft:item.HandDrill.
+override_block called. Params: BiblioCraft, item.HandDrill, 0
+Cannot find block BiblioCraft:item.HandDrill
+Regx match found! BiblioCraft:* matches BiblioCraft:item.PaintingCanvas.
+override_block called. Params: BiblioCraft, item.PaintingCanvas, 0
+Cannot find block BiblioCraft:item.PaintingCanvas
+Regx match found! BiblioCraft:* matches BiblioCraft:item.PrintPlate.
+override_block called. Params: BiblioCraft, item.PrintPlate, 0
+Cannot find block BiblioCraft:item.PrintPlate
+Regx match found! BiblioCraft:* matches BiblioCraft:item.RecipeBook.
+override_block called. Params: BiblioCraft, item.RecipeBook, 0
+Cannot find block BiblioCraft:item.RecipeBook
+Regx match found! BiblioCraft:* matches BiblioCraft:item.SlottedBook.
+override_block called. Params: BiblioCraft, item.SlottedBook, 0
+Cannot find block BiblioCraft:item.SlottedBook
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack.
+override_block called. Params: BiblioCraft, item.seatBack, 0
+Cannot find block BiblioCraft:item.seatBack
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack2.
+override_block called. Params: BiblioCraft, item.seatBack2, 0
+Cannot find block BiblioCraft:item.seatBack2
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack3.
+override_block called. Params: BiblioCraft, item.seatBack3, 0
+Cannot find block BiblioCraft:item.seatBack3
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack4.
+override_block called. Params: BiblioCraft, item.seatBack4, 0
+Cannot find block BiblioCraft:item.seatBack4
+Regx match found! BiblioCraft:* matches BiblioCraft:item.seatBack5.
+override_block called. Params: BiblioCraft, item.seatBack5, 0
+Cannot find block BiblioCraft:item.seatBack5
+Regx match found! BiblioCraft:* matches BiblioCraft:item.tape.
+override_block called. Params: BiblioCraft, item.tape, 0
+Cannot find block BiblioCraft:item.tape
+Regx match found! BiblioCraft:* matches BiblioCraft:item.tapeMeasure.
+override_block called. Params: BiblioCraft, item.tapeMeasure, 0
+Cannot find block BiblioCraft:item.tapeMeasure
+Cannot find block BiblioCraft:*
+Loading: AppliedEnergistics2.js
+getFacadeItem called.
+getSubTypes called.
+getNumberOfTypes called. Returned: 1761
+override_item called. Params: appliedenergistics2, item.ItemFacade, 1345
+Found item appliedenergistics2:item.ItemFacade
+Loading: Tcon.js
+override_item called. Params: TConstruct, tool*, 0
+Wildcard found in parameters. Running through RegxEngine...
+Regx match found! TConstruct:tool* matches TConstruct:toolRod.
+override_item called. Params: TConstruct, toolRod, 0
+Found item TConstruct:toolRod
+Regx match found! TConstruct:tool* matches TConstruct:toolShard.
+override_item called. Params: TConstruct, toolShard, 0
+Found item TConstruct:toolShard
+override_block called. Params: TConstruct, tool*, 0
+Wildcard found in parameters. Running through RegxEngine...
+Regx match found! TConstruct:tool* matches TConstruct:toolRod.
+override_block called. Params: TConstruct, toolRod, 0
+Cannot find block TConstruct:toolRod
+Regx match found! TConstruct:tool* matches TConstruct:toolShard.
+override_block called. Params: TConstruct, toolShard, 0
+Cannot find block TConstruct:toolShard
+Cannot find block TConstruct:tool*
+override_item called. Params: TConstruct, binding, 0
+Found item TConstruct:binding
+override_block called. Params: TConstruct, binding, 0
+Cannot find block TConstruct:binding
+override_item called. Params: TConstruct, scytheBlade, 0
+Found item TConstruct:scytheBlade
+override_block called. Params: TConstruct, scytheBlade, 0
+Cannot find block TConstruct:scytheBlade
+Loading: MFR.js
+override_item called. Params: MineFactoryReloaded, tile.mfr.stainedglass.block, 0
+Found item MineFactoryReloaded:tile.mfr.stainedglass.block
+override_block called. Params: MineFactoryReloaded, tile.mfr.stainedglass.block, 0
+Found block MineFactoryReloaded:tile.mfr.stainedglass.block
+hide_item called. Params: MineFactoryReloaded:fluid.mfr.liquid.milk.still, 0
+Cannot find item MineFactoryReloaded:fluid.mfr.liquid.milk.still:0
+hide_block called. Params: MineFactoryReloaded:fluid.mfr.liquid.milk.still, 0
+Cannot find block MineFactoryReloaded:fluid.mfr.liquid.milk.still:0
+override_item called. Params: MineFactoryReloaded, tile.mfr.stainedglass.pane, 0
+Found item MineFactoryReloaded:tile.mfr.stainedglass.pane
+override_block called. Params: MineFactoryReloaded, tile.mfr.stainedglass.pane, 0
+Found block MineFactoryReloaded:tile.mfr.stainedglass.pane
+override_item called. Params: MineFactoryReloaded, tile.mfr.conveyor, 0
+Found item MineFactoryReloaded:tile.mfr.conveyor
+override_block called. Params: MineFactoryReloaded, tile.mfr.conveyor, 0
+Found block MineFactoryReloaded:tile.mfr.conveyor

@@ -1,0 +1,6 @@
+
+{
+  "Name": "werewolf",
+  "Registry ID": "evilcraft:werewolf",
+  "Class": "org.cyclops.evilcraft.entity.monster.Werewolf"
+}

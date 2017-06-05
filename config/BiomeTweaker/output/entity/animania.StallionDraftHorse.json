@@ -1,0 +1,6 @@
+
+{
+  "Name": "animania.StallionDraftHorse",
+  "Registry ID": "animania:textures/entity/horses/draft_horse_black.png",
+  "Class": "com.animania.common.entities.horses.EntityStallionDraftHorse"
+}

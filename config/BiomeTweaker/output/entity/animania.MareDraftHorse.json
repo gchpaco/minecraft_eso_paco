@@ -1,0 +1,6 @@
+
+{
+  "Name": "animania.MareDraftHorse",
+  "Registry ID": "animania:textures/entity/horses/draft_horse_grey.png",
+  "Class": "com.animania.common.entities.horses.EntityMareDraftHorse"
+}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 50,
+  "ID": 43,
   "Name": "Bayou",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenBayou",
   "Root Height": -0.1764706,
@@ -16,10 +16,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "WET",
     "SWAMP",
-    "DENSE"
+    "DENSE",
+    "HOT",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 48,
+  "ID": 41,
   "Name": "Alps",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenAlps",
   "Root Height": 7.8235292,
@@ -16,10 +16,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
+    "DRY",
     "MOUNTAIN",
-    "SNOWY",
-    "DRY"
+    "COLD",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,6 +1,6 @@
 
 {
-  "ID": 98,
+  "ID": 91,
   "Name": "Woodland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenWoodland",
   "Root Height": -0.05882353,
@@ -16,9 +16,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "DRY",
-    "DENSE"
+    "DENSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

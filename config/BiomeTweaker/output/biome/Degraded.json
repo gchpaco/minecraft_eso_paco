@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 109,
   "Name": "Degraded",
   "Class": "org.cyclops.evilcraft.world.biome.BiomeDegraded",
   "Root Height": 0.125,
@@ -16,8 +16,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "PLAINS"
+    "PLAINS",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

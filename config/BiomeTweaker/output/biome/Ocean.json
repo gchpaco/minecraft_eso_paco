@@ -99,12 +99,6 @@
       "Weight": 15,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityGuardian",
-      "Weight": 15,
-      "Min Group Count": 2,
-      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [

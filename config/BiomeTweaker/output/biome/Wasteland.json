@@ -1,6 +1,6 @@
 
 {
-  "ID": 96,
+  "ID": 89,
   "Name": "Wasteland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenWasteland",
   "Root Height": 0.05882353,
@@ -16,10 +16,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WASTELAND",
-    "DEAD",
     "DRY",
-    "SPARSE"
+    "SPARSE",
+    "WASTELAND",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

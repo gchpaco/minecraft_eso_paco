@@ -1,6 +1,6 @@
 
 {
-  "ID": 71,
+  "ID": 64,
   "Name": "Lush Swamp",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenLushSwamp",
   "Root Height": -0.11764706,
@@ -16,10 +16,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "LUSH",
     "SWAMP",
-    "DENSE"
+    "LUSH",
+    "DENSE",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -192,10 +192,6 @@
       {
         "ID": "columns",
         "Name": "sugar_cane"
-      },
-      {
-        "ID": "flora",
-        "Name": "berry_bushes"
       },
       {
         "ID": "columns",

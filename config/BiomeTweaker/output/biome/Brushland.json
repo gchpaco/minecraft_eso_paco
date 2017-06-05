@@ -1,6 +1,6 @@
 
 {
-  "ID": 53,
+  "ID": 46,
   "Name": "Brushland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenBrushland",
   "Root Height": 0.05882353,
@@ -16,10 +16,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "SAVANNA",
     "DRY",
-    "SPARSE"
+    "SPARSE",
+    "SAVANNA",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

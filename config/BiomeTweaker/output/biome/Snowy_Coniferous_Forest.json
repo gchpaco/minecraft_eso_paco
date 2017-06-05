@@ -1,6 +1,6 @@
 
 {
-  "ID": 90,
+  "ID": 83,
   "Name": "Snowy Coniferous Forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenSnowyConiferousForest",
   "Root Height": 0.1764706,
@@ -18,9 +18,9 @@
   "Dictionary Types": [
     "COLD",
     "CONIFEROUS",
+    "DENSE",
     "FOREST",
-    "SNOWY",
-    "DENSE"
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

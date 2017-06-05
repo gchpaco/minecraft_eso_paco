@@ -1,6 +1,6 @@
 
 {
-  "ID": 72,
+  "ID": 65,
   "Name": "Maple Woods",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMapleWoods",
   "Root Height": 0.29411766,
@@ -18,8 +18,8 @@
   "Dictionary Types": [
     "COLD",
     "CONIFEROUS",
-    "FOREST",
-    "DENSE"
+    "DENSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

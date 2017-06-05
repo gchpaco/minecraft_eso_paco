@@ -1,6 +1,6 @@
 
 {
-  "ID": 54,
+  "ID": 47,
   "Name": "Chaparral",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenChaparral",
   "Root Height": 0.29411766,
@@ -16,8 +16,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "DRY"
+    "DRY",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

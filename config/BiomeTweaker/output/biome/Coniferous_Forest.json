@@ -1,6 +1,6 @@
 
 {
-  "ID": 57,
+  "ID": 50,
   "Name": "Coniferous Forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenConiferousForest",
   "Root Height": 0.1764706,
@@ -18,8 +18,8 @@
   "Dictionary Types": [
     "COLD",
     "CONIFEROUS",
-    "FOREST",
-    "DENSE"
+    "DENSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

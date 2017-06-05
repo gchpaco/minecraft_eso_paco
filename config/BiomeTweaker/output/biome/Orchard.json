@@ -1,6 +1,6 @@
 
 {
-  "ID": 79,
+  "ID": 72,
   "Name": "Orchard",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenOrchard",
   "Root Height": -0.05882353,
@@ -17,9 +17,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
-    "FOREST",
+    "DENSE",
     "LUSH",
-    "DENSE"
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

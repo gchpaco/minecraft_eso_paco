@@ -58,6 +58,36 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "com.animania.common.entities.cows.EntityCowHolstein",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.EntityHenWyandotte",
+      "Weight": 16,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.EntityHenRhodeIslandRed",
+      "Weight": 16,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.EntitySowOldSpot",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHedgehog",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "teamroots.roots.entity.EntityDeer",
       "Weight": 20,
       "Min Group Count": 3,
@@ -68,36 +98,6 @@
       "Weight": 6,
       "Min Group Count": 3,
       "Max Group Count": 7
-    },
-    {
-      "Entity Class": "com.animania.entities.cows.EntityCowHolstein",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.entities.chickens.EntityHenWyandotte",
-      "Weight": 16,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.chickens.EntityHenRhodeIslandRed",
-      "Weight": 16,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.pigs.EntitySowOldSpot",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.rodents.EntityHedgehog",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     }
   ],
   "Spawnable Monsters": [

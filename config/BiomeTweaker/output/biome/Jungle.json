@@ -16,9 +16,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "WET",
     "JUNGLE",
+    "HOT",
     "DENSE"
   ],
   "BiomeManager Entries": {},
@@ -54,55 +54,55 @@
       "Max Group Count": 4
     },
     {
-      "Entity Class": "com.animania.entities.cows.EntityCowAngus",
+      "Entity Class": "com.animania.common.entities.cows.EntityCowAngus",
       "Weight": 12,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.entities.chickens.EntityHenOrpington",
+      "Entity Class": "com.animania.common.entities.chickens.EntityHenOrpington",
       "Weight": 16,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.animania.entities.pigs.EntitySowDuroc",
+      "Entity Class": "com.animania.common.entities.pigs.EntitySowDuroc",
       "Weight": 12,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeacockBlue",
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeacockBlue",
       "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeafowlBlue",
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeafowlBlue",
       "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeachickBlue",
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeachickBlue",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeacockWhite",
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeacockWhite",
       "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeafowlWhite",
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeafowlWhite",
       "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeachickWhite",
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeachickWhite",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1

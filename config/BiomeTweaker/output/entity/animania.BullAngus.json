@@ -2,5 +2,5 @@
 {
   "Name": "animania.BullAngus",
   "Registry ID": "animania:textures/entity/cows/bull_angus.png",
-  "Class": "com.animania.entities.cows.EntityBullAngus"
+  "Class": "com.animania.common.entities.cows.EntityBullAngus"
 }

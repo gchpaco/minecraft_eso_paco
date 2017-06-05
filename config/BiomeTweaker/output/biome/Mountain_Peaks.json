@@ -1,6 +1,6 @@
 
 {
-  "ID": 76,
+  "ID": 69,
   "Name": "Mountain Peaks",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMountain",
   "Root Height": 4.4117646,
@@ -18,8 +18,8 @@
   "Dictionary Types": [
     "MOUNTAIN",
     "FOREST",
-    "DRY",
-    "SPARSE"
+    "SPARSE",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

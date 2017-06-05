@@ -1,6 +1,6 @@
 
 {
-  "ID": 51,
+  "ID": 44,
   "Name": "Bog",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenBog",
   "Root Height": -0.05882353,
@@ -16,9 +16,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "WET",
     "FOREST",
+    "COLD",
     "SWAMP"
   ],
   "BiomeManager Entries": {},

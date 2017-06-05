@@ -2,5 +2,5 @@
 {
   "Name": "animania.ChickPlymouthRock",
   "Registry ID": "animania:textures/entity/chickens/chick_specked.png",
-  "Class": "com.animania.entities.chickens.EntityChickPlymouthRock"
+  "Class": "com.animania.common.entities.chickens.EntityChickPlymouthRock"
 }

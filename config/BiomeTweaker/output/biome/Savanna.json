@@ -16,10 +16,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "PLAINS",
-    "SAVANNA",
-    "SPARSE"
+    "SPARSE",
+    "HOT",
+    "SAVANNA"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -60,22 +60,28 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.animania.entities.cows.EntityCowLonghorn",
+      "Entity Class": "com.animania.common.entities.cows.EntityCowLonghorn",
       "Weight": 12,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.entities.rodents.EntityFerretGrey",
+      "Entity Class": "com.animania.common.entities.rodents.EntityFerretGrey",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
     },
     {
-      "Entity Class": "com.animania.entities.rodents.EntityFerretWhite",
+      "Entity Class": "com.animania.common.entities.rodents.EntityFerretWhite",
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.horses.EntityMareDraftHorse",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Monsters": [

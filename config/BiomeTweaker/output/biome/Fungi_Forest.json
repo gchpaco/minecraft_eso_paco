@@ -1,6 +1,6 @@
 
 {
-  "ID": 111,
+  "ID": 104,
   "Name": "Fungi Forest",
   "Class": "biomesoplenty.common.biome.nether.BiomeFungiForest",
   "Root Height": 0.1,
@@ -16,9 +16,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "MUSHROOM",
     "NETHER",
+    "MUSHROOM",
+    "HOT",
     "DENSE"
   ],
   "BiomeManager Entries": {},

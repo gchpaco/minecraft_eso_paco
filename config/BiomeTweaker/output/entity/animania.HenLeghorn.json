@@ -2,5 +2,5 @@
 {
   "Name": "animania.HenLeghorn",
   "Registry ID": "animania:textures/entity/chickens/hen_white.png",
-  "Class": "com.animania.entities.chickens.EntityHenLeghorn"
+  "Class": "com.animania.common.entities.chickens.EntityHenLeghorn"
 }

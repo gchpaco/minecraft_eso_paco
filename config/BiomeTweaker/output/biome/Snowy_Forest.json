@@ -1,6 +1,6 @@
 
 {
-  "ID": 91,
+  "ID": 84,
   "Name": "Snowy Forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenSnowyForest",
   "Root Height": 0.05882353,
@@ -16,11 +16,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
     "WET",
-    "SNOWY",
     "FOREST",
-    "SPARSE"
+    "SPARSE",
+    "COLD",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

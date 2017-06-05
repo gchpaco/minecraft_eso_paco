@@ -1,6 +1,6 @@
 
 {
-  "ID": 70,
+  "ID": 63,
   "Name": "Lush Desert",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenLushDesert",
   "Root Height": -0.05882353,
@@ -16,12 +16,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "SANDY",
-    "SAVANNA",
     "LUSH",
-    "DRY",
-    "SPARSE"
+    "SPARSE",
+    "HOT",
+    "SAVANNA",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

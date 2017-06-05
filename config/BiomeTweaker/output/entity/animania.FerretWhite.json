@@ -2,5 +2,5 @@
 {
   "Name": "animania.FerretWhite",
   "Registry ID": "animania:textures/entity/pigs/ferret_white.png",
-  "Class": "com.animania.entities.rodents.EntityFerretWhite"
+  "Class": "com.animania.common.entities.rodents.EntityFerretWhite"
 }

@@ -1,6 +1,6 @@
 
 {
-  "ID": 105,
+  "ID": 98,
   "Name": "Mangrove",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMangrove",
   "Root Height": -0.1764706,
@@ -16,12 +16,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "WATER",
     "OCEAN",
+    "WET",
     "FOREST",
     "LUSH",
-    "DENSE"
+    "DENSE",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

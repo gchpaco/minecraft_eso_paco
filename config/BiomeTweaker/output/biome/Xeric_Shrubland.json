@@ -1,6 +1,6 @@
 
 {
-  "ID": 99,
+  "ID": 92,
   "Name": "Xeric Shrubland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenXericShrubland",
   "Root Height": -0.05882353,
@@ -16,12 +16,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "SANDY",
-    "SAVANNA",
     "LUSH",
-    "DRY",
-    "SPARSE"
+    "SPARSE",
+    "HOT",
+    "SAVANNA",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

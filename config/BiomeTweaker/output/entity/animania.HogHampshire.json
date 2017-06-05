@@ -2,5 +2,5 @@
 {
   "Name": "animania.HogHampshire",
   "Registry ID": "animania:textures/entity/pigs/hog_hampshire.png",
-  "Class": "com.animania.entities.pigs.EntityHogHampshire"
+  "Class": "com.animania.common.entities.pigs.EntityHogHampshire"
 }

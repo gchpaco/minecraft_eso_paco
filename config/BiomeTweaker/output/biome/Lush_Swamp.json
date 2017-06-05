@@ -1,6 +1,6 @@
 
 {
-  "ID": 71,
+  "ID": 64,
   "Name": "Lush Swamp",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenLushSwamp",
   "Root Height": -0.11764706,
@@ -192,10 +192,6 @@
       {
         "ID": "columns",
         "Name": "sugar_cane"
-      },
-      {
-        "ID": "flora",
-        "Name": "berry_bushes"
       },
       {
         "ID": "columns",

@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 108,
   "Name": "Visceral Heap",
   "Class": "biomesoplenty.common.biome.nether.BiomeVisceralHeap",
   "Root Height": 0.1,
@@ -16,9 +16,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "WET",
-    "NETHER"
+    "NETHER",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

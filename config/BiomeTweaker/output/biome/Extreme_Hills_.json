@@ -53,13 +53,13 @@
       "Max Group Count": 6
     },
     {
-      "Entity Class": "com.animania.entities.chickens.EntityHenPlymouthRock",
+      "Entity Class": "com.animania.common.entities.chickens.EntityHenPlymouthRock",
       "Weight": 16,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
-      "Entity Class": "com.animania.entities.pigs.EntitySowHampshire",
+      "Entity Class": "com.animania.common.entities.pigs.EntitySowHampshire",
       "Weight": 12,
       "Min Group Count": 1,
       "Max Group Count": 1

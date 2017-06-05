@@ -64,6 +64,30 @@
       "Max Group Count": 3
     },
     {
+      "Entity Class": "com.animania.common.entities.cows.EntityCowFriesian",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.EntityHenLeghorn",
+      "Weight": 16,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.EntitySowYorkshire",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.horses.EntityMareDraftHorse",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "teamroots.roots.entity.EntityDeer",
       "Weight": 20,
       "Min Group Count": 3,
@@ -74,24 +98,6 @@
       "Weight": 6,
       "Min Group Count": 3,
       "Max Group Count": 7
-    },
-    {
-      "Entity Class": "com.animania.entities.cows.EntityCowFriesian",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.entities.chickens.EntityHenLeghorn",
-      "Weight": 16,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.pigs.EntitySowYorkshire",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Monsters": [

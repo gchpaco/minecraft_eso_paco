@@ -1,6 +1,6 @@
 
 {
-  "ID": 80,
+  "ID": 73,
   "Name": "Outback",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenOutback",
   "Root Height": 0.4117647,
@@ -16,11 +16,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "SANDY",
+    "SPARSE",
+    "HOT",
     "SAVANNA",
-    "DRY",
-    "SPARSE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

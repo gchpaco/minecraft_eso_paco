@@ -2,5 +2,5 @@
 {
   "Name": "animania.SowDuroc",
   "Registry ID": "animania:textures/entity/pigs/sow_duroc.png",
-  "Class": "com.animania.entities.pigs.EntitySowDuroc"
+  "Class": "com.animania.common.entities.pigs.EntitySowDuroc"
 }

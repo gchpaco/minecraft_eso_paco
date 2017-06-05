@@ -1,6 +1,6 @@
 
 {
-  "ID": 81,
+  "ID": 74,
   "Name": "Overgrown Cliffs",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenOvergrownCliffs",
   "Root Height": 0.29411766,
@@ -17,11 +17,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WET",
-    "JUNGLE",
     "MOUNTAIN",
-    "HILLS",
+    "JUNGLE",
     "LUSH",
-    "DENSE"
+    "DENSE",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 109,
   "Name": "Degraded",
   "Class": "org.cyclops.evilcraft.world.biome.BiomeDegraded",
   "Root Height": 0.125,

@@ -50,6 +50,60 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "com.animania.common.entities.chickens.EntityHenOrpington",
+      "Weight": 16,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.EntitySowLargeBlack",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHedgehogAlbino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeacockBlue",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeafowlBlue",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeachickBlue",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeacockWhite",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeafowlWhite",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.EntityPeachickWhite",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "teamroots.roots.entity.EntityDeer",
       "Weight": 20,
       "Min Group Count": 3,
@@ -60,60 +114,6 @@
       "Weight": 6,
       "Min Group Count": 3,
       "Max Group Count": 7
-    },
-    {
-      "Entity Class": "com.animania.entities.chickens.EntityHenOrpington",
-      "Weight": 16,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.pigs.EntitySowLargeBlack",
-      "Weight": 12,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.rodents.EntityHedgehogAlbino",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeacockBlue",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeafowlBlue",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeachickBlue",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeacockWhite",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeafowlWhite",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.animania.entities.peacocks.EntityPeachickWhite",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Monsters": [
@@ -204,6 +204,18 @@
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.animania.common.entities.amphibians.EntityFrogs",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.animania.common.entities.amphibians.EntityToad",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
   "Spawn Biome": false,

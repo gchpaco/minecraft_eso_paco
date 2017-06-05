@@ -1,10 +1,10 @@
 
 {
-  "ID": 85,
+  "ID": 78,
   "Name": "Redwood Forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenRedwoodForest",
-  "Root Height": -0.05882353,
-  "Height Variation": -0.025,
+  "Root Height": 0.29411766,
+  "Height Variation": -0.112500004,
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
   "Grass Color": "Not set. Check in-game.",

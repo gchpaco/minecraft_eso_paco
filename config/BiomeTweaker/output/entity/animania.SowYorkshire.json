@@ -2,5 +2,5 @@
 {
   "Name": "animania.SowYorkshire",
   "Registry ID": "animania:textures/entity/pigs/sow_yorkshire.png",
-  "Class": "com.animania.entities.pigs.EntitySowYorkshire"
+  "Class": "com.animania.common.entities.pigs.EntitySowYorkshire"
 }

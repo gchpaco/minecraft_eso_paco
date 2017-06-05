@@ -1,6 +1,6 @@
 
 {
-  "ID": 67,
+  "ID": 60,
   "Name": "Highland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenHighland",
   "Root Height": 3.235294,
@@ -141,10 +141,6 @@
       }
     ],
     "SAND Generators": [
-      {
-        "ID": "blobs",
-        "Name": "boulders"
-      },
       {
         "ID": "ore_single",
         "Name": "emerald"

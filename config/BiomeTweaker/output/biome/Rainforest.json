@@ -1,6 +1,6 @@
 
 {
-  "ID": 84,
+  "ID": 77,
   "Name": "Rainforest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenRainforest",
   "Root Height": 0.88235295,
@@ -18,10 +18,10 @@
   "Dictionary Types": [
     "WET",
     "JUNGLE",
-    "HILLS",
     "FOREST",
     "LUSH",
-    "DENSE"
+    "DENSE",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

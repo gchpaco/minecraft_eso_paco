@@ -1,6 +1,6 @@
 
 {
-  "ID": 110,
+  "ID": 103,
   "Name": "Corrupted Sands",
   "Class": "biomesoplenty.common.biome.nether.BiomeCorruptedSands",
   "Root Height": 0.1,
@@ -16,10 +16,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "SPOOKY",
-    "SANDY",
     "NETHER",
+    "SANDY",
+    "SPOOKY",
+    "HOT",
     "DRY"
   ],
   "BiomeManager Entries": {},

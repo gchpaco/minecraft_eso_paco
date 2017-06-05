@@ -1,6 +1,6 @@
 
 {
-  "ID": 60,
+  "ID": 53,
   "Name": "Dead Swamp",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenDeadSwamp",
   "Root Height": -0.11764706,
@@ -16,12 +16,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "WET",
     "SPOOKY",
+    "SPARSE",
     "DEAD",
-    "SWAMP",
-    "SPARSE"
+    "COLD",
+    "SWAMP"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

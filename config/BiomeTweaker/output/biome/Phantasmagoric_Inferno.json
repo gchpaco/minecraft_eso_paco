@@ -1,6 +1,6 @@
 
 {
-  "ID": 112,
+  "ID": 105,
   "Name": "Phantasmagoric Inferno",
   "Class": "biomesoplenty.common.biome.nether.BiomePhantasmagoricInferno",
   "Root Height": 0.1,
@@ -16,9 +16,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "WASTELAND",
     "NETHER",
+    "WASTELAND",
+    "HOT",
     "DRY"
   ],
   "BiomeManager Entries": {},

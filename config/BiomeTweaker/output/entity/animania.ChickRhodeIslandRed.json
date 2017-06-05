@@ -2,5 +2,5 @@
 {
   "Name": "animania.ChickRhodeIslandRed",
   "Registry ID": "animania:textures/entity/chickens/chick_red.png",
-  "Class": "com.animania.entities.chickens.EntityChickRhodeIslandRed"
+  "Class": "com.animania.common.entities.chickens.EntityChickRhodeIslandRed"
 }

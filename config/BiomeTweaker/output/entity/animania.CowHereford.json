@@ -1,6 +1,0 @@
-
-{
-  "Name": "animania.CowHereford",
-  "Registry ID": "animania:textures/entity/cows/cow_hereford.png",
-  "Class": "com.animania.common.entities.cows.EntityCowHereford"
-}

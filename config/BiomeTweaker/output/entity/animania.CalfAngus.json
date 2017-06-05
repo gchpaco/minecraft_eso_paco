@@ -1,6 +1,0 @@
-
-{
-  "Name": "animania.CalfAngus",
-  "Registry ID": "animania:textures/entity/cows/calf_angus.png",
-  "Class": "com.animania.common.entities.cows.EntityCalfAngus"
-}

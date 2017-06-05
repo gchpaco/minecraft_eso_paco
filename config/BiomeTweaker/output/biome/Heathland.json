@@ -18,8 +18,8 @@
   "Dictionary Types": [
     "FOREST",
     "PLAINS",
-    "SPARSE",
-    "DRY"
+    "DRY",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

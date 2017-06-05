@@ -16,11 +16,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "FOREST",
-    "DEAD",
     "COLD",
     "SWAMP",
+    "FOREST",
+    "WET",
+    "DEAD",
     "DENSE"
   ],
   "BiomeManager Entries": {},

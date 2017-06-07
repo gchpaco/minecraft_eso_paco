@@ -1,0 +1,7 @@
+config/tellme/*.txt
+config/jei/*.zip
+config/jei/worldSettings.cfg
+config/JEI/worldSettings.cfg
+config/BiomeTweaker/output/
+config/forgeamidst/
+/config/splash.properties

@@ -24,26 +24,133 @@
     <equipment>
         <weapon>
             <sword>
+                <scythe id="tconstruct:scythe"/>
+                <broadSword id="tconstruct:broadsword"/>
+                <longSword id="tconstruct:longsword"/>
+                <rapier id="tconstruct:rapier"/>
+                <starSword id="botania:starsword"/>
+                <terraBlade id="botania:terrasword"/>
+                <thunderSword id="botania:thundersword"/>
+                <sentientSword id="bloodmagic:itemsentientsword"/>
+                <infusedCrystalSword id="astralsorcery:itemchargedcrystalsword"/>
+                <crystalSword id="astralsorcery:itemcrystalsword"/>
+                <elementiumSword id="botania:elementiumsword"/>
+                <boundSword id="bloodmagic:itemboundsword"/>
+                <neptuniumSword id="aquaculture:neptunium_sword"/>
+                <psiSword id="psi:psimetal_sword"/>
+                <tyrfing id="embers:tyrfing"/>
+                <actAddSword1 id="actuallyadditions:item_sword_crystal_black"/>
+                <actAddSword2 id="actuallyadditions:item_sword_crystal_blue"/>
+                <actAddSword3 id="actuallyadditions:item_sword_crystal_green"/>
+                <actAddSword4 id="actuallyadditions:item_sword_crystal_light_blue"/>
+                <actAddSword5 id="actuallyadditions:item_sword_crystal_red"/>
+                <actAddSword6 id="actuallyadditions:item_sword_crystal_white"/>
+                <actAddSword7 id="actuallyadditions:item_sword_emerald"/>
+                <actAddSword8 id="actuallyadditions:item_sword_obsidian"/>
+                <actAddSword9 id="actuallyadditions:item_sword_quartz"/>
+                <embersSword0 id="embers:sword_dawnstone"/>
+                <embersSword1 id="embers:sword_bronze"/>
+                <embersSword2 id="embers:sword_electrum"/>
+                <embersSword3 id="embers:sword_lead"/>
+                <embersSword4 id="embers:sword_nickel"/>
+                <embersSword5 id="embers:sword_silver"/>
+                <embersSword6 id="embers:sword_aluminum"/>
+                <embersSword7 id="embers:sword_copper"/>
+                <embersSword8 id="embers:sword_tin"/>
+                <veinSword id="evilcraft:vein_sword"/>
+                <enderDagger id="botania:enderdagger"/>
+                <manasteelSword id="botania:manasteelsword"/>
                 <ironSword id="iron_sword"/>
                 <diamondSword id="diamond_sword"/>
                 <stoneSword id="stone_sword"/>
+                <adobeSword id="adobeblocks:adobe_sword"/>
                 <goldSword id="golden_sword"/>
                 <woodSword id="wooden_sword"/>
             </sword>
-            <shield id="shield"/>
+            <shield>
+                <spartanShield0 id="spartanshields:shield_basic_bronze"/>
+                <spartanShield1 id="spartanshields:shield_basic_copper"/>
+                <spartanShield2 id="spartanshields:shield_basic_diamond"/>
+                <spartanShield3 id="spartanshields:shield_basic_electrum"/>
+                <spartanShield4 id="spartanshields:shield_basic_enderium"/>
+                <spartanShield5 id="spartanshields:shield_basic_gold"/>
+                <spartanShield6 id="spartanshields:shield_basic_invar"/>
+                <spartanShield7 id="spartanshields:shield_basic_iron"/>
+                <spartanShield8 id="spartanshields:shield_basic_lead"/>
+                <spartanShield9 id="spartanshields:shield_basic_lumium"/>
+                <spartanShield10 id="spartanshields:shield_basic_nickel"/>
+                <spartanShield11 id="spartanshields:shield_basic_obsidian"/>
+                <spartanShield12 id="spartanshields:shield_basic_platinum"/>
+                <spartanShield13 id="spartanshields:shield_basic_signalum"/>
+                <spartanShield14 id="spartanshields:shield_basic_silver"/>
+                <spartanShield15 id="spartanshields:shield_basic_steel"/>
+                <spartanShield16 id="spartanshields:shield_basic_stone"/>
+                <spartanShield17 id="spartanshields:shield_basic_tin"/>
+                <spartanShield18 id="spartanshields:shield_basic_wood"/>
+                <spartanShield19 id="spartanshields:shield_botania_elementium"/>
+                <spartanShield20 id="spartanshields:shield_botania_manasteel"/>
+                <spartanShield21 id="spartanshields:shield_botania_terrasteel"/>
+                <spartanShield22 id="spartanshields:shield_flux_ra"/>
+                <spartanShield23 id="spartanshields:shield_riot_enderio"/>
+                <spartanShield24 id="spartanshields:shield_riot_rftools"/>
+                <battlesign id="tconstruct:battlesign"/>
+                <vanillaShield id="shield"/>
+            </shield>
             <munition>
-                <bow id="bow"/>
-                <arrow id="arrow"/>
-                <spectralArrow id="spectral_arrow"/>
-                <tippedArrow id="tipped_arrow"/>
+                <bow>
+                    <crystalBow id="botania:crystalbow"/>
+                    <livingWoodBow id="botania:livingwoodbow"/>
+                    <crossbow id="tconstruct:crossbow"/>
+                    <longbow id="tconstruct:longbow"/>
+                    <shortbow id="tconstruct:shortbow"/>
+                    <baykokBow id="totemic:baykok_bow"/>
+                    <sentientBow id="bloodmagic:itemsentientbow"/>
+                    <vanillaBow id="bow"/>
+                    <blazingRay id="embers:ignition_cannon"/>
+                    <boomerang id="extrautils2:boomerang"/>
+                    <shuriken id="tconstruct:shuriken"/>
+                </bow>
+                <ammunition>
+                    <arrow id="arrow"/>
+                    <spectralArrow id="spectral_arrow"/>
+                    <tippedArrow id="tipped_arrow"/>
+                    <enderArrow id="quark:arrow_ender"/>
+                    <explosiveArrow id="quark:arrow_explosive"/>
+                    <torchArrow id="quark:arrow_torch"/>
+                    <reliquaryArrow id="xreliquary:tipped_arrow"/>
+                    <tconArrow id="tconstruct:arrow"/>
+                    <tconBolt id="tconstruct:bolt"/>
+                </ammunition>
                 <snowball id="snowball"/>
             </munition>
         </weapon>
         <tool>
             <pickaxe>
+                <terraShatterer id="botania:terrapick"/>
+                <chargedCrystalPickaxe id="astralsorcery:itemchargedcrystalpickaxe"/>
+                <crystalPickaxe id="astralsorcery:itemcrystalpickaxe"/>
+                <boundPickaxe id="bloodmagic:itemboundpickaxe"/>
+                <sentientPickaxe id="bloodmagic:itemsentientpickaxe"/>
+                <elementiumPickaxe id="botania:elementiumpick"/>
+                <tconPickaxe id="tconstruct:pickaxe"/>
                 <diamondPickaxe id="diamond_pickaxe"/>
+                <actAddPickaxe1 id="actuallyadditions:item_pickaxe_crystal_black"/>
+                <actAddPickaxe2 id="actuallyadditions:item_pickaxe_crystal_blue"/>
+                <actAddPickaxe3 id="actuallyadditions:item_pickaxe_crystal_green"/>
+                <actAddPickaxe4 id="actuallyadditions:item_pickaxe_crystal_light_blue"/>
+                <actAddPickaxe5 id="actuallyadditions:item_pickaxe_crystal_red"/>
+                <actAddPickaxe6 id="actuallyadditions:item_pickaxe_crystal_white"/>
+                <actAddPickaxe7 id="actuallyadditions:item_pickaxe_emerald"/>
+                <actAddPickaxe8 id="actuallyadditions:item_pickaxe_obsidian"/>
+                <actAddPickaxe9 id="actuallyadditions:item_pickaxe_quartz"/>
+                <psiPickaxe id="psi:psimetal_pickaxe"/>
+                <vengeancePickaxe id="evilcraft:vengeance_pickaxe"/>
+                <neptuniumPickaxe id="aquaculture:neptunium_pickaxe"/>
+                <manasteelPickaxe id="botania:manasteelpick"/>
                 <goldPickaxe id="golden_pickaxe"/>
                 <ironPickaxe id="iron_pickaxe"/>
+                <vitreousPickaxe id="botania:glasspick"/>
+                <adobePickaxe id="adobeblocks:adobe_pickaxe"/>
                 <stonePickaxe id="stone_pickaxe"/>
                 <woodPickaxe id="wooden_pickaxe"/>
             </pickaxe>
@@ -71,6 +178,11 @@
             <shears id="shears"/>
             <fishingRod id="fishing_rod"/>
             <carrotOnAStick id="carrot_on_a_stick"/>
+            <hammer>
+                <drill id="actuallyadditions:item_drill"/>
+                <miningDrill id="immersiveengineering:drill"/>
+                <tconHammer id="tconstruct:hammer"/>
+            </hammer>
         </tool>
         <armor>
             <helmet>
@@ -474,7 +586,15 @@
                 <activatorRails id="activator_rail"/>
             </rails>
             <lighting>
+                <sojournerStaff id="xreliquary:sojourner_staff"/>
+                <bloodLamp id="bloodmagic:itemsigilbloodlight"/>
+                <glimmerLamp id="embers:glimmer_lamp"/>
+                <asIlluminationWand id="astralsorcery:itemilluminationwand"/>
+                <newIlluminationWand id="notenoughwands:illumination_wand"/>
                 <torch id="torch"/>
+                <stoneTorch id="tconstruct:stone_torch"/>
+                <totemTorch id="totemic:totem_torch"/>
+                <forestryCandle id="forestry:candle"/>
                 <lamp id="redstone_lamp"/>
                 <redstoneLamp id="redstone_lamp"/>
                 <lamp id="lit_redstone_lamp"/>
@@ -632,10 +752,50 @@
     </resources>
     <item>
         <utility>
+            <magery>
+                <staff id="roots:staff"/>
+                <cinderStaff id="embers:staff_ember"/>
+                <unstableReservoir id="botania:missilerod"/>
+                <rodOfTheHells id="botania:firerod"/>
+            </magery>
+            <bags>
+                <enderHand id="botania:enderhand"/>
+                <flowerPouch id="botania:flowerbag"/>
+                <travelersSack id="actuallyadditions:item_bag"/>
+                <forestryBackpack0 id="forestry:adventurer_bag"/>
+                <forestryBackpack1 id="forestry:adventurer_bag_t2"/>
+                <forestryBackpack2 id="forestry:apiarist_bag"/>
+                <forestryBackpack3 id="forestry:builder_bag"/>
+                <forestryBackpack4 id="forestry:builder_bag_t2"/>
+                <forestryBackpack5 id="forestry:digger_bag"/>
+                <forestryBackpack6 id="forestry:digger_bag_t2"/>
+                <forestryBackpack7 id="forestry:forester_bag"/>
+                <forestryBackpack8 id="forestry:forester_bag_t2"/>
+                <forestryBackpack9 id="forestry:hunter_bag"/>
+                <forestryBackpack10 id="forestry:hunter_bag_t2"/>
+                <forestryBackpack11 id="forestry:lepidopterist_bag"/>
+                <forestryBackpack12 id="forestry:miner_bag"/>
+                <forestryBackpack13 id="forestry:miner_bag_t2"/>
+                <smallBackpack id="gobackpacks:backpack0"/>
+                <bigBackpack id="gobackpacks:backpack1"/>
+                <rootsPouch id="roots:pouch"/>
+                <backpacksBackpack id="backpacks16840:backpack"/>
+                <quantumBackpack id="backpacks16840:quantum_backpack"/>
+                <compactBackpack id="compactstorage:backpack"/>
+                <medicineBag id="totemic:medicine_bag"/>
+                <bagOfHolding id="extrautils2:bagofholding"/>
+            </bags>
             <torch id="torch"/>
             <endRod id="end_rod"/>
             <flintAndSteel id="flint_and_steel"/>
-            <craftingTable id="crafting_table"/>
+            <crafting>
+                <manufactoryHalo id="botania:autocraftinghalo"/>
+                <assemblyHalo id="botania:craftinghalo"/>
+                <portableCraftingTable id="craftingcraft:portable_crafting_table"/>
+                <exaltedCrafter id="evilcraft:exalted_crafter"/>
+                <craftingTableOnnaStick id="actuallyadditions:item_crafter_on_a_stick"/>
+                <craftingTable id="crafting_table"/>
+            </crafting>
             <furnace id="furnace"/>
             <furnaceBurning id="lit_furnace"/>
             <chests>
@@ -739,6 +899,8 @@
         </decoration>
         <food>
             <edibleFood>
+                <lunchBox id="spiceoflife:lunchbox"/>
+                <lunchBag id="spiceoflife:lunchbag"/>
                 <mushroomStew id="mushroom_stew"/>
                 <beetrootSoup id="beetroot_soup"/>
                 <cookedFood>
@@ -878,6 +1040,11 @@
         <fireworks id="firework_charge"/>
         <potion>
             <drinkablePotion>
+                <rusticElixir id="rustic:elixir"/>
+                <rusticBooze id="rustic:fluid_bottle"/>
+                <bloodMagicFlask id="bloodmagic:itempotionflask"/>
+                <botaniaFlask id="botania:brewflask"/>
+                <botaniaVial id="botania:brewvial"/>
                 <neutralPotion>
                     <potionEmpty id="potion" data='{Potion:"minecraft:empty"}'/>
                     <potionWater id="potion" data='{Potion:"minecraft:water"}'/>

@@ -5,6 +5,54 @@
     ],
     [
       "logWood"
+    ],
+    [
+      "minecraft:lit_redstone_ore", "oreRedstone", "denseoreRedstone"
+    ],
+    [
+      "oreDiamond", "denseoreDiamond"
+    ],
+    [
+      "oreLapis", "denseoreLapis"
+    ],
+    [
+      "oreGold", "denseoreGold"
+    ],
+    [
+      "oreEmerald", "denseoreEmerald"
+    ],
+    [
+      "oreIron", "denseoreIron"
+    ],
+    [
+      "oreCopper", "denseoreCopper"
+    ],
+    [
+      "oreAluminum", "denseoreAluminum"
+    ],
+    [
+      "oreTin", "denseoreTin"
+    ],
+    [
+      "oreLead", "denseoreLead"
+    ],
+    [
+      "oreNickel", "denseoreNickel"
+    ],
+    [
+      "oreSilver", "denseoreSilver"
+    ],
+    [
+      "oreArdite", "denseoreArdite"
+    ],
+    [
+      "oreCobalt", "denseoreCobalt"
+    ],
+    [
+      "oreDark", "denseoreDark"
+    ],
+    [
+      "oreCoal", "denseoreCoal"
     ]
   ],
   "strictSubtypes": [

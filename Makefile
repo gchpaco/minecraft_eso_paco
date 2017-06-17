@@ -1,4 +1,5 @@
 DIRS=config mods scripts structures
+RSYNC_FLAGS=-vrl --delete
 
 difflocal:
 	for dir in $(DIRS); do \
@@ -12,32 +13,32 @@ diffeso:
 
 drylocal:
 	for dir in $(DIRS); do \
-		rsync -avr --dry-run --delete instance/$$dir/ $$dir; \
+		rsync $(RSYNC_FLAGS) --dry-run instance/$$dir/ $$dir; \
 	done
 
 dryeso:
 	for dir in $(DIRS); do \
-		rsync -avr --dry-run --delete remote/$$dir/ $$dir; \
+		rsync $(RSYNC_FLAGS) --dry-run remote/$$dir/ $$dir; \
 	done
 
 eso2git:
 	for dir in $(DIRS); do \
-		rsync -avr --delete remote/$$dir/ $$dir; \
+		rsync $(RSYNC_FLAGS) remote/$$dir/ $$dir; \
 	done
 
 local2git:
 	for dir in $(DIRS); do \
-		rsync -avr --delete instance/$$dir/ $$dir; \
+		rsync $(RSYNC_FLAGS) instance/$$dir/ $$dir; \
 	done
 
 git2eso:
 	for dir in $(DIRS); do \
-		rsync -avr --delete $$dir/ remote/$$dir; \
+		rsync $(RSYNC_FLAGS) $$dir/ remote/$$dir; \
 	done
 
 git2local:
 	for dir in $(DIRS); do \
-		rsync -avr --delete $$dir/ instance/$$dir; \
+		rsync $(RSYNC_FLAGS) $$dir/ instance/$$dir; \
 	done
 
 .PHONY: eso2git local2git git2eso git2local drylocal dryeso difflocal diffeso

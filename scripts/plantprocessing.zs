@@ -31,12 +31,17 @@ mods.rustic.Condenser.addRecipe(<roots:spirit_herb_item>,<minecraft:gold_ingot>,
 
 // IE plant oil from rustic crushing tub
 
+val seedlist = <ore:listAllseed>;
+seedlist.remove(<immersiveengineering:seed>);
+
 for item in <ore:listAllseed>.items {
     mods.rustic.CrushingTub.addRecipe(<liquid:plantoil>*80, null, item);
+    mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:plantoil>*80,item,6400);
 }
 // IE thinks hemp is worth more plant oil than other seeds. Who are we to judge?
-mods.rustic.CrushingTub.removeRecipe(<liquid:plantoil>*80,<immersiveengineering:seed:0>);
 mods.rustic.CrushingTub.addRecipe(<liquid:plantoil>*120, null, <immersiveengineering:seed:0>);
+
+seedlist.add(<immersiveengineering:seed>);
 
 // rustic crushing tub recipes in IE industrial squeezer
 mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:oliveoil>*250,<rustic:olives>,6400);
@@ -46,3 +51,4 @@ mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:wildberryjuice>*250,<r
 mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:grapejuice>*250,<rustic:grapes>,6400);
 mods.immersiveengineering.Squeezer.addRecipe(<rustic:apple_seeds>,<liquid:applejuice>*250,<minecraft:apple>,6400);
 mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:honey>*250,<rustic:honeycomb>,6400);
+

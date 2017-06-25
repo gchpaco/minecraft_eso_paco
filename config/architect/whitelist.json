@@ -1102,5 +1102,19 @@
     "filter": {
       "facing": "INT"
     }
+  },
+  "rustic:cabinet",
+  "rustic:barrel",
+  {
+    "block": "quark:custom_chest",
+    "filter": {
+      "type": "STRING"
+    }
+  },
+  {
+    "block": "ironchest:iron_chest",
+    "filter": {
+      "facing": "BYTE"
+    }
   }
 ]

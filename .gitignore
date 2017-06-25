@@ -1,9 +1,9 @@
-config/tellme/*.txt
-config/jei/*.zip
-config/jei/worldSettings.cfg
-config/JEI/worldSettings.cfg
-config/BiomeTweaker/output/
-config/forgeamidst/
-config/MapWriterBlockColours.txt
+/config/tellme/*.txt
+/config/jei/*.zip
+/config/jei/worldSettings.cfg
+/config/JEI/worldSettings.cfg
+/config/BiomeTweaker/output/
+/config/forgeamidst/
+/config/MapWriterBlockColours.txt
 /config/splash.properties
 /config/biomesoplenty/biomes/defaults/

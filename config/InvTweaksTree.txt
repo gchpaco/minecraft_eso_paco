@@ -24,6 +24,7 @@
     <equipment>
         <weapon>
             <sword>
+                <grandhammer id="embers:grandhammer"/>
                 <scythe id="tconstruct:scythe"/>
                 <broadSword id="tconstruct:broadsword"/>
                 <longSword id="tconstruct:longsword"/>
@@ -126,6 +127,7 @@
         </weapon>
         <tool>
             <pickaxe>
+                <clockworkPickaxe id="embers:pickaxe_clockwork"/>
                 <terraShatterer id="botania:terrapick"/>
                 <chargedCrystalPickaxe id="astralsorcery:itemchargedcrystalpickaxe"/>
                 <crystalPickaxe id="astralsorcery:itemcrystalpickaxe"/>
@@ -162,6 +164,7 @@
                 <woodShovel id="wooden_shovel"/>
             </shovel>
             <axe>
+                <clockworkPickaxe id="embers:axe_clockwork"/>
                 <goldAxe id="golden_axe"/>
                 <diamondAxe id="diamond_axe"/>
                 <ironAxe id="iron_axe"/>
@@ -588,7 +591,7 @@
             <lighting>
                 <sojournerStaff id="xreliquary:sojourner_staff"/>
                 <bloodLamp id="bloodmagic:itemsigilbloodlight"/>
-                <glimmerLamp id="embers:glimmer_lamp"/>
+                <glimmerShard id="embers:glimmer_shard"/>
                 <asIlluminationWand id="astralsorcery:itemilluminationwand"/>
                 <newIlluminationWand id="notenoughwands:illumination_wand"/>
                 <torch id="torch"/>

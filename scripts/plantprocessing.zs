@@ -15,8 +15,6 @@ recipes.addShaped(<roots:spellcraft_book>,
      [<ore:rootsHerb>,null,null],
      [null,null,null]]);
 
-
-
     
 // Roots herb recipes, using roots alchemy.
 
@@ -33,6 +31,20 @@ mods.rustic.Condenser.addRecipe(<roots:spirit_herb_item>,<minecraft:gold_ingot>,
 
 val seedlist = <ore:listAllseed>;
 seedlist.remove(<immersiveengineering:seed>);
+
+// we used to have everything populated by Pam's. It's gone now. oops.
+// adding vanilla and actadd seeds by hand.
+
+seedlist.add(<minecraft:wheat_seeds>);
+seedlist.add(<minecraft:pumpkin_seeds>);
+seedlist.add(<minecraft:melon_seeds>);
+seedlist.add(<minecraft:beetroot_seeds>);
+seedlist.add(<actuallyadditions:item_coffee_seed>);
+seedlist.add(<actuallyadditions:item_rice_seed>);
+seedlist.add(<actuallyadditions:item_canola_seed>);
+seedlist.add(<actuallyadditions:item_flax_seed>);
+
+
 
 for item in <ore:listAllseed>.items {
     mods.rustic.CrushingTub.addRecipe(<liquid:plantoil>*80, null, item);
@@ -51,4 +63,37 @@ mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:wildberryjuice>*250,<r
 mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:grapejuice>*250,<rustic:grapes>,6400);
 mods.immersiveengineering.Squeezer.addRecipe(<rustic:apple_seeds>,<liquid:applejuice>*250,<minecraft:apple>,6400);
 mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:honey>*250,<rustic:honeycomb>,6400);
+
+
+// Vanilla Food Pantry doesn't think rustic foods are food. Let's convince it otherwise.
+// While these are oredict entries, they're editing food recipes, so here instead oredict script. fukkit.
+
+val kebabmain = <ore:ingredientKebabMain>;
+val kebabfill = <ore:ingredientKebabFill>;
+val kebabfruit = <ore:ingredientKebabFruit>;
+val dryableseeds = <ore:itemDryableSeed>;
+
+kebabmain.add(<rustic:chili_pepper>);
+
+kebabfill.add(<rustic:tomato>);
+kebabfill.add(<biomesoplenty:persimmon>);
+kebabfill.add(<biomesoplenty:pear>);
+
+kebabfruit.add(<rustic:grapes>);
+kebabfruit.add(<biomesoplenty:pear>);
+kebabfruit.add(<biomesoplenty:peach>);
+kebabfruit.add(<biomesoplenty:persimmon>);
+
+dryableseeds.add(<rustic:tomato_seeds>);
+
+
+// vinegar powder recipe.
+// normal is 6 apples. Let's add an alternate using grapes.
+
+recipes.addShaped(<vanillafoodpantry:foodpowder:22>*8,
+    [[<rustic:grapes>, <rustic:grapes>, <rustic:grapes>],
+     [<rustic:grapes>, <rustic:grapes>, <rustic:grapes>],
+     [<vanillafoodpantry:fermenting_bucket>, <vanillafoodpantry:cloth_bag>, <vanillafoodpantry:drying_agent>]]);
+
+//.
 

@@ -32,6 +32,20 @@ mods.rustic.Condenser.addRecipe(<roots:spirit_herb_item>,<minecraft:gold_ingot>,
 val seedlist = <ore:listAllseed>;
 seedlist.remove(<immersiveengineering:seed>);
 
+// we used to have everything populated by Pam's. It's gone now. oops.
+// adding vanilla and actadd seeds by hand.
+
+seedlist.add(<minecraft:wheat_seeds>);
+seedlist.add(<minecraft:pumpkin_seeds>);
+seedlist.add(<minecraft:melon_seeds>);
+seedlist.add(<minecraft:beetroot_seeds>);
+seedlist.add(<actuallyadditions:item_coffee_seed>);
+seedlist.add(<actuallyadditions:item_rice_seed>);
+seedlist.add(<actuallyadditions:item_canola_seed>);
+seedlist.add(<actuallyadditions:item_flax_seed>);
+
+
+
 for item in <ore:listAllseed>.items {
     mods.rustic.CrushingTub.addRecipe(<liquid:plantoil>*80, null, item);
     mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:plantoil>*80,item,6400);

@@ -2,6 +2,15 @@
 // Jellyfish are useless. Let's make them less so.
 recipes.addShapeless(<minecraft:slime_ball>*2,[<aquaculture:fish:16>]);
 
+// In need of a sleeping bag. Stone of Meditation will do.
+// Its default crafting process will not.
+
+recipes.addShaped(<botanicaladdons:sleep_stone>,
+    [[null, null, null],
+     [<botania:manaresource:16>,<botania:manaresource:16>,<botania:temperancestone>],
+     [<botania:manaresource:22>,<botania:manaresource:22>,<botania:manaresource:22>]]);
+     
+
 // Tinkering with exu2 drum costs
 
 // stone drum
@@ -46,3 +55,5 @@ recipes.addShaped(<minecraft:blaze_rod>*4,
     [[<vanillafoodpantry:lava_sand_block>, <vanillafoodpantry:lava_sand_block>, <vanillafoodpantry:lava_sand_block>],
      [<vanillafoodpantry:lava_sand_block>, <ore:gemSapphire>, <vanillafoodpantry:lava_sand_block>],
      [<vanillafoodpantry:lava_sand_block>,<vanillafoodpantry:lava_sand_block>,<vanillafoodpantry:lava_sand_block>]]);
+
+     

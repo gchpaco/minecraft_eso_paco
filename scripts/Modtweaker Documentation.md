@@ -1,42 +1,97 @@
+# actuallyadditions
+## mods.actuallyadditions.BallOfFur
+
+//IItemStack output, int chance
+
+```mods.actuallyadditions.BallOfFur.addReturn(IItemStack output, int chance);```
+
+//IItemStack output
+
+```mods.actuallyadditions.BallOfFur.removeReturn(IItemStack output);```
+
+# forestry
+## mods.forestry.Moistener
+
+//IIngredient output
+
+```mods.forestry.Moistener.removeRecipe(IIngredient output);```
+
+//IItemStack output, IItemStack input, int packagingTime
+
+```mods.forestry.Moistener.addRecipe(IItemStack output, IItemStack input, int packagingTime);```
+
+//IItemStack item, IItemStack product, int moistenerValue, int stage
+
+```mods.forestry.Moistener.addFuel(IItemStack item, IItemStack product, int moistenerValue, int stage);```
+
+//IIngredient moistenerItem
+
+```mods.forestry.Moistener.removeFuel(IIngredient moistenerItem);```
+
+# actuallyadditions
+## mods.actuallyadditions.Empowerer
+
+//IItemStack output
+
+```mods.actuallyadditions.Empowerer.removeRecipe(IItemStack output);```
+
+//IItemStack output, IItemStack input, IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time, <span style="color:red">float[] particleColourArray</span>
+
+```mods.actuallyadditions.Empowerer.addRecipe(IItemStack output, IItemStack input, IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time, float[] particleColourArray);```
+
 # forestry
 ## mods.forestry.Still
-
-//ILiquidStack fluidOutput, ILiquidStack fluidInput, int timePerUnit
-
-```mods.forestry.Still.addRecipe(ILiquidStack fluidOutput, ILiquidStack fluidInput, int timePerUnit);```
 
 //IIngredient output, <span style="color:red">ILiquidStack fluidInput</span>
 
 ```mods.forestry.Still.removeRecipe(IIngredient output, ILiquidStack fluidInput);```
 
+//ILiquidStack fluidOutput, ILiquidStack fluidInput, int timePerUnit
+
+```mods.forestry.Still.addRecipe(ILiquidStack fluidOutput, ILiquidStack fluidInput, int timePerUnit);```
+
+# actuallyadditions
+## mods.actuallyadditions.TreasureChest
+
+//IItemStack returnItem, int chance, int minAmount, int maxAmount
+
+```mods.actuallyadditions.TreasureChest.addLoot(IItemStack returnItem, int chance, int minAmount, int maxAmount);```
+
+//IItemStack returnItem
+
+```mods.actuallyadditions.TreasureChest.removeLoot(IItemStack returnItem);```
+
 # forestry
 ## mods.forestry.Carpenter
-
-//IItemStack output, IIngredient[][] ingredients, int packagingTime, <span style="color:red">ILiquidStack fluidInput</span>, <span style="color:red">IItemStack box</span>
-
-```mods.forestry.Carpenter.addRecipe(IItemStack output, IIngredient[][] ingredients, int packagingTime, ILiquidStack fluidInput, IItemStack box);```
 
 //IIngredient output, <span style="color:red">IIngredient fluidInput</span>
 
 ```mods.forestry.Carpenter.removeRecipe(IIngredient output, IIngredient fluidInput);```
 
-# forestry
-## mods.forestry.Squeezer
+//IItemStack output, IIngredient[][] ingredients, int packagingTime, <span style="color:red">ILiquidStack fluidInput</span>, <span style="color:red">IItemStack box</span>
 
-//ILiquidStack fluidOutput, IItemStack[] ingredients, int timePerItem, <span style="color:red">WeightedItemStack itemOutput</span>
+```mods.forestry.Carpenter.addRecipe(IItemStack output, IIngredient[][] ingredients, int packagingTime, ILiquidStack fluidInput, IItemStack box);```
 
-```mods.forestry.Squeezer.addRecipe(ILiquidStack fluidOutput, IItemStack[] ingredients, int timePerItem, WeightedItemStack itemOutput);```
+# actuallyadditions
+## mods.actuallyadditions.Compost
 
-//IIngredient liquid, <span style="color:red">IIngredient[] ingredients</span>
+//IItemStack output
 
-```mods.forestry.Squeezer.removeRecipe(IIngredient liquid, IIngredient[] ingredients);```
+```mods.actuallyadditions.Compost.removeRecipe(IItemStack output);```
+
+//IItemStack output, IItemStack outputDisplay, IItemStack input, IItemStack inputDisplay
+
+```mods.actuallyadditions.Compost.addRecipe(IItemStack output, IItemStack outputDisplay, IItemStack input, IItemStack inputDisplay);```
+
+# actuallyadditions
+## mods.actuallyadditions.Coffee
+
+//IItemStack input, IPotion[] potionEffects, int[] effectDuration, int maxAmplifier
+
+```mods.actuallyadditions.Coffee.addRecipe(IItemStack input, IPotion[] potionEffects, int[] effectDuration, int maxAmplifier);```
 
 # chisel
 ## mods.chisel.Groups
-
-//String groupName
-
-```mods.chisel.Groups.addGroup(String groupName);```
 
 //String groupName
 
@@ -50,101 +105,42 @@
 
 ```mods.chisel.Groups.addVariation(String groupName, IItemStack stack);```
 
-# forestry
-## mods.forestry.ThermionicFabricator
+//String groupName
 
-//IIngredient itemInput
-
-```mods.forestry.ThermionicFabricator.removeSmelting(IIngredient itemInput);```
-
-//int fluidOutput, IItemStack itemInput, int meltingPoint
-
-```mods.forestry.ThermionicFabricator.addSmelting(int fluidOutput, IItemStack itemInput, int meltingPoint);```
+```mods.chisel.Groups.addGroup(String groupName);```
 
 # forestry
-## mods.forestry.Moistener
+## mods.forestry.Squeezer
 
-//IItemStack output, IItemStack input, int packagingTime
+//IIngredient liquid, <span style="color:red">IIngredient[] ingredients</span>
 
-```mods.forestry.Moistener.addRecipe(IItemStack output, IItemStack input, int packagingTime);```
+```mods.forestry.Squeezer.removeRecipe(IIngredient liquid, IIngredient[] ingredients);```
 
-//IIngredient output
+//ILiquidStack fluidOutput, IItemStack[] ingredients, int timePerItem, <span style="color:red">WeightedItemStack itemOutput</span>
 
-```mods.forestry.Moistener.removeRecipe(IIngredient output);```
-
-//IItemStack item, IItemStack product, int moistenerValue, int stage
-
-```mods.forestry.Moistener.addFuel(IItemStack item, IItemStack product, int moistenerValue, int stage);```
-
-//IIngredient moistenerItem
-
-```mods.forestry.Moistener.removeFuel(IIngredient moistenerItem);```
+```mods.forestry.Squeezer.addRecipe(ILiquidStack fluidOutput, IItemStack[] ingredients, int timePerItem, WeightedItemStack itemOutput);```
 
 # actuallyadditions
-## mods.actuallyadditions.Crusher
-
-//IItemStack output, IItemStack input, <span style="color:red">IItemStack outputSecondary</span>, <span style="color:red">int outputSecondaryChance</span>
-
-```mods.actuallyadditions.Crusher.addRecipe(IItemStack output, IItemStack input, IItemStack outputSecondary, int outputSecondaryChance);```
+## mods.actuallyadditions.AtomicReconstructor
 
 //IItemStack output
 
-```mods.actuallyadditions.Crusher.removeRecipe(IItemStack output);```
+```mods.actuallyadditions.AtomicReconstructor.removeRecipe(IItemStack output);```
 
-# actuallyadditions
-## mods.actuallyadditions.Empowerer
+//IItemStack output, IItemStack input, int energyUsed
 
-//IItemStack output, IItemStack input, IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time, <span style="color:red">float[] particleColourArray</span>
-
-```mods.actuallyadditions.Empowerer.addRecipe(IItemStack output, IItemStack input, IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time, float[] particleColourArray);```
-
-//IItemStack output
-
-```mods.actuallyadditions.Empowerer.removeRecipe(IItemStack output);```
-
-# actuallyadditions
-## mods.actuallyadditions.BallOfFur
-
-//IItemStack output
-
-```mods.actuallyadditions.BallOfFur.removeReturn(IItemStack output);```
-
-//IItemStack output, int chance
-
-```mods.actuallyadditions.BallOfFur.addReturn(IItemStack output, int chance);```
-
-# actuallyadditions
-## mods.actuallyadditions.Compost
-
-//IItemStack output, IItemStack outputDisplay, IItemStack input, IItemStack inputDisplay
-
-```mods.actuallyadditions.Compost.addRecipe(IItemStack output, IItemStack outputDisplay, IItemStack input, IItemStack inputDisplay);```
-
-//IItemStack output
-
-```mods.actuallyadditions.Compost.removeRecipe(IItemStack output);```
-
-# actuallyadditions
-## mods.actuallyadditions.TreasureChest
-
-//IItemStack returnItem
-
-```mods.actuallyadditions.TreasureChest.removeLoot(IItemStack returnItem);```
-
-//IItemStack returnItem, int chance, int minAmount, int maxAmount
-
-```mods.actuallyadditions.TreasureChest.addLoot(IItemStack returnItem, int chance, int minAmount, int maxAmount);```
+```mods.actuallyadditions.AtomicReconstructor.addRecipe(IItemStack output, IItemStack input, int energyUsed);```
 
 # forestry
 ## mods.forestry.Fermenter
 
-//ILiquidStack fluidOutput, IItemStack resource, ILiquidStack fluidInput, int fermentationValue, float fluidOutputModifier
-
-```mods.forestry.Fermenter.addRecipe(ILiquidStack fluidOutput, IItemStack resource, ILiquidStack fluidInput, int fermentationValue, float fluidOutputModifier);```
-
 //IIngredient input
 
 ```mods.forestry.Fermenter.removeRecipe(IIngredient input);```
+
+//ILiquidStack fluidOutput, IItemStack resource, ILiquidStack fluidInput, int fermentationValue, float fluidOutputModifier
+
+```mods.forestry.Fermenter.addRecipe(ILiquidStack fluidOutput, IItemStack resource, ILiquidStack fluidInput, int fermentationValue, float fluidOutputModifier);```
 
 //IItemStack item, int  fermentPerCycle, int burnDuration
 
@@ -154,32 +150,36 @@
 
 ```mods.forestry.Fermenter.removeFuel(IIngredient fermenterItem);```
 
-# actuallyadditions
-## mods.actuallyadditions.Coffee
-
-//IItemStack input, IPotion[] potionEffects, int[] effectDuration, int maxAmplifier
-
-```mods.actuallyadditions.Coffee.addRecipe(IItemStack input, IPotion[] potionEffects, int[] effectDuration, int maxAmplifier);```
-
-# actuallyadditions
-## mods.actuallyadditions.AtomicReconstructor
-
-//IItemStack output, IItemStack input, int energyUsed
-
-```mods.actuallyadditions.AtomicReconstructor.addRecipe(IItemStack output, IItemStack input, int energyUsed);```
-
-//IItemStack output
-
-```mods.actuallyadditions.AtomicReconstructor.removeRecipe(IItemStack output);```
-
 # forestry
 ## mods.forestry.Centrifuge
+
+//IIngredient input
+
+```mods.forestry.Centrifuge.removeRecipe(IIngredient input);```
 
 //WeightedItemStack[] output, IItemStack ingredients, int packagingTime
 
 ```mods.forestry.Centrifuge.addRecipe(WeightedItemStack[] output, IItemStack ingredients, int packagingTime);```
 
-//IIngredient input
+# forestry
+## mods.forestry.ThermionicFabricator
 
-```mods.forestry.Centrifuge.removeRecipe(IIngredient input);```
+//int fluidOutput, IItemStack itemInput, int meltingPoint
+
+```mods.forestry.ThermionicFabricator.addSmelting(int fluidOutput, IItemStack itemInput, int meltingPoint);```
+
+//IIngredient itemInput
+
+```mods.forestry.ThermionicFabricator.removeSmelting(IIngredient itemInput);```
+
+# actuallyadditions
+## mods.actuallyadditions.Crusher
+
+//IItemStack output
+
+```mods.actuallyadditions.Crusher.removeRecipe(IItemStack output);```
+
+//IItemStack output, IItemStack input, <span style="color:red">IItemStack outputSecondary</span>, <span style="color:red">int outputSecondaryChance</span>
+
+```mods.actuallyadditions.Crusher.addRecipe(IItemStack output, IItemStack input, IItemStack outputSecondary, int outputSecondaryChance);```
 

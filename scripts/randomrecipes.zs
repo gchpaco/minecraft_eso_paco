@@ -1,4 +1,3 @@
-
 // Jellyfish are useless. Let's make them less so.
 recipes.addShapeless(<minecraft:slime_ball>*2,[<aquaculture:fish:16>]);
 
@@ -37,7 +36,7 @@ recipes.addShaped(<extrautils2:drum:1>,
 // reworking the blaze rod recipe from Vanilla Food Pantry
 
 // attempts to remove only the VFP shaped recipe failed, so we remove all shaped recipes for blaze rods.
-// at present, the only shaped recipe extant in our mod list is vanilla food pantry.
+// at present, the only shaped recipe for blaze rod extant in our mod list is vanilla food pantry.
 // We may want to check again if we add novel mods in the future which may or may not add their own blaze rod recipes.
 recipes.removeShaped(<minecraft:blaze_rod>);
 
@@ -57,3 +56,13 @@ recipes.addShaped(<minecraft:blaze_rod>*4,
      [<vanillafoodpantry:lava_sand_block>,<vanillafoodpantry:lava_sand_block>,<vanillafoodpantry:lava_sand_block>]]);
 
      
+// Liquid concrete for fun and profit
+
+val bucket = <forge:bucketfilled>;
+val bucketwithconcrete = bucket.withTag({FluidName:"concrete",Amount:1000});
+val bucketwithclay = bucket.withTag({FluidName:"clay",Amount:1000});
+
+recipes.addShapeless(bucketwithconcrete,
+    [<ore:sand>, <ore:sand>, <ore:sand>,
+     <ore:sand>, <ore:gravel>, <ore:gravel>,
+     <ore:gravel>, <minecraft:bucket>, bucketwithclay]);

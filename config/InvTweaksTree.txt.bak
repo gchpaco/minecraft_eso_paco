@@ -20,7 +20,7 @@
 # Thanks to Larandar & Lunaqua for their contributions.
 -->
 <!-- Note: 'stuff' matches everything, even items that don't appear here -->
-<stuff treeVersion="1.12.1">
+<stuff treeVersion="1.12.0">
     <equipment>
         <weapon>
             <sword>
@@ -40,6 +40,9 @@
                 <neptuniumSword id="aquaculture:neptunium_sword"/>
                 <psiSword id="psi:psimetal_sword"/>
                 <tyrfing id="embers:tyrfing"/>
+                <fluxSword id="redstonearsenal:tool.sword_flux"/>
+                <fluxBattlewrench id="redstonearsenal:tool.battlewrench_flux"/>
+                <coraliumSword id="abyssalcraft:corsword"/>
                 <actAddSword1 id="actuallyadditions:item_sword_crystal_black"/>
                 <actAddSword2 id="actuallyadditions:item_sword_crystal_blue"/>
                 <actAddSword3 id="actuallyadditions:item_sword_crystal_green"/>
@@ -94,6 +97,7 @@
                 <spartanShield22 id="spartanshields:shield_flux_ra"/>
                 <spartanShield23 id="spartanshields:shield_riot_enderio"/>
                 <spartanShield24 id="spartanshields:shield_riot_rftools"/>
+                <fluxShield id="redstonearsenal:tool.shield_flux"/>
                 <battlesign id="tconstruct:battlesign"/>
                 <vanillaShield id="shield"/>
             </shield>
@@ -101,9 +105,11 @@
                 <bow>
                     <crystalBow id="botania:crystalbow"/>
                     <livingWoodBow id="botania:livingwoodbow"/>
+                    <fluxBow id="redstonearsenal:tool.bow_flux"/>
                     <crossbow id="tconstruct:crossbow"/>
                     <longbow id="tconstruct:longbow"/>
                     <shortbow id="tconstruct:shortbow"/>
+                    <coraliumBow id="abyssalcraft:corbow"/>
                     <baykokBow id="totemic:baykok_bow"/>
                     <sentientBow id="bloodmagic:itemsentientbow"/>
                     <vanillaBow id="bow"/>
@@ -113,6 +119,7 @@
                 </bow>
                 <ammunition>
                     <arrow id="arrow"/>
+                    <fluxQuiver id="redstonearsenal:util.quiver_flux"/>
                     <spectralArrow id="spectral_arrow"/>
                     <tippedArrow id="tipped_arrow"/>
                     <enderArrow id="quark:arrow_ender"/>
@@ -129,6 +136,7 @@
             <pickaxe>
                 <clockworkPickaxe id="embers:pickaxe_clockwork"/>
                 <terraShatterer id="botania:terrapick"/>
+                <fluxPickaxe id="redstonearsenal:tool.pickaxe_flux"/>
                 <chargedCrystalPickaxe id="astralsorcery:itemchargedcrystalpickaxe"/>
                 <crystalPickaxe id="astralsorcery:itemcrystalpickaxe"/>
                 <boundPickaxe id="bloodmagic:itemboundpickaxe"/>
@@ -145,6 +153,7 @@
                 <actAddPickaxe7 id="actuallyadditions:item_pickaxe_emerald"/>
                 <actAddPickaxe8 id="actuallyadditions:item_pickaxe_obsidian"/>
                 <actAddPickaxe9 id="actuallyadditions:item_pickaxe_quartz"/>
+                <coraliumPick id="abyssalcraft:corpick"/>
                 <psiPickaxe id="psi:psimetal_pickaxe"/>
                 <vengeancePickaxe id="evilcraft:vengeance_pickaxe"/>
                 <neptuniumPickaxe id="aquaculture:neptunium_pickaxe"/>
@@ -165,6 +174,8 @@
             </shovel>
             <axe>
                 <clockworkPickaxe id="embers:axe_clockwork"/>
+                <fluxAxe id="redstonearsenal:tool.axe_flux"/>
+                <refinedCoraliumAxe id="abyssalcraft:coraxe"/>
                 <goldAxe id="golden_axe"/>
                 <diamondAxe id="diamond_axe"/>
                 <ironAxe id="iron_axe"/>
@@ -185,6 +196,7 @@
                 <drill id="actuallyadditions:item_drill"/>
                 <miningDrill id="immersiveengineering:drill"/>
                 <tconHammer id="tconstruct:hammer"/>
+                <fluxHammer id="redstonearsenal:tool.hammer_flux"/>
             </hammer>
         </tool>
         <armor>

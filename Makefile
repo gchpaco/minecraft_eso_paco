@@ -1,4 +1,4 @@
-DIRS=config mods scripts structures
+DIRS=config mods scripts structures resources
 RSYNC_FLAGS=-vrl --delete --exclude-from=.gitignore
 
 difflocal:

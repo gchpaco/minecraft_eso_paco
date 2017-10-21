@@ -68,4 +68,14 @@ recipes.addShapeless(<minecraft:leather>,
 
     recipes.addShapeless(<minecraft:leather>,
     [<reptilemod:croc_hide>]);
-    
+
+// Magneticraft adds oredicts to plates, does not use oredict in recipes. why.
+
+val ironmesh = <magneticraft:crafting:5>;
+val ironplate = <ore:plateIron>;
+val itemstring = <ore:string>;
+
+recipes.addShaped(ironmesh,
+    [[ironplate, itemstring, ironplate],
+     [itemstring, ironplate, itemstring],
+     [ironplate, itemstring, ironplate]]);

@@ -1,0 +1,178 @@
+# forestry
+# 5.6.0.201
+Beekeeping statistics for TextComponent{text='', siblings=[TextComponent{text='gchpaco', siblings=[], style=Style{hasParent=true, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=ClickEvent{action=SUGGEST_COMMAND, value='/msg gchpaco '}, hoverEvent=HoverEvent{action=SHOW_ENTITY, value='TextComponent{text='{name:"gchpaco",id:"a1c40d68-8734-4e16-9716-69c63bea6f15"}', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}'}, insertion=gchpaco}}], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=ClickEvent{action=SUGGEST_COMMAND, value='/msg gchpaco '}, hoverEvent=HoverEvent{action=SHOW_ENTITY, value='TextComponent{text='{name:"gchpaco",id:"a1c40d68-8734-4e16-9716-69c63bea6f15"}', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}'}, insertion=gchpaco}} on 10/20/17 12:04 AM:
+
+Mode: NORMAL
+
+Discovered:
+-----------
+Queen:		6
+Princess:	5
+Drone:		17
+
+Species (157):
+--------------
+X: Discovered
+BL: Blacklisted
+NC: Not counted for the species total
+
+[ X  ] [ BL ] [ NC ]	UID                                      Species              Authority           
+-------------------------------------------------------------------------------------------------------
+
+[ X  ] [    ] [    ]	forestry.speciesForest                   Forest               Sengir              
+[ X  ] [    ] [    ]	forestry.speciesMeadows                  Meadows              Sengir              
+[ X  ] [    ] [    ]	forestry.speciesCommon                   Common               Sengir              
+[    ] [    ] [    ]	forestry.speciesCultivated               Cultivated           Sengir              
+[    ] [    ] [    ]	forestry.speciesNoble                    Noble                Sengir              
+[    ] [    ] [    ]	forestry.speciesMajestic                 Majestic             Sengir              
+[    ] [    ] [    ]	forestry.speciesImperial                 Imperial             Sengir              
+[    ] [    ] [    ]	forestry.speciesDiligent                 Diligent             Sengir              
+[    ] [    ] [    ]	forestry.speciesUnweary                  Unweary              Sengir              
+[    ] [    ] [    ]	forestry.speciesIndustrious              Industrious          Sengir              
+[    ] [    ] [    ]	forestry.speciesSteadfast                Steadfast            Sengir              
+[    ] [    ] [    ]	forestry.speciesValiant                  Valiant              Sengir              
+[    ] [    ] [    ]	forestry.speciesHeroic                   Heroic               Sengir              
+[    ] [    ] [    ]	forestry.speciesSinister                 Sinister             Sengir              
+[    ] [    ] [    ]	forestry.speciesFiendish                 Fiendish             Sengir              
+[    ] [    ] [    ]	forestry.speciesDemonic                  Demonic              Sengir              
+[    ] [    ] [    ]	forestry.speciesModest                   Modest               Sengir              
+[    ] [    ] [    ]	forestry.speciesFrugal                   Frugal               Sengir              
+[    ] [    ] [    ]	forestry.speciesAustere                  Austere              Sengir              
+[    ] [    ] [    ]	forestry.speciesTropical                 Tropical             Sengir              
+[    ] [    ] [    ]	forestry.speciesExotic                   Exotic               Sengir              
+[    ] [    ] [    ]	forestry.speciesEdenic                   Edenic               Sengir              
+[    ] [    ] [    ]	forestry.speciesEnded                    Ender                Sengir              
+[    ] [    ] [    ]	forestry.speciesSpectral                 Spectral             Sengir              
+[    ] [    ] [    ]	forestry.speciesPhantasmal               Phantasmal           Sengir              
+[ X  ] [    ] [    ]	forestry.speciesWintry                   Wintry               Sengir              
+[    ] [    ] [    ]	forestry.speciesIcy                      Icy                  Sengir              
+[    ] [    ] [    ]	forestry.speciesGlacial                  Glacial              Sengir              
+[    ] [    ] [ NC ]	forestry.speciesVindictive               Vindictive           Sengir              
+[    ] [    ] [ NC ]	forestry.speciesVengeful                 Vengeful             Sengir              
+[    ] [    ] [ NC ]	forestry.speciesAvenging                 Avenging             Sengir              
+[    ] [    ] [ NC ]	forestry.speciesLeporine                 Leporine             Sengir              
+[    ] [    ] [ NC ]	forestry.speciesMerry                    Merry                Sengir              
+[    ] [    ] [ NC ]	forestry.speciesTipsy                    Tipsy                Sengir              
+[    ] [    ] [ NC ]	forestry.speciesTricky                   Tricky               Sengir              
+[    ] [    ] [    ]	forestry.speciesRural                    Rural                Sengir              
+[    ] [    ] [    ]	forestry.speciesFarmerly                 Farmerly             Sengir              
+[    ] [    ] [    ]	forestry.speciesAgrarian                 Agrarian             Sengir              
+[    ] [    ] [    ]	forestry.speciesMarshy                   Marshy               Sengir              
+[    ] [    ] [    ]	forestry.speciesMiry                     Miry                 Sengir              
+[    ] [    ] [    ]	forestry.speciesBoggy                    Boggy                Sengir              
+[    ] [    ] [    ]	forestry.speciesMonastic                 Monastic             Sengir              
+[    ] [    ] [    ]	forestry.speciesSecluded                 Secluded             Sengir              
+[    ] [    ] [    ]	forestry.speciesHermitic                 Hermitic             Sengir              
+[    ] [    ] [    ]	gendustry.bee.purple                     Purple               BDEW                
+[    ] [    ] [    ]	gendustry.bee.derpious                   Derpious             Evan B.             
+[    ] [    ] [    ]	gendustry.bee.magenta                    Magenta              BDEW                
+[    ] [    ] [    ]	gendustry.bee.blue                       Blue                 BDEW                
+[    ] [    ] [    ]	gendustry.bee.lightblue                  Light Blue           BDEW                
+[    ] [    ] [    ]	gendustry.bee.silver                     Light Gray           BDEW                
+[    ] [    ] [    ]	gendustry.bee.orange                     Orange               BDEW                
+[    ] [    ] [    ]	gendustry.bee.lime                       Lime                 Prasinus            
+[    ] [    ] [    ]	gendustry.bee.green                      Green                BDEW                
+[    ] [    ] [    ]	gendustry.bee.black                      Black                BDEW                
+[    ] [    ] [    ]	gendustry.bee.gray                       Gray                 BDEW                
+[    ] [    ] [    ]	gendustry.bee.yellow                     Yellow               BDEW                
+[    ] [    ] [    ]	gendustry.bee.brown                      Brown                BDEW                
+[    ] [    ] [    ]	gendustry.bee.pink                       Pink                 BDEW                
+[    ] [    ] [    ]	gendustry.bee.cyan                       Cyan                 BDEW                
+[    ] [    ] [    ]	gendustry.bee.white                      White                BDEW                
+[    ] [    ] [    ]	gendustry.bee.red                        Red                  BDEW                
+[    ] [    ] [    ]	magicbees.speciesMystical                Mystical             Elec332             
+[    ] [    ] [    ]	magicbees.speciesSorcerous               Sorcerous            Elec332             
+[    ] [    ] [    ]	magicbees.speciesUnusual                 Unusual              Elec332             
+[    ] [    ] [    ]	magicbees.speciesAttuned                 Attuned              Elec332             
+[    ] [    ] [    ]	magicbees.speciesEldritch                Eldritch             Elec332             
+[    ] [    ] [    ]	magicbees.speciesEsoteric                Esoteric             Elec332             
+[    ] [    ] [    ]	magicbees.speciesMysterious              Mysterious           Elec332             
+[    ] [    ] [    ]	magicbees.speciesArcane                  Arcane               Elec332             
+[    ] [    ] [    ]	magicbees.speciesCharmed                 Charmed              Elec332             
+[    ] [    ] [    ]	magicbees.speciesEnchanted               Enchanted            Elec332             
+[    ] [    ] [    ]	magicbees.speciesSupernatural            Supernatural         Elec332             
+[    ] [    ] [    ]	magicbees.speciesEthereal                Ethereal             Elec332             
+[    ] [    ] [    ]	magicbees.speciesWatery                  Watery               Elec332             
+[    ] [    ] [    ]	magicbees.speciesEarthy                  Earthen              Elec332             
+[    ] [    ] [    ]	magicbees.speciesFirey                   Firey                Elec332             
+[    ] [    ] [    ]	magicbees.speciesWindy                   Windy                Elec332             
+[    ] [    ] [    ]	magicbees.speciesPupil                   Pupil                Elec332             
+[    ] [    ] [    ]	magicbees.speciesScholarly               Scholarly            Elec332             
+[    ] [    ] [    ]	magicbees.speciesSavant                  Savant               Elec332             
+[    ] [    ] [    ]	magicbees.speciesAware                   Aware                Elec332             
+[    ] [    ] [    ]	magicbees.speciesSpirit                  Spirit               Elec332             
+[    ] [    ] [    ]	magicbees.speciesSoul                    Soul                 Elec332             
+[    ] [    ] [    ]	magicbees.speciesSkulking                Skulking             Elec332             
+[    ] [    ] [    ]	magicbees.speciesGhastly                 Ghastly              Elec332             
+[    ] [    ] [    ]	magicbees.speciesSpidery                 Spidery              Elec332             
+[    ] [    ] [    ]	magicbees.speciesSmouldering             Smouldering          Elec332             
+[    ] [ BL ] [    ]	magicbees.speciesBrainy                  Brainy               Elec332             
+[    ] [    ] [    ]	magicbees.speciesBigbad                  Big Bad              Elec332             
+[    ] [    ] [    ]	magicbees.speciesChicken                 Poultry              Elec332             
+[    ] [    ] [    ]	magicbees.speciesBeef                    Beefy                Elec332             
+[    ] [    ] [    ]	magicbees.speciesPork                    Porcine              Elec332             
+[    ] [    ] [    ]	magicbees.speciesBatty                   Batty                Elec332             
+[    ] [    ] [    ]	magicbees.speciesSheepish                Sheepish             Elec332             
+[    ] [    ] [    ]	magicbees.speciesHorse                   Neighsayer           Elec332             
+[    ] [    ] [    ]	magicbees.speciesCatty                   Catty                Elec332             
+[    ] [    ] [    ]	magicbees.speciesTimely                  Timely               Elec332             
+[    ] [    ] [    ]	magicbees.speciesLordly                  Lordly               Elec332             
+[    ] [    ] [    ]	magicbees.speciesDoctoral                Doctoral             Elec332             
+[    ] [    ] [    ]	magicbees.speciesInfernal                Infernal             Elec332             
+[    ] [    ] [    ]	magicbees.speciesHateful                 Hateful              Elec332             
+[    ] [    ] [    ]	magicbees.speciesSpiteful                Spiteful             Elec332             
+[    ] [    ] [    ]	magicbees.speciesWithering               Withering            Elec332             
+[    ] [    ] [    ]	magicbees.speciesOblivion                Oblivion             Elec332             
+[    ] [    ] [    ]	magicbees.speciesNameless                Nameless             Elec332             
+[    ] [    ] [    ]	magicbees.speciesAbandoned               Abandoned            Elec332             
+[    ] [    ] [    ]	magicbees.speciesForlorn                 Forlorn              Elec332             
+[    ] [    ] [    ]	magicbees.speciesDraconic                Draconic             Elec332             
+[    ] [    ] [    ]	magicbees.speciesMutable                 Mutable              Elec332             
+[    ] [    ] [    ]	magicbees.speciesTransmuting             Transmuting          Elec332             
+[    ] [    ] [    ]	magicbees.speciesCrumbling               Crumbling            Elec332             
+[    ] [    ] [    ]	magicbees.speciesInvisible               Invisible            Elec332             
+[    ] [    ] [    ]	magicbees.speciesIron                    Ferrous              Elec332             
+[    ] [    ] [    ]	magicbees.speciesGold                    Auric                Elec332             
+[    ] [    ] [    ]	magicbees.speciesCopper                  Cuprum               Elec332             
+[    ] [    ] [    ]	magicbees.speciesTin                     Stannum              Elec332             
+[    ] [    ] [    ]	magicbees.speciesSilver                  Argentum             Elec332             
+[    ] [    ] [    ]	magicbees.speciesLead                    Plumbum              Elec332             
+[    ] [    ] [    ]	magicbees.speciesAluminium               Aluminum             Elec332             
+[    ] [    ] [    ]	magicbees.speciesArdite                  Ardite               Elec332             
+[    ] [    ] [    ]	magicbees.speciesCobalt                  Cobalt               Elec332             
+[    ] [    ] [    ]	magicbees.speciesManyullyn               Manyullyn            Elec332             
+[    ] [    ] [    ]	magicbees.speciesOsmium                  Osmium               Elec332             
+[    ] [    ] [    ]	magicbees.speciesElectrum                Electrum             Elec332             
+[    ] [    ] [    ]	magicbees.speciesPlatinum                Platinum             Elec332             
+[    ] [    ] [    ]	magicbees.speciesNickel                  Nickel               Elec332             
+[    ] [    ] [    ]	magicbees.speciesInvar                   Invar                Elec332             
+[    ] [    ] [    ]	magicbees.speciesBronze                  Bronzed              Elec332             
+[    ] [    ] [    ]	magicbees.speciesDiamond                 Diamandi             Elec332             
+[    ] [    ] [    ]	magicbees.speciesEmerald                 Esmeraldi            Elec332             
+[    ] [    ] [    ]	magicbees.speciesApatite                 Apatine              Elec332             
+[    ] [ BL ] [    ]	magicbees.speciesSilicon                 Silicon              Elec332             
+[    ] [ BL ] [    ]	magicbees.speciesCertus                  Certus               Elec332             
+[    ] [ BL ] [    ]	magicbees.speciesFluix                   Fluix                Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEBlizzy                Blizzy               Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEGelid                 Gelid                Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEDante                 Dante                Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEPyro                  Pyro                 Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEShocking              Shocking             Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEAmped                 Amped                Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEGrounded              Grounded             Elec332             
+[    ] [    ] [    ]	magicbees.speciesTERocking               Rockin'              Elec332             
+[    ] [    ] [    ]	magicbees.speciesTECoal                  Carbon               Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEDestabilized          Destabilized         Elec332             
+[    ] [    ] [    ]	magicbees.speciesTELux                   Lux                  Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEWinsome               Winsome              Elec332             
+[    ] [    ] [    ]	magicbees.speciesTEEndearing             Endearing            Elec332             
+[    ] [    ] [    ]	magicbees.speciesRSAFluxed               Fluxed               Elec332             
+[    ] [    ] [    ]	magicbees.speciesBOTRooted               Rooted               Elec332             
+[    ] [    ] [    ]	magicbees.speciesBOTBotanic              Botanic              Elec332             
+[    ] [    ] [    ]	magicbees.speciesBOTBlossom              Blossom              Elec332             
+[    ] [    ] [    ]	magicbees.speciesBOTFloral               Floral               Elec332             
+[    ] [    ] [    ]	magicbees.speciesBOTVazbee               Vazbee               Elec332             
+[    ] [    ] [    ]	magicbees.speciesBOTSomnolent            Somnolent            Elec332             
+[    ] [    ] [    ]	magicbees.speciesBOTDreaming             Dreaming             Elec332             
+[    ] [    ] [    ]	magicbees.speciesBOTAlfheim              Alfheim              Elec332             
+[    ] [ BL ] [    ]	magicbees.speciesAESkystone              Skystone             Elec332             

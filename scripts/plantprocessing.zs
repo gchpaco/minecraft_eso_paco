@@ -39,6 +39,9 @@ mods.rustic.CrushingTub.addRecipe(<liquid:plantoil>*120, null, <immersiveenginee
 
 seedlist.add(<immersiveengineering:seed>);
 
+val dryableseeds = <ore:itemDryableSeed>;
+dryableseeds.addAll(<ore:listAllseed>);
+
 // rustic crushing tub recipes in IE industrial squeezer
 mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:oliveoil>*250,<rustic:olives>,6400);
 mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:ironberryjuice>*250,<rustic:ironberries>,6400);
@@ -49,4 +52,9 @@ mods.immersiveengineering.Squeezer.addRecipe(<rustic:apple_seeds>,<liquid:applej
 mods.immersiveengineering.Squeezer.addRecipe(null,<liquid:honey>*250,<rustic:honeycomb>,6400);
 
 
+// VFP compacted seeds should be more permissive.
 
+recipes.addShapeless(<vanillafoodpantry:compacted_seeds>,
+    [<vanillafoodpantry:weighted_plate>, seedlist, seedlist,
+     seedlist, seedlist, seedlist,
+     seedlist, seedlist, seedlist]);

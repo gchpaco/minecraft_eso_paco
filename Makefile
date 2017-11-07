@@ -6,6 +6,11 @@ difflocal:
 		diff -bur instance/$$dir/ $$dir; \
 	done
 
+diffcurse:
+	for dir in $(DIRS); do \
+		diff -bur instance/$$dir/ curse/$$dir/; \
+	done
+
 diffeso:
 	for dir in $(DIRS); do \
 		diff -bur remote/$$dir/ $$dir; \
@@ -19,6 +24,16 @@ drylocal:
 dryeso:
 	for dir in $(DIRS); do \
 		rsync $(RSYNC_FLAGS) --dry-run remote/$$dir/ $$dir; \
+	done
+
+curse2local:
+	for dir in mods; do \
+		rsync $(RSYNC_FLAGS) curse/$$dir/ instance/$$dir/; \
+	done
+
+local2curse:
+	for dir in mods; do \
+		rsync $(RSYNC_FLAGS) instance/$$dir/ curse/$$dir/; \
 	done
 
 eso2git:
@@ -41,4 +56,4 @@ git2local:
 		rsync $(RSYNC_FLAGS) $$dir/ instance/$$dir; \
 	done
 
-.PHONY: eso2git local2git git2eso git2local drylocal dryeso difflocal diffeso
+.PHONY: eso2git local2git git2eso git2local drylocal dryeso difflocal diffeso curse2local

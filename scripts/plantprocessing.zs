@@ -58,3 +58,13 @@ recipes.addShapeless(<vanillafoodpantry:compacted_seeds>,
     [<vanillafoodpantry:weighted_plate>, seedlist, seedlist,
      seedlist, seedlist, seedlist,
      seedlist, seedlist, seedlist]);
+
+     
+// Insolator fun: adding the ActAdd black lotus.
+// for great black dye.
+
+//mods.thermalexpansion.Insolator.addRecipe(IItemStack primaryOutput, IItemStack primaryInput, IItemStack secondaryInput, int energy, @Optional IItemStack secondaryOutput, @Optional int secondaryChance);
+
+mods.thermalexpansion.Insolator.addRecipe(<actuallyadditions:block_black_lotus>*2, <actuallyadditions:block_black_lotus>, <thermalfoundation:fertilizer:0>, 5000);
+mods.thermalexpansion.Insolator.addRecipe(<actuallyadditions:block_black_lotus>*6, <actuallyadditions:block_black_lotus>, <thermalfoundation:fertilizer:1>, 7500);
+mods.thermalexpansion.Insolator.addRecipe(<actuallyadditions:block_black_lotus>*8, <actuallyadditions:block_black_lotus>, <thermalfoundation:fertilizer:2>, 10000);

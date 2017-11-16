@@ -79,3 +79,29 @@ recipes.addShaped(ironmesh,
     [[ironplate, itemstring, ironplate],
      [itemstring, ironplate, itemstring],
      [ironplate, itemstring, ironplate]]);
+
+// cofh doesn't support advgen syngas for unclear reasons.
+
+mods.thermalexpansion.Refinery.addRecipe(<liquid:diesel>*100, null, <liquid:syngas>*100, 5000);
+
+// Signals' limiter rail recipe is inexplicably the same as Extra Rails' comparator rail recipe.
+
+recipes.removeShaped(<signals:limiter_rail>);
+recipes.addShaped(<signals:limiter_rail>,
+    [[<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>],
+     [<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>],
+     [<ore:ingotIron>, null, <ore:ingotIron>]]);
+
+     
+     
+// Akashic Tome Tests
+
+
+//<akashictome:tome>.withTag({"akashictome:data": {deepresonance: {id: "deepresonance:dr_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "deepresonance"}, Damage: 0 as short}, actuallyadditions: {id: "actuallyadditions:item_booklet", Count: 1 as byte, tag: {"akashictome:definedMod": "actuallyadditions"}, Damage: 0 as short}}})
+
+//<akashictome:tome>.withTag({"akashictome:data": {deepresonance: {id: "deepresonance:dr_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "deepresonance"}, Damage: 0 as short}, extrautils2: {id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}}})
+
+// recipes.addShapeless("tometests",<akashictome:tome>, [<akashictome:tome>.marked("tome"), <ore:dustRedstone>], function(output, inputs, crafting) {
+//     return inputs.tome.withTag({"akashictome:data": {deepresonance: {id: "deepresonance:dr_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "deepresonance"}, Damage: 0 as short}, extrautils2: {id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}}}).withTag(inputs.tome.tag);
+// }, null);
+

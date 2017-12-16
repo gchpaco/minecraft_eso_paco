@@ -63,9 +63,14 @@ val eggfried = <ore:foodEggFried>;
 eggfried.add(<abyssalcraft:friedegg>);
 friedegg.add(<vanillafoodpantry:fried_egg>);
 
-// actadd rice bread is totes bread.
-val breads = <ore:foodBread>;
-breads.add(<actuallyadditions:item_food:17>);
+// actadd rice bread is totes bread and can be used for sandwiches
+val foodbreadsandwich = <ore:foodBreadSandwich>;
+
+foodbreadsandwich.add(<actuallyadditions:item_food:17>);
+
+// Also bits of bread?
+
+
 
 // Processing roost chicken objects into raw chickens.
 // Because placing them in the world to butcher is so tedious.

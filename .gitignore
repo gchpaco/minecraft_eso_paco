@@ -1,4 +1,5 @@
 /config/tellme/*.txt
+/config/tellme/*.csv
 /config/jei/*.zip
 /config/jei/worldSettings.cfg
 /config/JEI/worldSettings.cfg

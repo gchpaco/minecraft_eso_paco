@@ -26,6 +26,11 @@ dryeso:
 		rsync $(RSYNC_FLAGS) --dry-run remote/$$dir/ $$dir; \
 	done
 
+drycurse:
+	for dir in mods; do \
+		rsync $(RSYNC_FLAGS) --dry-run curse/$$dir/ instance/$$dir/; \
+	done
+
 curse2local:
 	for dir in mods; do \
 		rsync $(RSYNC_FLAGS) curse/$$dir/ instance/$$dir/; \
@@ -55,5 +60,8 @@ git2local:
 	for dir in $(DIRS); do \
 		rsync $(RSYNC_FLAGS) $$dir/ instance/$$dir; \
 	done
+
+blocksummarize:
+	mlr --csv uniq -g "Mod name,BlockID" then stats1 -a count -f "BlockID" -g "Mod name" then sort -n "BlockID_count" < $$(ls -1Ur instance/config/tellme/blocks-csv* | head -1)
 
 .PHONY: eso2git local2git git2eso git2local drylocal dryeso difflocal diffeso curse2local

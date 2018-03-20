@@ -62,6 +62,6 @@ git2local:
 	done
 
 blocksummarize:
-	mlr --csv uniq -g "Mod name,BlockID" then stats1 -a count -f "BlockID" -g "Mod name" then sort -n "BlockID_count" < $$(ls -1Ur instance/config/tellme/blocks-csv* | head -1)
+	mlr --csv uniq -g "Mod name,BlockID" then stats1 -a count -f "BlockID" -g "Mod name" then sort -n "BlockID_count" < $$(ls -1Ur instance/config/tellme/blocks-csv* | head -1) | tee remote/blockcounts.csv
 
 .PHONY: eso2git local2git git2eso git2local drylocal dryeso difflocal diffeso curse2local

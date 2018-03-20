@@ -1,0 +1,2 @@
+jarmods/*.jar filter=lfs diff=lfs merge=lfs -text
+mods/*.jar filter=lfs diff=lfs merge=lfs -text

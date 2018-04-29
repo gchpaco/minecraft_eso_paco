@@ -30,13 +30,8 @@ kebabmain.add(<rustic:chili_pepper>);
 
 kebabfill.add(<rustic:tomato>);
 kebabfill.add(<rustic:chili_pepper>);
-kebabfill.add(<biomesoplenty:persimmon>);
-kebabfill.add(<biomesoplenty:pear>);
 
 kebabfruit.add(<rustic:grapes>);
-kebabfruit.add(<biomesoplenty:pear>);
-kebabfruit.add(<biomesoplenty:peach>);
-kebabfruit.add(<biomesoplenty:persimmon>);
 
 kebabadventure.add(<reptilemod:turtle_raw>);
 kebabadventure.add(<reptilemod:reptile_raw>);
@@ -55,18 +50,6 @@ recipes.addShaped(<vanillafoodpantry:foodpowder:22>*8,
     [[<rustic:grapes>, <rustic:grapes>, <rustic:grapes>],
      [<rustic:grapes>, <rustic:grapes>, <rustic:grapes>],
      [<vanillafoodpantry:fermenting_bucket>, <vanillafoodpantry:cloth_bag>, <vanillafoodpantry:drying_agent>]]);
-
-// Abyssalcraft likes to take over fried eggs from VFP.
-// We can fix this by cross-adding the appropriate oredicts.
-val friedegg = <ore:foodFriedEgg>;
-val eggfried = <ore:foodEggFried>;
-eggfried.add(<abyssalcraft:friedegg>);
-friedegg.add(<vanillafoodpantry:fried_egg>);
-
-// actadd rice bread is totes bread and can be used for sandwiches
-val foodbreadsandwich = <ore:foodBreadSandwich>;
-
-foodbreadsandwich.add(<actuallyadditions:item_food:17>);
 
 // Also bits of bread?
 

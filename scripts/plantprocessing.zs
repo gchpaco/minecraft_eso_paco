@@ -1,5 +1,5 @@
 import crafttweaker.item.IItemStack;
-    
+
 // Roots herb recipes, using roots alchemy.
 
 mods.rustic.Condenser.addRecipe(<roots:moontinged_seed>,<embers:ingot_silver>,[<minecraft:sapling:0>,<minecraft:sapling:2>,<minecraft:red_flower:6>]);
@@ -23,11 +23,6 @@ seedlist.add(<minecraft:wheat_seeds>);
 seedlist.add(<minecraft:pumpkin_seeds>);
 seedlist.add(<minecraft:melon_seeds>);
 seedlist.add(<minecraft:beetroot_seeds>);
-seedlist.add(<actuallyadditions:item_coffee_seed>);
-seedlist.add(<actuallyadditions:item_rice_seed>);
-seedlist.add(<actuallyadditions:item_canola_seed>);
-seedlist.add(<actuallyadditions:item_flax_seed>);
-
 
 
 for item in <ore:listAllseed>.items {
@@ -58,13 +53,3 @@ recipes.addShapeless(<vanillafoodpantry:compacted_seeds>,
     [<vanillafoodpantry:weighted_plate>, seedlist, seedlist,
      seedlist, seedlist, seedlist,
      seedlist, seedlist, seedlist]);
-
-     
-// Insolator fun: adding the ActAdd black lotus.
-// for great black dye.
-
-//mods.thermalexpansion.Insolator.addRecipe(IItemStack primaryOutput, IItemStack primaryInput, IItemStack secondaryInput, int energy, @Optional IItemStack secondaryOutput, @Optional int secondaryChance);
-
-mods.thermalexpansion.Insolator.addRecipe(<actuallyadditions:block_black_lotus>*2, <actuallyadditions:block_black_lotus>, <thermalfoundation:fertilizer:0>, 5000);
-mods.thermalexpansion.Insolator.addRecipe(<actuallyadditions:block_black_lotus>*6, <actuallyadditions:block_black_lotus>, <thermalfoundation:fertilizer:1>, 7500);
-mods.thermalexpansion.Insolator.addRecipe(<actuallyadditions:block_black_lotus>*8, <actuallyadditions:block_black_lotus>, <thermalfoundation:fertilizer:2>, 10000);

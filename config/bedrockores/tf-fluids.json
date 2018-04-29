@@ -11,7 +11,7 @@
         "desert",
         "desert_m",
         "mesa",
-        "mesa_rock"
+        "mesa_rock",
         "mesa_clear_rock",
         "mutated_savanna_rock",
         "mutated_mesa",
@@ -44,5 +44,5 @@
     "yieldMax": 150,
     "extractionCooldownScale": 5,
     "groupOrder": "thermalfoundation"
-  }  
+  }
 ]

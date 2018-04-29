@@ -1,0 +1,20 @@
+[
+  {
+    "state": {
+      "name": "immersiveengineering:ore",
+      "properties": {
+        "type": "uranium"
+      }
+    },
+    "weight": 5,
+    "widthMin": 2,
+    "widthMax": 3,
+    "countMin": 2,
+    "countMax": 4,
+    "yieldMin": 8,
+    "yieldMax": 10,
+    "group": "uranium",
+    "groupOrder": 10
+  }
+]
+

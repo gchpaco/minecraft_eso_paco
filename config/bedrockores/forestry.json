@@ -1,0 +1,19 @@
+[
+  {
+    "state": {
+      "name": "forestry:resources",
+      "properties": {
+        "resource": "apatite"
+      }
+    },
+    "weight": 3,
+    "widthMin": 5,
+    "widthMax": 7,
+    "countMin": 10,
+    "countMax": 14,
+    "yieldMin": 128,
+    "yieldMax": 160,
+    "group": "lead",
+    "groupOrder": 30
+  }
+]

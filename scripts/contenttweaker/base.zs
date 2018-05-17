@@ -8,7 +8,7 @@ import mods.contenttweaker.MaterialSystem;
 static materials as Material[string] = {
         "amber": MaterialSystem.getMaterialBuilder().setName("Amber").setColor(Color.fromHex("f4b942")).build(),
         "apatite": MaterialSystem.getMaterialBuilder().setName("Apatite").setColor(Color.fromHex("62e5fc")).build(),
-        "cinnabar": MaterialSystem.getMaterialBuilder().setName("Cinnabar").setColor(Color.fromHex("d61111")).build(),
+        "cinnabar": MaterialSystem.getMaterialBuilder().setName("Quicksilver").setColor(Color.fromHex("d61111")).build(),
         "crystal": MaterialSystem.getMaterialBuilder().setName("Crystal").setColor(Color.fromHex("d9f2f7")).build(),
         "dark": MaterialSystem.getMaterialBuilder().setName("Dark").setColor(Color.fromHex("000000")).build(),
         "natron": MaterialSystem.getMaterialBuilder().setName("Natron").setColor(Color.fromHex("5d9eaa")).build(),

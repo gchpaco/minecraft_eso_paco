@@ -4,10 +4,10 @@
     "trona_ore_sample": 8,
     "amber_ore_sample": 0,
     "natron_ore_sample": 5,
-    "cinnabar_ore_sample": 2,
     "dark_ore_sample": 4,
     "pyrite_ore_sample": 6,
     "crystal_ore_sample": 3,
+    "quicksilver_ore_sample": 10,
     "salt_ore_sample": 7,
     "apatite_ore_sample": 1
   }

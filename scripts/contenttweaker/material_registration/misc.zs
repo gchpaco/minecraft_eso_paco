@@ -5,6 +5,10 @@ import mods.contenttweaker.MaterialPartData;
 
 import scripts.contenttweaker.base.materials;
 
+// Aetherium ore
+var aetheriumData = materials.aetherium.registerPart("ore_sample").getData();
+aetheriumData.addDataValue("drops", "aetherworks:aether_ore:0");
+
 // Amber ore
 var amberData = materials.amber.registerPart("ore_sample").getData();
 amberData.addDataValue("drops", "thaumcraft:amber:0");

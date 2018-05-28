@@ -1,0 +1,44 @@
+[
+  {
+    "id": "accesstweaks",
+    "name": "Access Tweaks",
+    "desc": "This is a small client-only mod which lets users change various settings, intended to improve the game's accessibility.",
+    "website": "https://minecraft.curseforge.com/projects/accesstweaks/",
+    "base": true
+  },
+  {
+    "id": "clienttweaks",
+    "name": "Client Tweaks",
+    "desc": "Various small tweaks to the Minecraft client experience.",
+    "website": "https://minecraft.curseforge.com/projects/client-tweaks/",
+    "base": true
+  },
+  {
+    "id": "craftingtweaks",
+    "name": "Crafting Tweaks",
+    "desc": "Various handy tools for crafting tables.",
+    "website": "https://minecraft.curseforge.com/projects/crafting-tweaks/",
+    "base": true
+  },
+  {
+    "id": "ingameinfoxml",
+    "name": "In-game Info XML",
+    "desc": "A customizable 'F3 screen'.",
+    "website": "https://minecraft.curseforge.com/projects/ingame-info-xml/",
+    "base": true
+  },
+  {
+    "id": "inventorytweaks",
+    "name": "In-game Info XML",
+    "desc": "This client mod for Minecraft allows you to easily manage your items.",
+    "website": "http://inventory-tweaks.readthedocs.io/en/latest/",
+    "base": true
+  },
+  {
+    "id": "journeymap",
+    "name": "JourneyMap",
+    "desc": "The be-all, end-all client mapping mod.",
+    "website": "https://minecraft.curseforge.com/projects/journeymap/",
+    "base": false
+  }
+]

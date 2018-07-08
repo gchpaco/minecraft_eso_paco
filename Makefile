@@ -1,5 +1,5 @@
 DIRS=config mods scripts structures resources
-RSYNC_FLAGS=-cvrl --delete --exclude-from=.gitignore
+RSYNC_FLAGS=-cvrl --delete --exclude-from=.gitignore --exclude "memory_repo" --exclude "1.12.2"
 
 difflocal:
 	for dir in $(DIRS); do \

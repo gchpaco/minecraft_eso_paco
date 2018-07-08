@@ -29,7 +29,7 @@
   },
   {
     "id": "inventorytweaks",
-    "name": "In-game Info XML",
+    "name": "InventoryTweaks",
     "desc": "This client mod for Minecraft allows you to easily manage your items.",
     "website": "http://inventory-tweaks.readthedocs.io/en/latest/",
     "base": true

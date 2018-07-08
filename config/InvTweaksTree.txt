@@ -291,6 +291,8 @@
       </shield>
       <munition>
         <bow>
+          <aethericQuartzCrossbow id="aetherworks:item_crossbow_quartz"/>
+          <aethericMagmaCrossbow id="aetherworks:item_crossbow_magma"/>
           <spartanBronzeCrossbow id="spartanweaponry:crossbow_bronze"/>
           <spartanCopperCrossbow id="spartanweaponry:crossbow_copper"/>
           <spartanDiamondCrossbow id="spartanweaponry:crossbow_diamond"/>
@@ -475,6 +477,7 @@
         <miningDrill id="immersiveengineering:drill"/>
         <tconHammer id="tconstruct:hammer"/>
         <fluxHammer id="redstonearsenal:tool.hammer_flux"/>
+        <thermalDrill id="thermalinnovation:drill"/>
       </hammer>
     </tool>
     <armor>

@@ -1,6 +1,7 @@
 {
   "version": 1,
   "data": {
+    "buildingTile": "building",
     "endIsland": "END_ISLAND",
     "endIslandPlants": "END_ISLAND_PLANTS",
     "endVoid": "END_VOID",
@@ -27,6 +28,7 @@
     "npcVillageSmallHouse": "HOUSE_SMALL",
     "npcVillageSmithy": "SMITHY",
     "npcVillageTorch": "VILLAGE_TORCH",
-    "npcVillageWell": "WELL"
+    "npcVillageWell": "WELL",
+    "streetTile": "street"
   }
 }

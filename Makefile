@@ -13,7 +13,7 @@ diffcurse:
 
 diffeso:
 	for dir in $(DIRS); do \
-		diff -bur remote/$$dir/ $$dir; \
+		diff -bur remote/pack-$$dir/ $$dir; \
 	done
 
 drylocal:
@@ -23,7 +23,7 @@ drylocal:
 
 dryeso:
 	for dir in $(DIRS); do \
-		rsync $(RSYNC_FLAGS) --dry-run remote/$$dir/ $$dir; \
+		rsync $(RSYNC_FLAGS) --dry-run remote/pack-$$dir/ $$dir; \
 	done
 
 drycurse:
@@ -43,7 +43,7 @@ local2curse:
 
 eso2git:
 	for dir in $(DIRS); do \
-		rsync $(RSYNC_FLAGS) remote/$$dir/ $$dir; \
+		rsync $(RSYNC_FLAGS) remote/pack-$$dir/ $$dir; \
 	done
 
 local2git:
@@ -53,7 +53,7 @@ local2git:
 
 git2eso:
 	for dir in $(DIRS); do \
-		rsync $(RSYNC_FLAGS) $$dir/ remote/$$dir; \
+		rsync $(RSYNC_FLAGS) $$dir/ remote/pack-$$dir; \
 	done
 
 git2local:

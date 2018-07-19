@@ -49,7 +49,14 @@ recipes.addShapeless(<minecraft:leather>,
 
 val ironmesh = <magneticraft:crafting:5>;
 val ironplate = <ore:plateIron>;
+val ironingot = <ore:ingotIron>;
 val itemstring = <ore:string>;
+
+
+recipes.addShaped(<magneticraft:steam_boiler>,
+    [[ironingot, ironplate, ironingot],
+     [ironingot, null, ironingot],
+     [ironingot, ironplate, ironingot]]);
 
 recipes.addShaped(ironmesh,
     [[ironplate, itemstring, ironplate],
@@ -60,13 +67,6 @@ recipes.addShaped(ironmesh,
 
 mods.thermalexpansion.Refinery.addRecipe(<liquid:diesel>*100, null, <liquid:syngas>*100, 5000);
 
-// Signals' limiter rail recipe is inexplicably the same as Extra Rails' comparator rail recipe.
-
-recipes.removeShaped(<signals:limiter_rail>);
-recipes.addShaped(<signals:limiter_rail>,
-    [[<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>],
-     [<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>],
-     [<ore:ingotIron>, null, <ore:ingotIron>]]);
 
 
 
@@ -80,3 +80,36 @@ recipes.addShaped(<signals:limiter_rail>,
 // recipes.addShapeless("tometests",<akashictome:tome>, [<akashictome:tome>.marked("tome"), <ore:dustRedstone>], function(output, inputs, crafting) {
 //     return inputs.tome.withTag({"akashictome:data": {deepresonance: {id: "deepresonance:dr_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "deepresonance"}, Damage: 0 as short}, extrautils2: {id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}}}).withTag(inputs.tome.tag);
 // }, null);
+
+
+
+// palimpsest mimicry.
+
+recipes.addShapeless(<minecraft:book>, [<minecraft:redstone>, <botania:lexicon>]);
+recipes.addShapeless(<minecraft:book>, [<minecraft:redstone>, <evilcraft:origins_of_darkness>]);
+
+
+// Hooked recipes.
+
+val ironhook = <hooked:hook:1>;
+val diamondhook = <hooked:hook:2>;
+val redhook = <hooked:hook:3>;
+val enderhook = <hooked:hook:4>;
+
+// No more diamond hook!
+recipes.removeShaped(diamondhook);
+
+// red and ender hooks get new recipes.
+recipes.removeShaped(redhook);
+recipes.addShaped(redhook,
+    [[<minecraft:piston>, <ore:dustRedstone>, <ore:blockRedstone>],
+     [null, ironhook, <minecraft:redstone>],
+     [<minecraft:comparator>, null, <minecraft:piston>]]);
+     
+recipes.removeShaped(enderhook);
+recipes.addShaped(enderhook,
+    [[<ore:enderpearl>, <ore:rodBlaze>, <ore:ingotEnderium>],
+     [null, ironhook, <ore:rodBlaze>],
+     [<ore:dustBlaze>, null, <ore:enderpearl>]]);
+
+

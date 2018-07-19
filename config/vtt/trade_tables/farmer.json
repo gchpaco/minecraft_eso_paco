@@ -1,0 +1,55 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"farmer",
+
+	Offers:{
+		Recipes:[
+            {action:"clear", CareerLevel:0},
+		
+			{action:"add", CareerLevel:0, 
+            buy:[
+                {id:"minecraft:wheat",Count:{min:18,max:22}},
+                {id:"minecraft:emerald",Count:1}
+                ],
+            sell:[
+                {id:"minecraft:emerald",Count:1},
+                {id:"minecraft:wheat",Count:{min:7,max:11}}
+                ]},
+			{action:"add", CareerLevel:0, 
+            buy:[
+                {id:"minecraft:carrot",Count:{min:15,max:19}},
+                {id:"minecraft:emerald",Count:1}
+                ],
+            sell:[
+                {id:"minecraft:emerald",Count:1},
+                {id:"minecraft:carrot",Count:{min:4,max:9}}
+                ]},
+			{action:"add", CareerLevel:0, 
+            buy:[
+                {id:"minecraft:potato",Count:{min:15,max:19}},
+                {id:"minecraft:emerald",Count:1}
+                ],
+            sell:[
+                {id:"minecraft:emerald",Count:1},
+                {id:"minecraft:potato",Count:{min:4,max:9}}
+                ]},
+			{action:"add", CareerLevel:0, 
+            buy:[
+                {id:"minecraft:beetroot",Count:{min:15,max:19}},
+                {id:"minecraft:emerald",Count:1}
+                ],
+            sell:[
+                {id:"minecraft:emerald",Count:1},
+                {id:"minecraft:beetroot",Count:{min:4,max:9}}
+                ]},
+            {action:"add", CareerLevel:0,
+            buy:
+                {id:"minecraft:emerald", Count:1}
+            sell:
+                {id:"minecraft:bread", Count:{min:2,max4}}
+                }
+            
+		]
+	}
+
+}

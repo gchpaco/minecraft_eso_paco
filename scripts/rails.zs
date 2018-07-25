@@ -91,7 +91,7 @@ recipes.addShaped(tanker,
 // Note: Each minecraft gauge rail segment can produce up to FIVE blocks of length
 // so six steel will produce 25 blocks worth of rail if you stick to multiples of 5
 
-recipes.addShaped(railsegment*5,
+recipes.addShaped(railsegment*8,
     [[steel_rod, null, null],
      [steel_rod, null, null],
      [steel_rod, null, null]]);

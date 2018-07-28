@@ -50,6 +50,8 @@ val metal_barrel = <immersiveengineering:metal_device0:4>;
 val rs_engineering_block =<immersiveengineering:metal_decoration0:3>;
 val engine_furnace = <embers:boiler>;
 val mgc_boiler = <magneticraft:steam_boiler>;
+val handcar = <immersiverailroading:item_rolling_stock>.withTag(
+    {defID:"rolling_stock/hand_car/hand_car_1.json",gauge:0.632d,display:{Name:"§rHand Car"}});
 val locomotive = <immersiverailroading:item_rolling_stock>.withTag(
     {defID:"rolling_stock/locomotives/cooke_mogul.json",gauge:0.632d,display:{Name:"§rDSP&P Mogul"}});
 val tender = <immersiverailroading:item_rolling_stock>.withTag(
@@ -61,6 +63,12 @@ val tanker = <immersiverailroading:item_rolling_stock>.withTag(
 val railsegment = <immersiverailroading:item_rail_part>.withTag({gauge:0.632d,display:{Name:"Rail Segment",Lore:["Five blocks worth of rail.","Don't forget treated planks!"]}});
     
 
+// minecraft gauge hand car
+recipes.addShaped(handcar,
+    [[null, null, null],
+     [null, steel_rod, null],
+     [cart, steel_plate, cart]]);
+    
 // minecraft gauge locomotive
 recipes.addShaped(locomotive,
     [[steel_block, mgc_boiler, mgc_boiler],

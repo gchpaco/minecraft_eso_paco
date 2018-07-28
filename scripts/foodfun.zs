@@ -59,3 +59,11 @@ recipes.addShaped(<vanillafoodpantry:foodpowder:22>*8,
 // Because placing them in the world to butcher is so tedious.
 recipes.addShapeless(<minecraft:chicken>,
     [<roost:chicken>, <vanillafoodpantry:flint_butcher_axe>.transformDamage()]);
+
+
+// Corn meal -> flatbread.
+
+recipes.addShapeless(<vanillafoodpantry:breads:420>,
+    [<ore:foodFlourCorn>, <ore:foodFlourCorn>, <ore:foodFlourCorn>, <ore:portionWaterSmall>, <vanillafoodpantry:sand_jar>.reuse()]);
+//    
+

@@ -1,5 +1,24 @@
 import crafttweaker.item.IItemStack;
 
+
+ 
+// Roots herb recipes, using rustic alchemy.
+
+mods.rustic.Condenser.addRecipe(<roots:moontinged_seed>,<embers:ingot_silver>,
+    [<minecraft:sapling:0>,<minecraft:sapling:2>,<minecraft:red_flower:6>]);
+mods.rustic.Condenser.addRecipe(<roots:terra_moss_spore>,<embers:ingot_lead>,
+    [<minecraft:sapling:1>,<minecraft:sapling:1>,<minecraft:tallgrass:0>]);
+mods.rustic.Condenser.addRecipe(<roots:wildroot_item>,<minecraft:iron_ingot>,
+    [<minecraft:wheat>,<minecraft:red_flower:0>,<minecraft:potato>]);
+mods.rustic.Condenser.addRecipe(<roots:pereskia_bulb>,<embers:ingot_dawnstone>,
+    [<minecraft:double_plant:5>,<minecraft:yellow_flower:0>,<minecraft:red_flower:8>]);
+mods.rustic.Condenser.addRecipe(<roots:aubergine_seeds>,<embers:ingot_copper>,
+    [<minecraft:double_plant:1>,<minecraft:sapling:1>,<minecraft:beetroot>]);
+mods.rustic.Condenser.addRecipe(<roots:spirit_herb_item>,<minecraft:gold_ingot>,
+    [<minecraft:tallgrass:2>,<minecraft:brown_mushroom>,<minecraft:nether_wart>]);
+mods.rustic.Condenser.addRecipe(<roots:spirit_herb_item>,<minecraft:gold_ingot>,
+    [<minecraft:tallgrass:2>,<minecraft:red_mushroom>,<minecraft:nether_wart>]);
+
 // IE plant oil from rustic crushing tub
 
 val seedlist = <ore:listAllseed>;
@@ -42,3 +61,38 @@ recipes.addShapeless(<vanillafoodpantry:compacted_seeds>,
     [<vanillafoodpantry:weighted_plate>, seedlist, seedlist,
      seedlist, seedlist, seedlist,
      seedlist, seedlist, seedlist]);
+
+     
+// repairing earthworks' shakes recipes.
+
+// oak
+recipes.remove(<earthworks:block_wood_shingle:0>);
+recipes.addShapeless(<earthworks:block_wood_shingle:0>,
+    [<earthworks:tool_froe>.reuse(), <minecraft:log:0>]);
+    
+// spruce
+recipes.remove(<earthworks:block_wood_shingle:1>);
+recipes.addShapeless(<earthworks:block_wood_shingle:1>,
+    [<earthworks:tool_froe>.reuse(), <minecraft:log:1>]);
+
+// birch
+recipes.remove(<earthworks:block_wood_shingle:2>);
+recipes.addShapeless(<earthworks:block_wood_shingle:2>,
+    [<earthworks:tool_froe>.reuse(), <minecraft:log:2>]);
+
+// jungle
+recipes.remove(<earthworks:block_wood_shingle:3>);
+recipes.addShapeless(<earthworks:block_wood_shingle:3>,
+    [<earthworks:tool_froe>.reuse(), <minecraft:log:3>]);
+
+// acacia
+recipes.remove(<earthworks:block_wood_shingle:4>);
+recipes.addShapeless(<earthworks:block_wood_shingle:4>,
+    [<earthworks:tool_froe>.reuse(), <minecraft:log2:0>]);
+
+// dark oak
+recipes.remove(<earthworks:block_wood_shingle:5>);
+recipes.addShapeless(<earthworks:block_wood_shingle:5>,
+    [<earthworks:tool_froe>.reuse(), <minecraft:log2:1>]);
+
+    

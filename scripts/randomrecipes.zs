@@ -1,8 +1,12 @@
+import crafttweaker.recipes.IFurnaceRecipe;
+
+
 // reworking the blaze rod recipe from Vanilla Food Pantry
 
 // attempts to remove only the VFP shaped recipe failed, so we remove all shaped recipes for blaze rods.
 // at present, the only shaped recipe for blaze rod extant in our mod list is vanilla food pantry.
 // We may want to check again if we add novel mods in the future which may or may not add their own blaze rod recipes.
+
 recipes.removeShaped(<minecraft:blaze_rod>);
 
 recipes.addShaped(<minecraft:blaze_rod>,
@@ -102,7 +106,7 @@ recipes.removeShaped(diamondhook);
 // red and ender hooks get new recipes.
 recipes.removeShaped(redhook);
 recipes.addShaped(redhook,
-    [[<minecraft:piston>, <ore:dustRedstone>, <ore:blockRedstone>],
+    [[<minecraft:piston>, <ore:dustRedstone>, <ore:ingotSignalum>],
      [null, ironhook, <minecraft:redstone>],
      [<minecraft:comparator>, null, <minecraft:piston>]]);
      
@@ -113,3 +117,89 @@ recipes.addShaped(enderhook,
      [<ore:dustBlaze>, null, <ore:enderpearl>]]);
 
 
+// oreberry smelting
+
+// aluminum, ardite, cobalt, copper, emerald, glowstone, gold, iron, lead, nickel, nether quartz, silver, tin, uranium
+
+furnace.addRecipe(
+    <embers:nugget_aluminum>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "aluminum"}}));
+
+furnace.addRecipe(
+    <tconstruct:nuggets:1>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "ardite"}}));
+ 
+furnace.addRecipe(
+    <tconstruct:nuggets:0>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "cobalt"}}));
+    
+furnace.addRecipe(
+    <embers:nugget_copper>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "copper"}}));
+    
+furnace.addRecipe(
+    <minecraft:gold_nugget>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "gold"}}));
+    
+furnace.addRecipe(
+    <embers:nugget_iron>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "iron"}}));
+    
+furnace.addRecipe(
+    <embers:nugget_lead>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "lead"}}));
+    
+furnace.addRecipe(
+    <embers:nugget_nickel>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "nickel"}}));
+    
+furnace.addRecipe(
+    <embers:nugget_silver>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "silver"}}));
+    
+furnace.addRecipe(
+    <embers:nugget_tin>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "tin"}}));
+ 
+furnace.addRecipe(
+    <immersiveengineering:metal:25>*4,
+    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "uranium"}}));
+
+
+// Botania: Alternate corporea net recipes
+
+val spark = <botania:spark>;
+val cspark = <botania:corporeaspark:0>;
+val mcspark = <botania:corporeaspark:1>;
+val mdiamond = <ore:manaDiamond>;
+
+recipes.addShaped(cspark,
+    [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>],
+     [spark, <ore:enderPearl>, spark],
+     [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
+     
+recipes.addShaped(mcspark,
+    [[mdiamond, cspark, mdiamond],
+     [null, null, null],
+     [mdiamond, cspark, mdiamond]]);
+
+// vfp red flint is not as useful as it could be
+
+recipes.addShaped(<minecraft:arrow>*4,
+    [[null, <ore:itemRawFlint>, null],
+     [null, <ore:stick>, null],
+     [null, <ore:feather>, null]]);
+     
+recipes.addShaped(<iceandfire:stymphalian_arrow>*4,
+    [[null, <ore:itemRawFlint>, null],
+     [null, <ore:stick>, null],
+     [null, <iceandfire:stymphalian_bird_feather>, null]]);
+
+recipes.addShaped(<totemic:totem_whittling_knife>,
+    [[null, null, <ore:ingotIron>],
+     [null, <ore:stick>, <ore:itemRawFlint>],
+     [<ore:stick>, null, null]]);
+
+recipes.addShapeless(<minecraft:flint>*2,
+    [<ore:itemRawFlint>,<ore:itemRawFlint>]);
+    

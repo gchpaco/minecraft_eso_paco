@@ -1232,8 +1232,8 @@
   "platinum": {
     "minY": 3,
     "maxY": 25,
-    "chance": 0,
-    "size": 32,
+    "chance": 8,
+    "size": 16,
     "blacklist": [
       -1,
       1,

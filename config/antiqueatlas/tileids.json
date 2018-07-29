@@ -1,10 +1,24 @@
 {
   "version": 1,
   "data": {
+    "bridge_coveredxTile": -41,
+    "bridge_coveredzTile": -40,
+    "bridge_openxTile": -47,
+    "bridge_openzTile": -51,
     "buildingTile": -30,
+    "buildingfloor1Tile": -34,
+    "buildingfloor2Tile": -38,
+    "buildingfloor3Tile": -39,
+    "buildingfloor4Tile": -31,
+    "buildingtallTile": -36,
+    "buildingtallroofTile": -37,
     "endIsland": -26,
     "endIslandPlants": -27,
     "endVoid": -28,
+    "fountainTile": -35,
+    "highwayintersectionTile": -45,
+    "highwayxTile": -43,
+    "highwayzTile": -46,
     "lava": -13,
     "lavaShore": -14,
     "netherBridge": -15,
@@ -29,6 +43,13 @@
     "npcVillageSmithy": -3,
     "npcVillageTorch": -8,
     "npcVillageWell": -7,
-    "streetTile": -29
+    "parkTile": -32,
+    "ruinfloor1Tile": -44,
+    "ruinfloor2Tile": -33,
+    "ruinfloor3Tile": -42,
+    "ruinfloor4Tile": -48,
+    "streetTile": -29,
+    "trainstationopenTile": -50,
+    "trainstationroofedTile": -49
   }
 }

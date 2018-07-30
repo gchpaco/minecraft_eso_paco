@@ -1,73 +1,113 @@
 [
   {
-    "ore": "minecraft:coal_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 32,
-    "size": 16,
-    "miny": 10,
-    "maxy": 246
-  },
-  {
-    "ore": "minecraft:iron_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 24,
-    "size": 16,
-    "miny": 10,
-    "maxy": 246
-  },
-  {
-    "ore": "minecraft:lapis_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 12,
-    "size": 8,
-    "miny": 10,
-    "maxy": 246
-  },
-  {
-    "ore": "minecraft:redstone_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 12,
-    "size": 12,
-    "miny": 10,
-    "maxy": 246
-  },
-  {
-    "ore": "minecraft:gold_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 8,
-    "size": 8,
-    "miny": 10,
-    "maxy": 246
-  },
-  {
-    "ore": "minecraft:diamond_ore",
+    "ore": "geolosys:ore_vanilla",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 4,
-    "size": 8,
-    "miny": 10,
-    "maxy": 246
+    "size": 40,
+    "miny": 1,
+    "maxy": 180
   },
   {
-    "ore": "minecraft:emerald_ore",
+    "ore": "geolosys:ore_vanilla",
+    "oremeta": 1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 3,
+    "size": 20,
+    "miny": 1,
+    "maxy": 180
+  },
+  {
+    "ore": "geolosys:ore_vanilla",
+    "oremeta": 4,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 30,
+    "miny": 1,
+    "maxy": 180
+  },
+  {
+    "ore": "evilcraft:dark_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 2,
+    "size": 10,
+    "miny": 1,
+    "maxy": 180
+  },
+  {
+    "ore": "thaumcraft:ore_cinnabar",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 1,
+    "size": 8,
+    "miny": 1,
+    "maxy": 180
+  },
+  {
+    "ore": "thaumcraft:ore_amber",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 10,
+    "miny": 5,
+    "maxy": 180
+  },
+  {
+    "ore": "ebwizardry:crystal_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 10,
+    "miny": 5,
+    "maxy": 180
+  },
+  {
+    "ore": "geolosys:ore",
+    "oremeta": 8,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 1,
     "size": 4,
-    "miny": 10,
-    "maxy": 246
+    "miny": 5,
+    "maxy": 60
+  },
+  {
+    "ore": "astralsorcery:blockcustomore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 4,
+    "miny": 160,
+    "maxy": 190
+  },
+  {
+    "ore": "astralsorcery:blockcustomore",
+    "oremeta": 1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 4,
+    "miny": 190,
+    "maxy": 220
+  },
+  {
+    "ore": "astralsorcery:blockcustomsandore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 8,
+    "miny": 220,
+    "maxy": 250
   },
   {
     "ore": "minecraft:monster_egg",

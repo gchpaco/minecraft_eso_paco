@@ -27,7 +27,14 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+                "restriction: "blacklist",
+                "value": [
+                    7,
+                    10,
+                    20
+                    ]
+            }
 		},
 		"oil_shale_clathrate": {
 			"distribution": "uniform",
@@ -77,7 +84,14 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+                "restriction: "blacklist",
+                "value": [
+                    7,
+                    10,
+                    20
+                    ]
+            }
 		},
 		"oil_sand": {
 			"distribution": "uniform",
@@ -122,7 +136,10 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+                    7,
+                    10,
+                    20
 				]
 			}
 		},
@@ -161,7 +178,10 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+                    7,
+                    10,
+                    20
 				]
 			}
 		}

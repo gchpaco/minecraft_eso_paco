@@ -28,7 +28,10 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+                    7,
+                    10,
+                    20
 				]
 			}
 		},
@@ -63,7 +66,14 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+                "restriction: "blacklist",
+                "value": [
+                    7,
+                    10,
+                    20
+                    ]
+            }
 		},
 		"ender_clathrate": {
 			"distribution": "uniform",
@@ -89,7 +99,14 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+                "restriction: "blacklist",
+                "value": [
+                    7,
+                    10,
+                    20
+                    ]
+            }
 		}
 	}
 }

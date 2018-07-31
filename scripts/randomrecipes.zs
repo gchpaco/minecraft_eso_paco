@@ -211,11 +211,11 @@ val mtreat = <doggytalents:master_treat>;
 val dtreat = <doggytalents:dire_treat>;
 
 recipes.remove(streat);
-recipes.addShaped(streat*5,
+recipes.addShapeless(streat*5,
     [treat, treat, treat, treat, treat, <botania:rune:8>]);
-recipes.addShaped(streat*5,
+recipes.addShapeless(streat*5,
     [treat, treat, treat, treat, treat, <embers:block_dawnstone>]);
-recipes.addShaped(streat*5,
+recipes.addShapeless(streat*5,
     [treat, treat, treat, treat, treat, <bloodmagic:slate:2>]);
 
 recipes.remove(mtreat);

@@ -203,3 +203,32 @@ recipes.addShaped(<totemic:totem_whittling_knife>,
 recipes.addShapeless(<minecraft:flint>*2,
     [<ore:itemRawFlint>,<ore:itemRawFlint>]);
     
+    
+// Doggy treat repricing.
+val treat = <doggytalents:training_treat>;
+val streat = <doggytalents:super_treat>;
+val mtreat = <doggytalents:master_treat>;
+val dtreat = <doggytalents:dire_treat>;
+
+recipes.remove(streat);
+recipes.addShaped(streat*5,
+    [treat, treat, treat, treat, treat, <botania:rune:8>]);
+recipes.addShaped(streat*5,
+    [treat, treat, treat, treat, treat, <embers:block_dawnstone>]);
+recipes.addShaped(streat*5,
+    [treat, treat, treat, treat, treat, <bloodmagic:slate:2>]);
+
+recipes.remove(mtreat);
+recipes.addShapeless(mtreat*5,
+    [streat, streat, streat, streat, streat, <embers:inflictor_gem>]);
+recipes.addShapeless(mtreat*5,
+    [streat, streat, streat, streat, streat, <botania:manaresource:9>]);
+recipes.addShapeless(mtreat*5,
+    [streat, streat, streat, streat, streat, <bloodmagic:soul_gem:1>]);
+recipes.addShapeless(mtreat*5,
+    [streat, streat, streat, streat, streat, <iceandfire:dragon_skull:*>]);
+
+    
+    
+
+

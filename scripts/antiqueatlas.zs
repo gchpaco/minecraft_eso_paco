@@ -53,7 +53,9 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
                 <magicbees:hiveblock:2>, // resonant hive
                 <magicbees:hiveblock:3>, // deep hive
                 <magicbees:hiveblock:4>, // infernal hive
-                <magicbees:hiveblock:5> // oblivion hive
+                <magicbees:hiveblock:5>, // oblivion hive
+                <astralsorcery:tilecollectorcrystal>, // Astral Sorcery Thingy
+                <evilcraft:environmental_accumulator> // Evilcraft environmental accumulator
             ] as IItemStack[];
 
         val metalarray = [ 

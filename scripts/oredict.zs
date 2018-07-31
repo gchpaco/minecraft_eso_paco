@@ -67,3 +67,21 @@ dustsilver.add(<magneticraft:dusts:12>);
 dusttin.add(<magneticraft:dusts:13>);
 dustzinc.add(<magneticraft:dusts:14>);
 
+val rail = <ore:rail>;
+
+rail.add(<botania:ghostrail>);
+rail.add(<expindustry:rail_bridge>);
+rail.add(<expindustry:type_rail>);
+rail.add(<expindustry:rail_bridge_powered>);
+rail.add(<extrarails:locking_rail>);
+rail.add(<extrarails:direction_rail>);
+rail.add(<extrarails:teleporting_rail>);
+rail.add(<extrarails:comparator_rail>);
+rail.add(<extrarails:wooden_rail>);
+rail.add(<tconstruct:wood_rail>);
+rail.add(<tconstruct:wood_rail_trapdoor>);
+
+
+
+
+

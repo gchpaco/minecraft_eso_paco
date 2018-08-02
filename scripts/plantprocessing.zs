@@ -67,32 +67,32 @@ recipes.addShapeless(<vanillafoodpantry:compacted_seeds>,
 
 // oak
 recipes.remove(<earthworks:block_wood_shingle:0>);
-recipes.addShapeless(<earthworks:block_wood_shingle:0>,
+recipes.addShapeless(<earthworks:block_wood_shingle:0>*6,
     [<earthworks:tool_froe>.reuse(), <minecraft:log:0>]);
     
 // spruce
 recipes.remove(<earthworks:block_wood_shingle:1>);
-recipes.addShapeless(<earthworks:block_wood_shingle:1>,
+recipes.addShapeless(<earthworks:block_wood_shingle:1>*6,
     [<earthworks:tool_froe>.reuse(), <minecraft:log:1>]);
 
 // birch
 recipes.remove(<earthworks:block_wood_shingle:2>);
-recipes.addShapeless(<earthworks:block_wood_shingle:2>,
+recipes.addShapeless(<earthworks:block_wood_shingle:2>*6,
     [<earthworks:tool_froe>.reuse(), <minecraft:log:2>]);
 
 // jungle
 recipes.remove(<earthworks:block_wood_shingle:3>);
-recipes.addShapeless(<earthworks:block_wood_shingle:3>,
+recipes.addShapeless(<earthworks:block_wood_shingle:3>*6,
     [<earthworks:tool_froe>.reuse(), <minecraft:log:3>]);
 
 // acacia
 recipes.remove(<earthworks:block_wood_shingle:4>);
-recipes.addShapeless(<earthworks:block_wood_shingle:4>,
+recipes.addShapeless(<earthworks:block_wood_shingle:4>*6,
     [<earthworks:tool_froe>.reuse(), <minecraft:log2:0>]);
 
 // dark oak
 recipes.remove(<earthworks:block_wood_shingle:5>);
-recipes.addShapeless(<earthworks:block_wood_shingle:5>,
+recipes.addShapeless(<earthworks:block_wood_shingle:5>*6,
     [<earthworks:tool_froe>.reuse(), <minecraft:log2:1>]);
 
     

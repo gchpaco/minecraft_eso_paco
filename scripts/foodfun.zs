@@ -67,3 +67,15 @@ recipes.addShapeless(<vanillafoodpantry:breads:420>,
     [<ore:foodFlourCorn>, <ore:foodFlourCorn>, <ore:foodFlourCorn>, <ore:portionWaterSmall>, <vanillafoodpantry:sand_jar>.reuse()]);
 //    
 
+// Ancient Warfare 2 food bundle. For NPC creation.
+val foodbundle = <ancientwarfare:component:100>;
+recipes.addShaped(foodbundle,
+    [[<ore:ingredientKebabFruit>,<ore:ingredientKebabFill>,null],
+     [<ore:foodBread>,<ore:foodGoodMeatCooked>,null],
+     [<ore:portionWater>,<ore:foodRedMeatCooked>,null]]);
+     
+
+
+
+
+

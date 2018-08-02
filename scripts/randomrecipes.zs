@@ -197,8 +197,8 @@ recipes.addShaped(<iceandfire:stymphalian_arrow>*4,
 
 recipes.addShaped(<totemic:totem_whittling_knife>,
     [[null, null, <ore:ingotIron>],
-     [null, <ore:stick>, <ore:itemRawFlint>],
-     [<ore:stick>, null, null]]);
+     [null, <ore:stickWood>, <ore:itemRawFlint>],
+     [<ore:stickWood>, null, null]]);
 
 recipes.addShapeless(<minecraft:flint>*2,
     [<ore:itemRawFlint>,<ore:itemRawFlint>]);

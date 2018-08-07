@@ -123,47 +123,47 @@ recipes.addShaped(enderhook,
 
 furnace.addRecipe(
     <embers:nugget_aluminum>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "aluminum"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "aluminum"}}));
 
 furnace.addRecipe(
     <tconstruct:nuggets:1>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "ardite"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "ardite"}}));
  
 furnace.addRecipe(
     <tconstruct:nuggets:0>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "cobalt"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "cobalt"}}));
     
 furnace.addRecipe(
     <embers:nugget_copper>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "copper"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "copper"}}));
     
 furnace.addRecipe(
     <minecraft:gold_nugget>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "gold"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "gold"}}));
     
 furnace.addRecipe(
     <embers:nugget_iron>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "iron"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "iron"}}));
     
 furnace.addRecipe(
     <embers:nugget_lead>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "lead"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "lead"}}));
     
 furnace.addRecipe(
     <embers:nugget_nickel>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "nickel"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "nickel"}}));
     
 furnace.addRecipe(
     <embers:nugget_silver>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "silver"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "silver"}}));
     
 furnace.addRecipe(
     <embers:nugget_tin>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "tin"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "tin"}}));
  
 furnace.addRecipe(
     <immersiveengineering:metal:25>*4,
-    <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "uranium"}}));
+    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "uranium"}}));
 
 
 // Botania: Alternate corporea net recipes

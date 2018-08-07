@@ -37,7 +37,7 @@ curse2local:
 	done
 
 local2curse:
-	for dir in mods; do \
+	for dir in $(DIRS); do \
 		rsync $(RSYNC_FLAGS) instance/$$dir/ curse/$$dir/; \
 	done
 

@@ -118,53 +118,66 @@ recipes.addShaped(enderhook,
 
 
 // oreberry smelting
+// not currently functional
 
 // aluminum, ardite, cobalt, copper, emerald, glowstone, gold, iron, lead, nickel, nether quartz, silver, tin, uranium
+// recipes.addShaped(<minecraft:record_11>, [[<minecraft:wool:14>, <ore:dyeLightBlue>], 
 
-furnace.addRecipe(
-    <embers:nugget_aluminum>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "aluminum"}}));
+// [<minecraft:iron_ingot>.withTag({essence_type: "minecraft:skeleton"}).onlyWithTag({essence_type: "minecraft:skeleton"})
 
-furnace.addRecipe(
-    <tconstruct:nuggets:1>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "ardite"}}));
+//, <minecraft:iron_ingot>.withTag({essence_type: "minecraft:creeper"}).onlyWithTag({essence_type: "minecraft:creeper"})]]);
+
+/*
+val aluminumCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "aluminum"}}).onlyWithTag({OreShrubVariant: {Name: "aluminum"}});
+val arditeCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "ardite"}}).onlyWithTag({OreShrubVariant: {Name: "ardite"}});
+val cobaltCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "cobalt"}}).onlyWithTag({OreShrubVariant: {Name: "cobalt"}});
+val copperCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "copper"}}).onlyWithTag({OreShrubVariant: {Name: "copper"}});
+val goldCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "gold"}}).onlyWithTag({OreShrubVariant: {Name: "gold"}});
+val ironCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "iron"}}).onlyWithTag({OreShrubVariant: {Name: "iron"}});
+val leadCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "lead"}}).onlyWithTag({OreShrubVariant: {Name: "lead"}});
+val nickelCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "nickel"}}).onlyWithTag({OreShrubVariant: {Name: "nickel"}});
+val silverCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "silver"}}).onlyWithTag({OreShrubVariant: {Name: "silver"}});
+val tinCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "tin"}}).onlyWithTag({OreShrubVariant: {Name: "tin"}});
+val uraniumCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Name: "uranium"}}).onlyWithTag({OreShrubVariant: {Name: "uranium"}});
+
+furnace.addRecipe(<embers:nugget_aluminum>*4, aluminumCB);
+
+furnace.addRecipe(<tconstruct:nuggets:1>*4, arditeCB);
  
-furnace.addRecipe(
-    <tconstruct:nuggets:0>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "cobalt"}}));
+furnace.addRecipe(<tconstruct:nuggets:0>*4, cobaltCB);
     
 furnace.addRecipe(
     <embers:nugget_copper>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "copper"}}));
+    copperCB);
     
 furnace.addRecipe(
     <minecraft:gold_nugget>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "gold"}}));
+    goldCB);
     
 furnace.addRecipe(
     <embers:nugget_iron>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "iron"}}));
+    ironCB);
     
 furnace.addRecipe(
     <embers:nugget_lead>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "lead"}}));
+    leadCB);
     
 furnace.addRecipe(
     <embers:nugget_nickel>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "nickel"}}));
+    nickelCB);
     
 furnace.addRecipe(
     <embers:nugget_silver>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "silver"}}));
+    silverCB);
     
 furnace.addRecipe(
     <embers:nugget_tin>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "tin"}}));
+    tinCB);
  
 furnace.addRecipe(
     <immersiveengineering:metal:25>*4,
-    <oreshrubs:compressed_oreberries>.onlyWithTag({OreShrubVariant: {Name: "uranium"}}));
-
+    uraniumCB);
+*/
 
 // Botania: Alternate corporea net recipes
 

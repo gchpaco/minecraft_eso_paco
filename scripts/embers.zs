@@ -22,3 +22,17 @@ mods.embers.Melter.add(<liquid:syrmorite> * 432, <jaopca:item_clustersyrmorite>)
 mods.embers.Melter.add(<liquid:tungsten> * 432, <jaopca:item_clustertungsten>);
 mods.embers.Melter.add(<liquid:zinc> * 432, <jaopca:item_clusterzinc>);
 mods.embers.Melter.add(<liquid:uranium> * 432, <jaopca:item_clusteruranium>);
+
+
+//mods.embers.Stamper.add(<output>,<liquid>,<stamp>,<input>);
+//3:42 PM] gchpaco: embers: add stamper recipe for blaze powder breakdown: blaze rod, flat plate stamp -> 4x or 5x blaze powder.
+
+mods.embers.Stamper.add(<minecraft:blaze_powder>*4,null,<embers:stamp_flat>,<minecraft:blaze_rod>);
+
+
+//mods.embers.Mixer.add(<outputfluid>,[<inputfluid1>,<inputfluid2>,<inputfluid3>,...]);
+mods.embers.Mixer.add(<liquid:invar> * 144, 
+    [<liquid:iron> * 96, <liquid:nickel> * 48]);
+mods.embers.Mixer.add(<liquid:constantan> * 2, 
+    [<liquid:copper> * 1, <liquid:nickel> * 1]);
+

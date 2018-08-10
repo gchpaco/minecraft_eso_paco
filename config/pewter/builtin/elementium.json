@@ -13,7 +13,7 @@
       "attackDamage": 4.5,
       "speed": 6.25,
       "durability": 480,
-      "harvestLevel": 1
+      "harvestLevel": 4
     },
     "handle": {
       "modifier": 1.05,

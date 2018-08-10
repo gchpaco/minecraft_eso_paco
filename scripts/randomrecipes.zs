@@ -243,5 +243,70 @@ recipes.addShapeless(mtreat*5,
 
     
     
+// Earthworks block cycling
 
+// wattle and daub
+recipes.addShapeless(<earthworks:daub_cob_arrow0>, [<earthworks:daub_cob_arrow3>]);
+recipes.addShapeless(<earthworks:daub_cob_arrow1>, [<earthworks:daub_cob_arrow0>]);
+recipes.addShapeless(<earthworks:daub_cob_arrow2>, [<earthworks:daub_cob_arrow1>]);
+recipes.addShapeless(<earthworks:daub_cob_arrow3>, [<earthworks:daub_cob_arrow2>]);
+
+recipes.addShapeless(<earthworks:daub_cob_bottom_l>, [<earthworks:daub_cob_top_r>]);
+recipes.addShapeless(<earthworks:daub_cob_bottom_r>, [<earthworks:daub_cob_bottom_l>]);
+recipes.addShapeless(<earthworks:daub_cob_top_l>, [<earthworks:daub_cob_bottom_r>]);
+recipes.addShapeless(<earthworks:daub_cob_top_r>, [<earthworks:daub_cob_top_l>]);
+
+recipes.addShapeless(<earthworks:daub_cob_bottom>, [<earthworks:daub_cob_top>]);
+recipes.addShapeless(<earthworks:daub_cob_left>, [<earthworks:daub_cob_bottom>]);
+recipes.addShapeless(<earthworks:daub_cob_right>, [<earthworks:daub_cob_left>]);
+recipes.addShapeless(<earthworks:daub_cob_top>, [<earthworks:daub_cob_right>]);
+
+recipes.addShapeless(<earthworks:daub_cob_parallel_hor>, [<earthworks:daub_cob_parallel_vert>]);
+recipes.addShapeless(<earthworks:daub_cob_parallel_vert>, [<earthworks:daub_cob_parallel_hor>]);
+
+recipes.addShapeless(<earthworks:daub_cob_slash_back>, [<earthworks:daub_cob_slash>]);
+recipes.addShapeless(<earthworks:daub_cob_slash>, [<earthworks:daub_cob_slash_back>]);
+
+recipes.addShapeless(<earthworks:daub_cob_triangle0>, [<earthworks:daub_cob_triangle3>]);
+recipes.addShapeless(<earthworks:daub_cob_triangle1>, [<earthworks:daub_cob_triangle0>]);
+recipes.addShapeless(<earthworks:daub_cob_triangle2>, [<earthworks:daub_cob_triangle1>]);
+recipes.addShapeless(<earthworks:daub_cob_triangle3>, [<earthworks:daub_cob_triangle2>]);
+
+recipes.addShapeless(<earthworks:daub_cob_xbottom>, [<earthworks:daub_cob_xtop>]);
+recipes.addShapeless(<earthworks:daub_cob_xleft>, [<earthworks:daub_cob_xbottom>]);
+recipes.addShapeless(<earthworks:daub_cob_xright>, [<earthworks:daub_cob_xleft>]);
+recipes.addShapeless(<earthworks:daub_cob_xtop>, [<earthworks:daub_cob_xright>]);
+
+
+//lath and plaster
+recipes.addShapeless(<earthworks:plaster_arrow0>, [<earthworks:plaster_arrow3>]);
+recipes.addShapeless(<earthworks:plaster_arrow1>, [<earthworks:plaster_arrow0>]);
+recipes.addShapeless(<earthworks:plaster_arrow2>, [<earthworks:plaster_arrow1>]);
+recipes.addShapeless(<earthworks:plaster_arrow3>, [<earthworks:plaster_arrow2>]);
+
+recipes.addShapeless(<earthworks:plaster_bottom_l>, [<earthworks:plaster_top_r>]);
+recipes.addShapeless(<earthworks:plaster_bottom_r>, [<earthworks:plaster_bottom_l>]);
+recipes.addShapeless(<earthworks:plaster_top_l>, [<earthworks:plaster_bottom_r>]);
+recipes.addShapeless(<earthworks:plaster_top_r>, [<earthworks:plaster_top_l>]);
+
+recipes.addShapeless(<earthworks:plaster_bottom>, [<earthworks:plaster_top>]);
+recipes.addShapeless(<earthworks:plaster_left>, [<earthworks:plaster_bottom>]);
+recipes.addShapeless(<earthworks:plaster_right>, [<earthworks:plaster_left>]);
+recipes.addShapeless(<earthworks:plaster_top>, [<earthworks:plaster_right>]);
+
+recipes.addShapeless(<earthworks:plaster_parallel_hor>, [<earthworks:plaster_parallel_vert>]);
+recipes.addShapeless(<earthworks:plaster_parallel_vert>, [<earthworks:plaster_parallel_hor>]);
+
+recipes.addShapeless(<earthworks:plaster_slash_back>, [<earthworks:plaster_slash>]);
+recipes.addShapeless(<earthworks:plaster_slash>, [<earthworks:plaster_slash_back>]);
+
+recipes.addShapeless(<earthworks:plaster_triangle0>, [<earthworks:plaster_triangle3>]);
+recipes.addShapeless(<earthworks:plaster_triangle1>, [<earthworks:plaster_triangle0>]);
+recipes.addShapeless(<earthworks:plaster_triangle2>, [<earthworks:plaster_triangle1>]);
+recipes.addShapeless(<earthworks:plaster_triangle3>, [<earthworks:plaster_triangle2>]);
+
+recipes.addShapeless(<earthworks:plaster_xbottom>, [<earthworks:plaster_xtop>]);
+recipes.addShapeless(<earthworks:plaster_xleft>, [<earthworks:plaster_xbottom>]);
+recipes.addShapeless(<earthworks:plaster_xright>, [<earthworks:plaster_xleft>]);
+recipes.addShapeless(<earthworks:plaster_xtop>, [<earthworks:plaster_xright>]);
 

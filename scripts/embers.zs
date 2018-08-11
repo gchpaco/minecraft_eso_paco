@@ -25,14 +25,25 @@ mods.embers.Melter.add(<liquid:uranium> * 432, <jaopca:item_clusteruranium>);
 
 
 //mods.embers.Stamper.add(<output>,<liquid>,<stamp>,<input>);
-//3:42 PM] gchpaco: embers: add stamper recipe for blaze powder breakdown: blaze rod, flat plate stamp -> 4x or 5x blaze powder.
 
 mods.embers.Stamper.add(<minecraft:blaze_powder>*4,null,<embers:stamp_flat>,<minecraft:blaze_rod>);
 
+// invar ingot and plate
+mods.embers.Stamper.add(<thermalfoundation:material:162>,<liquid:invar>*144,<embers:stamp_bar>,null);
+mods.embers.Stamper.add(<thermalfoundation:material:354>,<liquid:invar>*144,<embers:stamp_plate>,null);
+
+// constantan ingot and plate
+mods.embers.Stamper.add(<immersiveengineering:metal:6>,<liquid:constantan>*144,<embers:stamp_bar>,null);
+mods.embers.Stamper.add(<immersiveengineering:metal:36>,<liquid:constantan>*144,<embers:stamp_plate>,null);
+
 
 //mods.embers.Mixer.add(<outputfluid>,[<inputfluid1>,<inputfluid2>,<inputfluid3>,...]);
+
+// invar alloying
 mods.embers.Mixer.add(<liquid:invar> * 144, 
     [<liquid:iron> * 96, <liquid:nickel> * 48]);
+
+// constantan alloying    
 mods.embers.Mixer.add(<liquid:constantan> * 2, 
     [<liquid:copper> * 1, <liquid:nickel> * 1]);
 

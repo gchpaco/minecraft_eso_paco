@@ -310,3 +310,6 @@ recipes.addShapeless(<earthworks:plaster_xleft>, [<earthworks:plaster_xbottom>])
 recipes.addShapeless(<earthworks:plaster_xright>, [<earthworks:plaster_xleft>]);
 recipes.addShapeless(<earthworks:plaster_xtop>, [<earthworks:plaster_xright>]);
 
+// brute-forcing the blueprint -> sketch problem
+
+recipes.addShapeless(<architect:sketch>, [<architect:blueprint>]);

@@ -313,3 +313,61 @@ recipes.addShapeless(<earthworks:plaster_xtop>, [<earthworks:plaster_xright>]);
 // brute-forcing the blueprint -> sketch problem
 
 recipes.addShapeless(<architect:sketch>, [<architect:blueprint>]);
+
+
+// Ice and Fire's Witherbone is cross-compatible with other mods' equivalents, but I&F itself does not use oredict.
+
+val dragonbone = <iceandfire:dragonbone>;
+val witherbone = <ore:boneWithered>;
+
+recipes.addShapeless(<iceandfire:wither_shard>*3, [witherbone]);
+
+
+recipes.addShaped(<iceandfire:dragonbone_sword>,
+    [[null, dragonbone, null],
+     [null, dragonbone, null],
+     [null, witherbone, null]]);
+
+recipes.addShaped(<iceandfire:dragonbone_shovel>,
+    [[null, dragonbone, null],
+     [null, witherbone, null],
+     [null, witherbone, null]]);
+
+recipes.addShaped(<iceandfire:dragonbone_pickaxe>,
+    [[dragonbone, dragonbone, dragonbone],
+     [null, witherbone, null],
+     [null, witherbone, null]]);
+     
+recipes.addShaped(<iceandfire:dragonbone_hoe>,
+    [[dragonbone, dragonbone, null],
+     [null, witherbone, null],
+     [null, witherbone, null]]);
+     
+recipes.addShaped(<iceandfire:dragonbone_axe>,
+    [[dragonbone, dragonbone, null],
+     [dragonbone, witherbone, null],
+     [null, witherbone, null]]);
+     
+recipes.addShaped(<iceandfire:dragonbone_bow>,
+    [[null, dragonbone, <ore:string>],
+     [witherbone, null, <ore:string>],
+     [null, dragonbone, <ore:string>]]);
+     
+// Limestone to Quicklime
+
+recipes.addShapeless(<earthworks:item_quicklime>, [<ore:stoneLimestone>]);
+
+
+// 'egyptian blue' analog
+
+recipes.addShapeless(<thermalfoundation:dye:4>*9,
+    [<minecraft:dye:15>, <ore:dustCopper>, <earthworks:item_quicklime>,
+     <earthworks:item_sand>, <earthworks:item_sand>, <earthworks:item_sand>, 
+     <earthworks:item_sand>, <earthworks:item_sand>, <earthworks:item_sand>]);
+
+// rustic 'tiny pile of iron dust' to TF pulverized iron
+
+recipes.addShapeless(<thermalfoundation:material:0>, 
+    [<rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, 
+     <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, 
+     <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>]);

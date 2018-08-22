@@ -11,6 +11,7 @@ val dryableseeds = <ore:itemDryableSeed>;
 val foodgoodmeat = <ore:foodGoodMeat>;
 val foodgoodmeatcooked = <ore:foodGoodMeatCooked>;
 val nativegame = <ore:foodNativeGameCooked>;
+val fishsausagemain = <ore:ingredientFishSausageMain>;
 
 foodgoodmeat.add(<reptilemod:croc_raw>);
 foodgoodmeat.add(<reptilemod:turtle_raw>);
@@ -37,6 +38,9 @@ kebabadventure.add(<reptilemod:turtle_raw>);
 kebabadventure.add(<reptilemod:reptile_raw>);
 kebabadventure.add(<twilightforest:raw_meef>);
 kebabadventure.add(<twilightforest:raw_venison>);
+
+fishsausagemain.add(<aquaculture:food:3>);
+
 
 recipes.addShaped(<vanillafoodpantry:kebab:0>*4,
     [[kebabfill, kebabfill],

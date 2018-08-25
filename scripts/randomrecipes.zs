@@ -93,29 +93,6 @@ recipes.addShapeless(<minecraft:book>, [<minecraft:redstone>, <botania:lexicon>]
 recipes.addShapeless(<minecraft:book>, [<minecraft:redstone>, <evilcraft:origins_of_darkness>]);
 
 
-// Hooked recipes.
-
-val ironhook = <hooked:hook:1>;
-val diamondhook = <hooked:hook:2>;
-val redhook = <hooked:hook:3>;
-val enderhook = <hooked:hook:4>;
-
-// No more diamond hook!
-recipes.removeShaped(diamondhook);
-
-// red and ender hooks get new recipes.
-recipes.removeShaped(redhook);
-recipes.addShaped(redhook,
-    [[<minecraft:piston>, <ore:dustRedstone>, <ore:ingotSignalum>],
-     [null, ironhook, <minecraft:redstone>],
-     [<minecraft:comparator>, null, <minecraft:piston>]]);
-     
-recipes.removeShaped(enderhook);
-recipes.addShaped(enderhook,
-    [[<ore:enderpearl>, <ore:rodBlaze>, <ore:ingotEnderium>],
-     [null, ironhook, <ore:rodBlaze>],
-     [<ore:dustBlaze>, null, <ore:enderpearl>]]);
-
 
 // oreberry smelting
 // not currently functional

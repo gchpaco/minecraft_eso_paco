@@ -1,0 +1,13 @@
+{
+  "dark_ore": {
+    "type": "sphere",
+    "ore": "evilcraft:dark_ore",
+    "stone": "minecraft:stone",
+    "rarity": 130,
+    "min_y": 6,
+    "max_y": 24,
+    "density": 20,
+    "vertical_size": 5,
+    "horizontal_size": 6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resonating_ore": {
+    "type": "sphere",
+    "ore": "deepresonance:resonating_ore",
+    "stone": "minecraft:stone",
+    "rarity": 240,
+    "min_y": 2,
+    "max_y": 15,
+    "density": 20,
+    "vertical_size": 7,
+    "horizontal_size": 3
+  }
+}

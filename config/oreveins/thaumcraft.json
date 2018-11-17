@@ -1,0 +1,24 @@
+{
+  "amber_ore": {
+    "type": "sphere",
+    "ore": "thaumcraft:ore_amber",
+    "stone": "minecraft:stone",
+    "rarity": 130,
+    "min_y": 20,
+    "max_y": 50,
+    "density": 40,
+    "vertical_size": 3,
+    "horizontal_size": 7
+  },
+  "cinnabar_ore": {
+    "type": "sphere",
+    "ore": "thaumcraft:ore_cinnabar",
+    "stone": "minecraft:stone",
+    "rarity": 130,
+    "min_y": 20,
+    "max_y": 50,
+    "density": 40,
+    "vertical_size": 3,
+    "horizontal_size": 7
+  }
+}

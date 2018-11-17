@@ -1,0 +1,108 @@
+{
+  "deep_tin_ore": {
+    "type": "sphere",
+    "ore": "embers:ore_tin",
+    "stone": "minecraft:stone",
+    "rarity": 140,
+    "min_y": 8,
+    "max_y": 43,
+    "density": 60,
+    "vertical_size": 6,
+    "horizontal_size": 7
+  },
+  "shallow_tin_ore": {
+    "type": "sphere",
+    "ore": "embers:ore_tin",
+    "stone": "minecraft:stone",
+    "rarity": 200,
+    "min_y": 44,
+    "max_y": 68,
+    "density": 60,
+    "vertical_size": 7,
+    "horizontal_size": 6
+  },
+  "deep_copper_ore": {
+    "type": "sphere",
+    "ore": "embers:ore_copper",
+    "stone": "minecraft:stone",
+    "rarity": 130,
+    "min_y": 12,
+    "max_y": 44,
+    "density": 60,
+    "vertical_size": 6,
+    "horizontal_size": 7
+  },
+  "shallow_copper_ore": {
+    "type": "sphere",
+    "ore": "embers:ore_copper",
+    "stone": "minecraft:stone",
+    "rarity": 200,
+    "min_y": 39,
+    "max_y": 44,
+    "density": 60,
+    "vertical_size": 7,
+    "horizontal_size": 6
+  },
+  "lead_silver_ore": {
+    "type": "sphere",
+    "ore": [
+      {
+        "block": "embers:ore_lead",
+        "weight": 1
+      },
+      {
+        "block": "embers:ore_silver",
+        "weight": 1
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 140,
+    "min_y": 6,
+    "max_y": 32,
+    "density": 60,
+    "vertical_size": 8,
+    "horizontal_size": 5
+  },
+  "iron_nickel_ore": {
+    "type": "sphere",
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 2
+      },
+      {
+        "block": "embers:ore_nickel",
+        "weight": 1
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 170,
+    "min_y": 6,
+    "max_y": 32,
+    "density": 70,
+    "vertical_size": 5,
+    "horizontal_size": 7
+  },
+  "aluminum_ore": {
+    "type": "sphere",
+    "ore": "embers:ore_aluminum",
+    "stone": "minecraft:stone",
+    "rarity": 130,
+    "min_y": 45,
+    "max_y": 70,
+    "density": 50,
+    "vertical_size": 4,
+    "horizontal_size": 8
+  },
+  "quartz_ore": {
+    "type": "sphere",
+    "ore": "embers:ore_quartz",
+    "stone": "minecraft:stone",
+    "rarity": 170,
+    "min_y": 6,
+    "max_y": 29,
+    "density": 40,
+    "vertical_size": 10,
+    "horizontal_size": 4
+  }
+}

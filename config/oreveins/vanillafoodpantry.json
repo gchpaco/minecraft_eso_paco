@@ -1,0 +1,35 @@
+{
+  "rock_salt_ore": {
+    "type": "cluster",
+    "ore": "vanillafoodpantry:rock_salt_ore",
+    "stone": "minecraft:stone",
+    "rarity": 130,
+    "min_y": 30,
+    "max_y": 80,
+    "density": 40,
+    "vertical_size": 2,
+    "horizontal_size": 5
+  },
+  "natron_ore": {
+    "type": "cluster",
+    "ore": "vanillafoodpantry:natron_ore",
+    "stone": "minecraft:stone",
+    "rarity": 130,
+    "min_y": 30,
+    "max_y": 80,
+    "density": 40,
+    "vertical_size": 2,
+    "horizontal_size": 5
+  },
+  "trona_ore": {
+    "type": "cluster",
+    "ore": "vanillafoodpantry:trona_ore",
+    "stone": "minecraft:stone",
+    "rarity": 1300,
+    "min_y": 30,
+    "max_y": 80,
+    "density": 40,
+    "vertical_size": 3,
+    "horizontal_size": 5
+  }
+}

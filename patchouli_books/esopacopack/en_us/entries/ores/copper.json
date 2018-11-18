@@ -1,0 +1,26 @@
+{
+  "name": "Copper Ores",
+  "icon": "embers:ore_copper",
+  "flag": "mod:embers",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "39-59",
+      "ore": "Malachite",
+      "biome": "Any",
+      "block": "embers:ore_copper",
+      "description": "$(italic)Malachite is a copper$(br)carbonate hydroxide$(br)mineral. Malachite can be$(br)used as a mineral pigment in green paints.$()"
+    },
+    {
+      "type": "oregen",
+      "height": "12-32",
+      "ore": "Azurite",
+      "biome": "Any",
+      "block": "embers:ore_copper",
+      "description": "$(italic)Azurite is a soft,$(br)deep blue copper$(br)mineral produced by$(br)weathering of copper ore deposits.$()"
+    }
+  ]
+}

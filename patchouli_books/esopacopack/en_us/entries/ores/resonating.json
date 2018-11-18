@@ -1,0 +1,18 @@
+{
+  "name": "Resonanting Ore",
+  "icon": "deepresonance:resonating_ore",
+  "flag": "mod:deepresonance",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "2-15",
+      "ore": "Resonating Ore",
+      "biome": "Any",
+      "block": "deepresonance:resonating_ore",
+      "description": "$(italic)Resonating ore is a$(br)natural material that$(br)lends itself to forming crystals that are excellent sources of RF energy.$()"
+    }
+  ]
+}

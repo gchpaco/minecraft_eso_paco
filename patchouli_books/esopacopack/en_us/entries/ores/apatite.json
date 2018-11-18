@@ -1,0 +1,18 @@
+{
+  "name": "Apatite Ore",
+  "icon": "forestry:resources:0",
+  "flag": "mod:forestry",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "40-90",
+      "ore": "Apatite Ore",
+      "biome": "Any",
+      "block": "forestry:resources:0",
+      "description": "$(italic)Apatite is a group of phosphate minerals,$(br)usually referring to hydroxylapatite, fluorapatite and chlorapatite.$()"
+    }
+  ]
+}

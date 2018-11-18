@@ -1,0 +1,19 @@
+{
+  "name": "Lead Ores",
+  "icon": "embers:ore_lead",
+  "flag": "mod:embers",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "6-36",
+      "ore": "Galena",
+      "anchor": "galena",
+      "biome": "Any",
+      "block": "embers:ore_lead",
+      "description": "$(italic)Galena is the natural mineral form of lead(II) sulfide. It is the most important ore of lead and an important source of silver.$()"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Trona Ore",
+  "icon": "vanillafoodpantry:trona_ore",
+  "flag": "mod:vanillafoodpantry",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "30-80",
+      "ore": "Trona Ore",
+      "biome": "Any",
+      "block": "vanillafoodpantry:trona_ore",
+      "description": "$(italic)Trona is a non-marine evaporite mineral. It$(br)is mined as the primary$(br)source of sodium carbonate.$()"
+    }
+  ]
+}

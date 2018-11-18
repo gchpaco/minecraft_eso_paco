@@ -1,0 +1,17 @@
+{
+  "name": "Redstone Ore",
+  "icon": "minecraft:redstone_ore",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "5-12",
+      "ore": "Redstone Ore",
+      "biome": "Any",
+      "block": "minecraft:redstone_ore",
+      "description": "$(italic)Redstone dust is a$(br)flat transparent block$(br)that can transmit redstone power.$()"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Amber Ore",
+  "icon": "thaumcraft:ore_amber",
+  "flag": "mod:thaumcraft",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "20-50",
+      "ore": "Amber Ore",
+      "biome": "Any",
+      "block": "thaumcraft:ore_amber",
+      "description": "$(italic)Amber is fossilized$(br)tree resin, which has$(br)been appreciated for its$(br)color and natural beauty$(br)since Neolithic times.$()"
+    }
+  ]
+}

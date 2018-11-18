@@ -1,0 +1,18 @@
+{
+  "name": "Salt Ore",
+  "icon": "vanillafoodpantry:rock_salt_ore",
+  "flag": "mod:vanillafoodpantry",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "30-80",
+      "ore": "Rock Salt Ore",
+      "biome": "Any",
+      "block": "vanillafoodpantry:rock_salt_ore",
+      "description": "$(italic)Halite is a type of$(br)salt, the mineral$(br)(natural) form of sodium chloride (NaCl).$()"
+    }
+  ]
+}

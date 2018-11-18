@@ -1,0 +1,18 @@
+{
+  "name": "Dark Ore",
+  "icon": "evilcraft:dark_ore",
+  "flag": "mod:evilcraft",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "2-15",
+      "ore": "Dark Ore",
+      "biome": "Any",
+      "block": "evilcraft:dark_ore",
+      "description": "$(italic)Dark ore is a source$(br)of magically potent$(br)gems suitable for certain varieties of blood magic.$()"
+    }
+  ]
+}

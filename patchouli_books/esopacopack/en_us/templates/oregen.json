@@ -1,0 +1,52 @@
+{
+  "components": [
+    {
+      "type": "header",
+      "text": "#ore",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "separator",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Height Range:$()",
+      "x": 5,
+      "y": 20
+    },
+    {
+      "type": "text",
+      "text": "#height",
+      "x": 70,
+      "y": 20
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Biomes:$()",
+      "x": 5,
+      "y": 30
+    },
+    {
+      "type": "text",
+      "text": "#biome",
+      "x": 70,
+      "y": 30
+    },
+    {
+      "type": "item",
+      "framed": true,
+      "item": "#block",
+      "x": 94,
+      "y": 45
+    },
+    {
+      "type": "text",
+      "text": "#description",
+      "x": 5,
+      "y": 50
+    }
+  ]
+}

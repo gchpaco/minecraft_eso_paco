@@ -1,0 +1,18 @@
+{
+  "name": "Silver Ores",
+  "icon": "embers:ore_silver",
+  "flag": "mod:embers",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "6-36",
+      "ore": "Galena",
+      "biome": "Any",
+      "block": "embers:ore_silver",
+      "description": "$(italic)$(l:ores/lead#galena)Galena$(/l) deposits often$(br)also contain signifi-$(br)cant amounts of silver as included silver sulfide$(br)mineral phases or as limited solid solution within the galena structure.$()"
+    }
+  ]
+}

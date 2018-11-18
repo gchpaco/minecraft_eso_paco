@@ -1,0 +1,18 @@
+{
+  "name": "Cinnabar Ore",
+  "icon": "thaumcraft:ore_cinnabar",
+  "flag": "mod:thaumcraft",
+  "category": "ores",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "20-50",
+      "ore": "Cinnabar Ore",
+      "biome": "Any",
+      "block": "thaumcraft:ore_cinnabar",
+      "description": "$(italic)Cinnabar refers to the$(br)common bright scarlet$(br)to brick-red form of mercury(II) sulfide (HgS) that is the most common source ore for refining elemental mercury.$()"
+    }
+  ]
+}

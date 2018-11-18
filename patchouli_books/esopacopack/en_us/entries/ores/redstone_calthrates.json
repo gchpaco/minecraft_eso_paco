@@ -1,0 +1,26 @@
+{
+  "name": "Redstone Calthrates",
+  "icon": "thermalfoundation:ore_fluid:2",
+  "category": "ores",
+  "flag": "mod:thermalfoundation",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oregen",
+      "height": "0-20",
+      "ore": "Redstone Calthrate",
+      "biome": "Any",
+      "block": "thermalfoundation:ore_fluid:2",
+      "description": "$(italic)Liquid redstone,$(br)trapped in a rocky$(br)matrix in the earth. The redstone can be liberated through mechanical processing.$()"
+    },
+    {
+      "type": "oregen",
+      "height": "10-40",
+      "ore": "Glowstone Calthrate",
+      "biome": "Nether",
+      "block": "thermalfoundation:ore_fluid:3",
+      "description": "$(italic)Liquid glowstone,$(br)trapped in nether-$(br)rack. The glowstone can be liberated through mechanical processing.$()"
+    }
+  ]
+}

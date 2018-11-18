@@ -1,4 +1,4 @@
-DIRS=config mods scripts structures resources
+DIRS=config mods scripts structures resources patchouli_books
 RSYNC_FLAGS=-cvrl --delete --exclude-from=.gitignore --exclude "memory_repo" --exclude "1.12.2" --exclude "atlas_overlay.cfg"
 
 difflocal:

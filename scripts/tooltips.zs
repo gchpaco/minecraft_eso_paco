@@ -6,6 +6,7 @@
 // Adding tooltips to iron chests
 // I didn't do the upgrades because that's too goddamn much work
 
+/*
 <ironchest:iron_chest:0>.addTooltip("Iron Chest Capacity: 9x6 (54)");
 <ironchest:iron_chest:1>.addTooltip("Gold Chest Capacity: 9x9 (81)");
 <ironchest:iron_chest:2>.addTooltip("Diamond Chest Capacity: 12x9 (108)");
@@ -14,6 +15,7 @@
 <ironchest:iron_chest:5>.addTooltip("Crystal Chest Capacity: 12x9 (108)");
 <ironchest:iron_chest:6>.addTooltip("Obsidian Chest Capacity: 12x9 (108)");
 <ironchest:iron_chest:7>.addTooltip("Dirt Chest Capacity: 1");
+*/
 
 // Fluidity isn't ported to 1.11.2 yet.
 //<fluidity:fluidity_iron_chest:3>.addTooltip("Tin Chest Capacity: 9x5 (45)");

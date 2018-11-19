@@ -1,4 +1,4 @@
-import crafttweaker.events.IEventManager; 
+import crafttweaker.events.IEventManager;
 import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
 import mods.AAMarkerAPI;
@@ -7,40 +7,42 @@ import mods.AAMarkerAPI;
 //Clicking (left- or right-) on a the specified blocks with an Antique Atlas item in-hand will add a marker to that atlas
 //Clicking on a spawner will add a marker with the "skull" icon, and the diamond ore will use the "diamond" icon
 
-events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent){ 
-    
-    if (<antiqueatlas:antique_atlas:*>.matches(event.player.currentItem)) { 
+events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent){
+
+    if (<antiqueatlas:antique_atlas:*>.matches(event.player.currentItem)) {
 
         val samplearray = [
-                <geolosys:ore_sample_vanilla:0>, // coal
-                <geolosys:ore_sample_vanilla:1>, // cinnabar
-                <geolosys:ore_sample_vanilla:2>, // gold
-                <geolosys:ore_sample_vanilla:3>, // lapis lazuli
-                <geolosys:ore_sample_vanilla:4>, // quartz
-                <geolosys:ore_sample_vanilla:5>, // kimberlite (diamond)
-                <geolosys:ore_sample_vanilla:6>, // beryl (emerald)
-                <geolosys:ore_sample:0>, // hematite (iron)
-                <geolosys:ore_sample:1>, // limonite (iron/nickel)
-                <geolosys:ore_sample:2>, // malachite (copper)
-                <geolosys:ore_sample:3>, // azurite (copper)
-                <geolosys:ore_sample:4>, // cassiterite (tin) 
-                <geolosys:ore_sample:5>, // teallite (tin) 
-                <geolosys:ore_sample:6>, // galena (lead/silver)
-                <geolosys:ore_sample:7>, // bauxite (aluminum)
-                <geolosys:ore_sample:8>, // platinum
-                <geolosys:ore_sample:9>, // autunite (uranium)
-                <geolosys:ore_sample:10>,  // sphalerite (zinc)
-                <contenttweaker:sub_block_holder_0:0>, // TC amber
-                <contenttweaker:sub_block_holder_0:1>, // vfp trona
-                <contenttweaker:sub_block_holder_0:2>, // MgC tungsten
-                <contenttweaker:sub_block_holder_0:3>, // quicksilver
-                <contenttweaker:sub_block_holder_0:4>, // vfp natron
-                <contenttweaker:sub_block_holder_0:5>, // ec dark gem
-                <contenttweaker:sub_block_holder_0:6>, // eb crystal ore
-                <contenttweaker:sub_block_holder_0:7>, // pyrite
-                <contenttweaker:sub_block_holder_0:8>, // apatite
-                <contenttweaker:sub_block_holder_0:9>, // vfp rock salt
-                <contenttweaker:sub_block_holder_0:10>, // aetherium (not currently present)
+                <simpleoresamples:sampleblockaluminium>,
+                <simpleoresamples:sampleblockamber>,
+                <simpleoresamples:sampleblockapatite>,
+                <simpleoresamples:sampleblockcertusquartz>,
+                <simpleoresamples:sampleblockcinnabar>,
+                <simpleoresamples:sampleblockcoal>,
+                <simpleoresamples:sampleblockcopper>,
+                <simpleoresamples:sampleblockcrystal>,
+                <simpleoresamples:sampleblockdark>,
+                <simpleoresamples:sampleblockdiamond>,
+                <simpleoresamples:sampleblockemerald>,
+                <simpleoresamples:sampleblockgold>,
+                <simpleoresamples:sampleblockiridium>,
+                <simpleoresamples:sampleblockiron>,
+                <simpleoresamples:sampleblocklapis>,
+                <simpleoresamples:sampleblocklead>,
+                <simpleoresamples:sampleblocknatron>,
+                <simpleoresamples:sampleblocknickel>,
+                <simpleoresamples:sampleblockplatinum>,
+                <simpleoresamples:sampleblockquartz>,
+                <simpleoresamples:sampleblockredstone>,
+                <simpleoresamples:sampleblockresonating>,
+                <simpleoresamples:sampleblockruby>,
+                <simpleoresamples:sampleblocksalt>,
+                <simpleoresamples:sampleblocksapphire>,
+                <simpleoresamples:sampleblocksilver>,
+                <simpleoresamples:sampleblocktin>,
+                <simpleoresamples:sampleblocktrona>,
+                <simpleoresamples:sampleblocktungsten>,
+                <simpleoresamples:sampleblockuranium>,
+                <simpleoresamples:sampleblockzinc>,
                 <forestry:beehives:0>, // forest hive
                 <forestry:beehives:1>, // meadow hive
                 <forestry:beehives:2>, // modest hive
@@ -58,32 +60,25 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
                 <evilcraft:environmental_accumulator> // Evilcraft environmental accumulator
             ] as IItemStack[];
 
-        val metalarray = [ 
+        val metalarray = [
                 <minecraft:gold_ore>,
                 <minecraft:iron_ore>,
-                <geolosys:ore:0>, // hematite (iron)
-                <geolosys:ore:1>, // limonite (iron/nickel)
-                <geolosys:ore:2>, // malachite (copper)
-                <geolosys:ore:3>, // azurite (copper)
-                <geolosys:ore:4>, // cassiterite (tin)
-                <geolosys:ore:5>, // teallite (tin)
-                <geolosys:ore:6>, // galena (lead/silver)
-                <geolosys:ore:7>, // bauxite (aluminum)
-                <geolosys:ore:8>, // platinum
-                <geolosys:ore:9>, // autunite (uranium)
-                <geolosys:ore:10>,  // sphalerite (zinc)
-                <geolosys:ore_vanilla:2>, // gold
-                <iceandfire:silver_ore>, 
-                <thaumcraft:ore_cinnabar>, 
-                <magneticraft:ores:3>, // tungsten
-                <magneticraft:ores:4>, // pyrite
+                <embers:ore_quartz>,
+                <embers:ore_nickel>,
+                <embers:ore_copper>,
+                <embers:ore_tin>,
+                <embers:ore_lead>,
+                <embers:ore_silver>,
+                <embers:ore_aluminum>,
+                <iceandfire:silver_ore>,
+                <thaumcraft:ore_cinnabar>,
                 <tconstruct:ore:0>, // cobalt
                 <tconstruct:ore:1>, // ardite
                 <thebetweenlands:octine_ore>,
-                <thebetweenlands:syrmorite_ore>
-                
+                <thebetweenlands:syrmorite_ore>,
+
             ] as IItemStack[];
-            
+
         val gemarray = [
                 <minecraft:diamond_ore>,
                 <minecraft:emerald_ore>,
@@ -91,9 +86,6 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
                 <astralsorcery:blockcustomsandore>,
                 <deepresonance:resonating_ore>,
                 <iceandfire:sapphire_ore>,
-                <geolosys:ore_vanilla:3>, // lapis
-                <geolosys:ore_vanilla:5>, // kimberlite (diamond)
-                <geolosys:ore_vanilla:6>,  // beryl (emerald)
                 <nex:amethyst_ore>,
                 <nex:rime_ore>,
                 <thaumcraft:crystal_aer:*>,
@@ -114,9 +106,6 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
         val bulkarray = [
                 <minecraft:coal_ore>,
                 <minecraft:quartz_ore>,
-                <geolosys:ore_vanilla:0>, // coal
-                <geolosys:ore_vanilla:1>, // cinnabar (redstone)
-                <geolosys:ore_vanilla:4>, // quartz
                 <thaumcraft:ore_amber:0>,
                 <vanillafoodpantry:rock_salt_ore:0>,
                 <vanillafoodpantry:rock_salt_ore_nether:0>,
@@ -135,7 +124,7 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
                 <astralsorcery:blockmarble:*>,
                 <quark:limestone:*>
             ] as IItemStack[];
-                
+
         val fluidarray = [
                 <thermalfoundation:ore_fluid:0>, // oil sand
                 <thermalfoundation:ore_fluid:1>, // oil shale
@@ -144,19 +133,19 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
                 <thermalfoundation:ore_fluid:4>, // resonant end stone
                 <thermalfoundation:ore_fluid:5> // red oil sand
             ] as IItemStack[];
-    
+
         var ismarkable = false as bool;
-        
-        var atlasID as int; 
+
+        var atlasID as int;
         var x as double;
         var z as double;
         var y as int;
-        
+
         var thisname = "" as string;
         var thisicon = "" as string;
 
         if (!event.world.isRemote()){
-            atlasID = event.player.currentItem.metadata; 
+            atlasID = event.player.currentItem.metadata;
             x = event.player.x;
             z = event.player.z;
             y = event.player.y as int;
@@ -200,15 +189,15 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
                     thisicon = "google";
                 }
             }
-            
+
             if (ismarkable == true) {
                 mods.AAMarkerAPI.putMarker(event.world, false, atlasID, thisicon, thisname + " at Y=" + y as string, x, z);
                 event.player.sendMessage(thisname + " marked at Y=" + y as string);
                 event.cancel();
             }
 
-            if ((<minecraft:mob_spawner>.asBlock()) in (event.block)){ 
-                mods.AAMarkerAPI.putMarker(event.world, false, atlasID, "skull", event.block.displayName , x, z); 
+            if ((<minecraft:mob_spawner>.asBlock()) in (event.block)){
+                mods.AAMarkerAPI.putMarker(event.world, false, atlasID, "skull", event.block.displayName , x, z);
                 event.player.sendMessage("Marker added");
                 event.cancel();
             }

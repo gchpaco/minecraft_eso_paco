@@ -229,6 +229,21 @@
         <spartanWarhammerStone id="spartanweaponry:warhammer_stone"/>
         <spartanWarhammerTin id="spartanweaponry:warhammer_tin"/>
         <spartanWarhammerWood id="spartanweaponry:warhammer_wood"/>
+        <spartanDragonboneBattleaxe id="spartanfire:battleaxe_dragonbone"/>
+        <spartanDragonboneBoomerang id="spartanfire:boomerang_dragonbone"/>
+        <spartanDragonboneDagger id="spartanfire:dagger_dragonbone"/>
+        <spartanDragonboneGreatsword id="spartanfire:greatsword_dragonbone"/>
+        <spartanDragonboneHalberd id="spartanfire:halberd_dragonbone"/>
+        <spartanDragonboneHammer id="spartanfire:hammer_dragonbone"/>
+        <spartanDragonboneKatana id="spartanfire:katana_dragonbone"/>
+        <spartanDragonboneLance id="spartanfire:lance_dragonbone"/>
+        <spartanDragonboneLongsword id="spartanfire:longsword_dragonbone"/>
+        <spartanDragonboneMace id="spartanfire:mace_dragonbone"/>
+        <spartanDragonbonePike id="spartanfire:pike_dragonbone"/>
+        <spartanDragonboneRapier id="spartanfire:rapier_dragonbone"/>
+        <spartanDragonboneSaber id="spartanfire:saber_dragonbone"/>
+        <spartanDragonboneSpear id="spartanfire:spear_dragonbone"/>
+        <spartanDragonboneWarhammer id="spartanfire:warhammer_dragonbone"/>
         <actAddSword1 id="actuallyadditions:item_sword_crystal_black"/>
         <actAddSword2 id="actuallyadditions:item_sword_crystal_blue"/>
         <actAddSword3 id="actuallyadditions:item_sword_crystal_green"/>
@@ -291,6 +306,8 @@
       </shield>
       <munition>
         <bow>
+          <spartanDragonboneCrossbow id="spartanfire:crossbow_dragonbone"/>
+          <spartanDragonboneLongbow id="spartanfire:longbow_dragonbone"/>
           <aethericQuartzCrossbow id="aetherworks:item_crossbow_quartz"/>
           <aethericMagmaCrossbow id="aetherworks:item_crossbow_magma"/>
           <spartanBronzeCrossbow id="spartanweaponry:crossbow_bronze"/>
@@ -321,6 +338,7 @@
           <spartanLongbowSteel id="spartanweaponry:longbow_steel"/>
           <spartanLongbowTin id="spartanweaponry:longbow_tin"/>
           <spartanLongbowWood id="spartanweaponry:longbow_wood"/>
+          <spartanDragonboneJavelin id="spartanfire:javelin_dragonbone"/>
           <spartanJavelinBronze id="spartanweaponry:javelin_bronze"/>
           <spartanJavelinCopper id="spartanweaponry:javelin_copper"/>
           <spartanJavelinDiamond id="spartanweaponry:javelin_diamond"/>
@@ -366,6 +384,8 @@
           <spartanThrowingKnifeStone id="spartanweaponry:throwing_knife_stone"/>
           <spartanThrowingKnifeTin id="spartanweaponry:throwing_knife_tin"/>
           <spartanThrowingKnifeWood id="spartanweaponry:throwing_knife_wood"/>
+          <spartanDragonboneThrowingAxe id="spartanfire:throwing_axe_dragonbone"/>
+          <spartanDragonboneThrowingKnife id="spartanfire:throwing_knife_dragonbone"/>
           <crystalBow id="botania:crystalbow"/>
           <livingWoodBow id="botania:livingwoodbow"/>
           <fluxBow id="redstonearsenal:tool.bow_flux"/>
@@ -383,7 +403,11 @@
         <ammunition>
           <quiverWithArrows id="lostquiver:quiver_with_arrows"/>
           <quiver id="lostquiver:quiver"/>
+          <spartanQuiver id="spartanweaponry:quiver_arrow"/>
+          <spartanBoltQuiver id="spartanweaponry:quiver_bolt"/>
           <spartanBolt id="spartanweaponry:bolt"/>
+          <spartanDiamondTippedBolt id="spartanweaponry:bolt_diamond_tipped"/>
+          <spartanDiamondBolt id="spartanweaponry:bolt_diamond"/>
           <spartanSpectralBolt id="spartanweaponry:bolt_spectral"/>
           <spartanTippedBolt id="spartanweaponry:bolt_tipped"/>
           <basiliskArrow id="thebetweenlands:basilisk_arrow"/>
@@ -884,6 +908,7 @@
       <lighting>
         <sojournerStaff id="xreliquary:sojourner_staff"/>
         <bloodLamp id="bloodmagic:itemsigilbloodlight"/>
+        <glimmerShard id="embers:glimmer_lamp"/>
         <glimmerShard id="embers:glimmer_shard"/>
         <asIlluminationWand id="astralsorcery:itemilluminationwand"/>
         <newIlluminationWand id="notenoughwands:illumination_wand"/>

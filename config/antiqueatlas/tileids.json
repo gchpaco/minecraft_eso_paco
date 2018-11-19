@@ -48,7 +48,10 @@
     "ruinfloor2Tile": -33,
     "ruinfloor3Tile": -42,
     "ruinfloor4Tile": -48,
+    "ruintallTile": -54,
     "streetTile": -29,
+    "trainrampleftTile": -53,
+    "trainramprightTile": -52,
     "trainstationopenTile": -50,
     "trainstationroofedTile": -49
   }

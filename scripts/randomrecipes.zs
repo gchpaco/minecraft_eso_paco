@@ -46,26 +46,8 @@ recipes.addShapeless(<minecraft:leather>,
 recipes.addShapeless(<minecraft:leather>,
     [<reptilemod:turtle_hide>, <reptilemod:turtle_hide>, <reptilemod:turtle_hide>, <reptilemod:turtle_hide>]);
 
-    recipes.addShapeless(<minecraft:leather>,
+recipes.addShapeless(<minecraft:leather>,
     [<reptilemod:croc_hide>]);
-
-// Magneticraft adds oredicts to plates, does not use oredict in recipes. why.
-
-val ironmesh = <magneticraft:crafting:5>;
-val ironplate = <ore:plateIron>;
-val ironingot = <ore:ingotIron>;
-val itemstring = <ore:string>;
-
-
-recipes.addShaped(<magneticraft:steam_boiler>,
-    [[ironingot, ironplate, ironingot],
-     [ironingot, null, ironingot],
-     [ironingot, ironplate, ironingot]]);
-
-recipes.addShaped(ironmesh,
-    [[ironplate, itemstring, ironplate],
-     [itemstring, ironplate, itemstring],
-     [ironplate, itemstring, ironplate]]);
 
 // cofh doesn't support advgen syngas for unclear reasons.
 
@@ -98,7 +80,7 @@ recipes.addShapeless(<minecraft:book>, [<minecraft:redstone>, <evilcraft:origins
 // not currently functional
 
 // aluminum, ardite, cobalt, copper, emerald, glowstone, gold, iron, lead, nickel, nether quartz, silver, tin, uranium
-// recipes.addShaped(<minecraft:record_11>, [[<minecraft:wool:14>, <ore:dyeLightBlue>], 
+// recipes.addShaped(<minecraft:record_11>, [[<minecraft:wool:14>, <ore:dyeLightBlue>],
 
 // [<minecraft:iron_ingot>.withTag({essence_type: "minecraft:skeleton"}).onlyWithTag({essence_type: "minecraft:skeleton"})
 
@@ -120,37 +102,37 @@ val uraniumCB = <oreshrubs:compressed_oreberries>.withTag({OreShrubVariant: {Nam
 furnace.addRecipe(<embers:nugget_aluminum>*4, aluminumCB);
 
 furnace.addRecipe(<tconstruct:nuggets:1>*4, arditeCB);
- 
+
 furnace.addRecipe(<tconstruct:nuggets:0>*4, cobaltCB);
-    
+
 furnace.addRecipe(
     <embers:nugget_copper>*4,
     copperCB);
-    
+
 furnace.addRecipe(
     <minecraft:gold_nugget>*4,
     goldCB);
-    
+
 furnace.addRecipe(
     <embers:nugget_iron>*4,
     ironCB);
-    
+
 furnace.addRecipe(
     <embers:nugget_lead>*4,
     leadCB);
-    
+
 furnace.addRecipe(
     <embers:nugget_nickel>*4,
     nickelCB);
-    
+
 furnace.addRecipe(
     <embers:nugget_silver>*4,
     silverCB);
-    
+
 furnace.addRecipe(
     <embers:nugget_tin>*4,
     tinCB);
- 
+
 furnace.addRecipe(
     <immersiveengineering:metal:25>*4,
     uraniumCB);
@@ -167,7 +149,7 @@ recipes.addShaped(cspark,
     [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>],
      [spark, <ore:enderPearl>, spark],
      [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
-     
+
 recipes.addShaped(mcspark,
     [[mdiamond, cspark, mdiamond],
      [null, null, null],
@@ -179,7 +161,7 @@ recipes.addShaped(<minecraft:arrow>*4,
     [[null, <ore:itemRawFlint>, null],
      [null, <ore:stick>, null],
      [null, <ore:feather>, null]]);
-     
+
 recipes.addShaped(<iceandfire:stymphalian_arrow>*4,
     [[null, <ore:itemRawFlint>, null],
      [null, <ore:stick>, null],
@@ -192,8 +174,8 @@ recipes.addShaped(<totemic:totem_whittling_knife>,
 
 recipes.addShapeless(<minecraft:flint>*2,
     [<ore:itemRawFlint>,<ore:itemRawFlint>]);
-    
-    
+
+
 // Doggy treat repricing.
 val treat = <doggytalents:training_treat>;
 val streat = <doggytalents:super_treat>;
@@ -218,8 +200,8 @@ recipes.addShapeless(mtreat*5,
 recipes.addShapeless(mtreat*5,
     [streat, streat, streat, streat, streat, <iceandfire:dragon_skull:*>]);
 
-    
-    
+
+
 // Earthworks block cycling
 
 // wattle and daub
@@ -314,22 +296,22 @@ recipes.addShaped(<iceandfire:dragonbone_pickaxe>,
     [[dragonbone, dragonbone, dragonbone],
      [null, witherbone, null],
      [null, witherbone, null]]);
-     
+
 recipes.addShaped(<iceandfire:dragonbone_hoe>,
     [[dragonbone, dragonbone, null],
      [null, witherbone, null],
      [null, witherbone, null]]);
-     
+
 recipes.addShaped(<iceandfire:dragonbone_axe>,
     [[dragonbone, dragonbone, null],
      [dragonbone, witherbone, null],
      [null, witherbone, null]]);
-     
+
 recipes.addShaped(<iceandfire:dragonbone_bow>,
     [[null, dragonbone, <ore:string>],
      [witherbone, null, <ore:string>],
      [null, dragonbone, <ore:string>]]);
-     
+
 // Limestone to Quicklime
 
 recipes.addShapeless(<earthworks:item_quicklime>, [<ore:stoneLimestone>]);
@@ -339,12 +321,12 @@ recipes.addShapeless(<earthworks:item_quicklime>, [<ore:stoneLimestone>]);
 
 recipes.addShapeless(<thermalfoundation:dye:4>*9,
     [<minecraft:dye:15>, <ore:dustCopper>, <earthworks:item_quicklime>,
-     <earthworks:item_sand>, <earthworks:item_sand>, <earthworks:item_sand>, 
+     <earthworks:item_sand>, <earthworks:item_sand>, <earthworks:item_sand>,
      <earthworks:item_sand>, <earthworks:item_sand>, <earthworks:item_sand>]);
 
 // rustic 'tiny pile of iron dust' to TF pulverized iron
 
-recipes.addShapeless(<thermalfoundation:material:0>, 
-    [<rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, 
-     <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, 
+recipes.addShapeless(<thermalfoundation:material:0>,
+    [<rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>,
+     <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>,
      <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>]);

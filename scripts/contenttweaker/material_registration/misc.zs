@@ -35,7 +35,7 @@ natronData.addDataValue("drops", "vanillafoodpantry:natron_crystals:0");
 
 // Pyrite ore
 var pyriteData = materials.pyrite.registerPart("ore_sample").getData();
-pyriteData.addDataValue("drops", "magneticraft:crafting:0");
+//pyriteData.addDataValue("drops", "magneticraft:crafting:0");
 
 // Salt ore
 var saltData = materials.salt.registerPart("ore_sample").getData();
@@ -47,4 +47,4 @@ tronaData.addDataValue("drops", "vanillafoodpantry:trona_crystals:0");
 
 // Tungsten ore
 var tungstenData = materials.tungsten.registerPart("ore_sample").getData();
-tungstenData.addDataValue("drops", "magneticraft:dusts:5");
+//tungstenData.addDataValue("drops", "magneticraft:dusts:5");

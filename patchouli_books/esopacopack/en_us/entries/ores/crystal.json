@@ -7,12 +7,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "10-50",
       "ore": "Crystal Ore",
       "biome": "Any",
       "block": "ebwizardry:crystal_ore",
-      "description": "$(italic)Crystal ore captures$(br)natural buildups of$(br)mana in special crystals that can be used to channel magic.$()"
+      "sample": "simpleoresamples:sampleblockcrystal",
+      "description": "$(italic)Crystal ore captures$(br)natural buildups of$(br)mana in special$(br)crystals that can be$(br)used to channel magic.$()"
     }
   ]
 }

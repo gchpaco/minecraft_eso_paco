@@ -7,12 +7,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "6-36",
       "ore": "Galena",
       "biome": "Any",
       "block": "embers:ore_silver",
-      "description": "$(italic)$(l:ores/lead#galena)Galena$(/l) deposits often$(br)also contain signifi-$(br)cant amounts of silver as included silver sulfide$(br)mineral phases or as limited solid solution within the galena structure.$()"
+      "sample": "simpleoresamples:sampleblocksilver",
+      "description": "$(italic)$(l:ores/lead#galena)Galena$(/l) deposits often$(br)also contain signifi-$(br)cant amounts of silver$(br)as included silver$(br)sulfide mineral phases$(br)or as limited solid solution within the galena structure.$()"
     }
   ]
 }

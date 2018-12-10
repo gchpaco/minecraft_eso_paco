@@ -7,12 +7,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "30-80",
       "ore": "Natron Ore",
       "biome": "Any",
       "block": "vanillafoodpantry:natron_ore",
-      "description": "$(italic)Natron is a naturally occurring mixture of$(br)sodium carbonate decahydrate and around 17% sodium bicarbonate along with small quantities of sodium chloride and sodium sulfate.$()"
+      "sample": "simpleoresamples:sampleblocknatron",
+      "description": "$(italic)Natron is a naturally occurring mixture of$(br)sodium carbonate$(br)decahydrate and around$(br)17% sodium bicarbonate$(br)along with small quantities of sodium chloride and sodium sulfate.$()"
     }
   ]
 }

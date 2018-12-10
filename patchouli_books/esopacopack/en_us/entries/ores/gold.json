@@ -6,12 +6,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "5-30",
       "ore": "Gold Ore",
       "biome": "Any",
       "block": "minecraft:gold_ore",
-      "description": "$(italic)Gold is the most$(br)malleable of all$(br)metals; a single gram can be beaten into a sheet of 1 square meter, and an avoirdupois ounce into 300 square feet.$()"
+      "sample": "simpleoresamples:sampleblockgold",
+      "description": "$(italic)Gold is the most$(br)malleable of all$(br)metals; a single gram$(br)can be beaten into a$(br)sheet of 1 square$(br)meter, and an avoirdupois ounce into 300 square feet.$()"
     }
   ]
 }

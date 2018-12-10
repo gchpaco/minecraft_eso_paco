@@ -1,0 +1,42 @@
+{
+  "name": "Artificial Ender Portal",
+  "icon": "minecraft:end_portal_frame",
+  "flag": "mod:randomthings",
+  "category": "multiblocks",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "title": "Artificial Portals",
+      "text": "It is occasionally necessary to venture forth into the cold darkness of the End, but End Portals are almost always in very inconvenient locations.  Why not bring them closer to home with this artifical End Portal?  This requires an end rod, so you will probably have had to visit the End once already."
+    },
+    {
+      "type": "multiblock",
+      "name": "Artificial End Portal",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  E  ", "     ", "     "],
+          [ "     ", "     ", "  R  ", "     ", "     "],
+          [ "     ", "     ", "     ", "     ", "     "],
+          [ "     ", "     ", "     ", "     ", "     "],
+          [ "OOOOO", "O   O", "O 0 O", "O   O", "OOOOO"],
+          [ "_____", "_EEE_", "_EEE_", "_EEE_", "_____"]
+        ],
+        "mapping": {
+          "O": "minecraft:obsidian",
+          "E": "minecraft:end_stone",
+          "R": "minecraft:end_rod[facing=down]"
+        },
+        "symmetrical": true
+      },
+      "text": "After creation, right click on the end rod with an evil tear."
+    },
+    {
+      "type": "crafting",
+      "recipe": "randomthings:ingredient_evilTear",
+      "title": "Evil Tears",
+      "text": "A necessary component to the artificial end portal is this modification to a common ghast tear."
+    }
+  ]
+}

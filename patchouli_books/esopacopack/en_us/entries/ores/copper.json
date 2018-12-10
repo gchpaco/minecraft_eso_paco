@@ -7,12 +7,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "39-59",
       "ore": "Malachite",
       "biome": "Any",
       "block": "embers:ore_copper",
-      "description": "$(italic)Malachite is a copper$(br)carbonate hydroxide$(br)mineral. Malachite can be$(br)used as a mineral pigment in green paints.$()"
+      "sample": "simpleoresamples:sampleblockcopper",
+      "description": "$(italic)Malachite is a copper$(br)carbonate hydroxide$(br)mineral. Malachite can$(br)be used as a mineral$(br)pigment in green$(br)paints.$()"
     },
     {
       "type": "oregen",

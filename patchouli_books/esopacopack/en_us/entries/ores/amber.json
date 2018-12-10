@@ -7,12 +7,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "20-50",
       "ore": "Amber Ore",
       "biome": "Any",
       "block": "thaumcraft:ore_amber",
-      "description": "$(italic)Amber is fossilized$(br)tree resin, which has$(br)been appreciated for its$(br)color and natural beauty$(br)since Neolithic times.$()"
+      "sample": "simpleoresamples:sampleblockamber",
+      "description": "$(italic)Amber is fossilized$(br)tree resin, which has$(br)been appreciated for$(br)its color and natural$(br)beauty since Neolithic$(br)times.$()"
     }
   ]
 }

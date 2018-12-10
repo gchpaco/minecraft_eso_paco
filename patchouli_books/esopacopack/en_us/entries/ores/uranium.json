@@ -7,11 +7,12 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "8-33",
       "ore": "Uranium Ore",
       "biome": "Any",
       "block": "immersiveengineering:ore:5",
+      "sample": "simpleoresamples:sampleblockuranium",
       "description": "$(italic)Uranium is a silvery-$(br)grey metal in the$(br)actinide series of the$(br)periodic table.$()$(br2)Uranium's primary usage is as a heat source in a thermoelectric generator."
     }
   ]

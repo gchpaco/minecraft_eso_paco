@@ -6,12 +6,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "48-78",
       "ore": "Coal Ore",
       "biome": "Any",
       "block": "minecraft:coal_ore",
-      "description": "$(italic)Coal is a combustible$(br)black or brownish-$(br)black sedimentary rock$(br)usually occurring in rock strata in layers or veins called coal beds or coal seams.$()$(br2)Rarely, diamonds can be found inside a sizable coal vein."
+      "sample": "simpleoresamples:sampleblockcoal",
+      "description": "$(italic)Coal is a combustible$(br)black or brownish-$(br)black sedimentary rock$(br)usually occurring in$(br)rock strata in layers$(br)or veins called coal beds or coal seams.$()$(br2)Rarely, diamonds can be found inside a sizable coal vein."
     }
   ]
 }

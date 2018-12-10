@@ -7,12 +7,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "2-15",
       "ore": "Resonating Ore",
       "biome": "Any",
       "block": "deepresonance:resonating_ore",
-      "description": "$(italic)Resonating ore is a$(br)natural material that$(br)lends itself to forming crystals that are excellent sources of RF energy.$()"
+      "sample": "simpleoresamples:sampleblockresonating",
+      "description": "$(italic)Resonating ore is a$(br)natural material that$(br)lends itself to forming crystals that are$(br)excellent sources of$(br)RF energy.$()"
     }
   ]
 }

@@ -44,6 +44,14 @@
       "y": 45
     },
     {
+      "type": "item",
+      "framed": true,
+      "item": "#sample",
+      "link_recipe": true,
+      "x": 94,
+      "y": 70
+    },
+    {
       "type": "text",
       "text": "#description",
       "x": 5,

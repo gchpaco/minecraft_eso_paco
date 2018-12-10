@@ -7,12 +7,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "45-75",
       "ore": "Bauxite",
       "biome": "Any",
       "block": "embers:ore_aluminum",
-      "description": "$(italic)Bauxite is a sediment-$(br)ary rock with a$(br)relatively high aluminium content. It is the world's main source of aluminium.$()"
+      "sample": "simpleoresamples:sampleblockaluminium",
+      "description": "$(italic)Bauxite is a sediment-$(br)ary rock with a$(br)relatively high alum-$(br)inium content. It is the$(br)world's main source of aluminium.$()"
     }
   ]
 }

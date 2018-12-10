@@ -6,12 +6,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "5-12",
       "ore": "Lapis Ore",
       "biome": "Any",
       "block": "minecraft:lapis_ore",
-      "description": "$(italic)Lapis lazuli is a deep$(br)blue metamorphic rock$(br)used as a semi-precious stone that has been prized since antiquity for its intense color.$()"
+      "sample": "simpleoresamples:sampleblocklapis",
+      "description": "$(italic)Lapis lazuli is a deep$(br)blue metamorphic rock$(br)used as a semi-$(br)precious stone that$(br)has been prized since antiquity for its intense$(br)color.$()"
     }
   ]
 }

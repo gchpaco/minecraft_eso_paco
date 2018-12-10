@@ -6,12 +6,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "4-32",
       "ore": "Emerald Ore",
       "biome": "Any",
       "block": "minecraft:emerald_ore",
-      "description": "$(italic)Emerald is a precious$(br)gemstone and a$(br)variety of the mineral beryl colored green by trace amounts of chromium and sometimes vanadium.$()"
+      "sample": "simpleoresamples:sampleblockemerald",
+      "description": "$(italic)Emerald is a precious$(br)gemstone and a$(br)variety of the mineral$(br)beryl colored green by$(br)trace amounts of$(br)chromium and sometimes vanadium.$()"
     }
   ]
 }

@@ -7,12 +7,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "40-90",
       "ore": "Apatite Ore",
       "biome": "Cold",
       "block": "iceandfire:sapphire_ore",
-      "description": "$(italic)Sapphire is a precious$(br)gemstone, a variety of$(br)the mineral corundum, consisting of aluminium oxide with trace amounts of elements such as iron, titanium, chromium, copper, or$(br)magnesium.$()"
+      "sample": "simpleoresamples:sampleblocksapphire",
+      "description": "$(italic)Sapphire is a precious$(br)gemstone, a variety of$(br)the mineral corundum, consisting of aluminium$(br)oxide with trace$(br)amounts of elements such as iron, titanium, chromium, copper, or$(br)magnesium.$()"
     }
   ]
 }

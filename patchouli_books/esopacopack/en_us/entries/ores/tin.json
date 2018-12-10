@@ -7,12 +7,13 @@
   "read_by_default": true,
   "pages": [
     {
-      "type": "oregen",
+      "type": "oresample",
       "height": "44-64",
       "ore": "Cassiterite",
       "biome": "Any",
       "block": "embers:ore_tin",
-      "description": "$(italic)Cassiterite has been$(br)the chief tin ore$(br)throughout ancient history$(br)and remains the most$(br)important source of tin today.$()"
+      "sample": "simpleoresamples:sampleblocktin",
+      "description": "$(italic)Cassiterite has been$(br)the chief tin ore$(br)throughout ancient$(br)history and remains$(br)the most important$(br)source of tin today.$()"
     },
     {
       "type": "oregen",

@@ -95,6 +95,54 @@
       "minGroupCount": 1,
       "maxGroupCount": 1,
       "spawn": true
+    },
+    {
+      "entity": "animalium:bear",
+      "creatureType": "monster",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "ebwizardry:evil_wizard",
+      "creatureType": "monster",
+      "weight": 3,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "minecraft:blaze",
+      "creatureType": "monster",
+      "weight": 20,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "quark:wraith",
+      "creatureType": "monster",
+      "weight": 60,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:firebat",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:wisp",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
     }
   ],
   "features": [

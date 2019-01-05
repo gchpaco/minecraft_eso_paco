@@ -1,11 +1,9 @@
 /config/tellme/*.txt
 /config/tellme/*.csv
 /config/*.bak
-/config/jei/*.zip
-/config/jei/worldSettings.cfg
-/config/jei/bookmarks.ini
-/config/JEI/worldSettings.cfg
-/config/JEI/bookmarks.ini
+/config/[Jj][Ee][Ii]/*.zip
+/config/[Jj][Ee][Ii]/worldSettings.cfg
+/config/[Jj][Ee][Ii]/bookmarks.ini
 /config/BiomeTweaker/output/
 /config/forgeamidst/
 /config/MapWriterBlockColours.txt

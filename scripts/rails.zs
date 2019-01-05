@@ -48,8 +48,8 @@ val reinf_crate = <immersiveengineering:wooden_device0:5>;
 val wood_barrel = <immersiveengineering:wooden_device0:1>;
 val metal_barrel = <immersiveengineering:metal_device0:4>;
 val rs_engineering_block =<immersiveengineering:metal_decoration0:3>;
-val engine_furnace = <embers:boiler>;
-val mgc_boiler = <magneticraft:steam_boiler>;
+val engine_furnace = <minecraft:furnace>;
+val mgc_boiler = <embers:boiler>;
 val handcar = <immersiverailroading:item_rolling_stock>.withTag(
     {defID:"rolling_stock/hand_car/hand_car_1.json",gauge:0.632d,display:{Name:"§rHand Car"}});
 val locomotive = <immersiverailroading:item_rolling_stock>.withTag(

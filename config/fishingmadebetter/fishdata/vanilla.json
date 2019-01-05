@@ -23,8 +23,13 @@
     "biomeBlacklist": false,
     "biomeList": [
       0,
+      7,
       10,
-      24
+      11,
+      24,
+      44,
+      50,
+      63
     ],
     "timeOutsideOfWater": 12,
     "resultingItem": "minecraft:iron_ingot",
@@ -59,7 +64,8 @@
     "biomeList": [
       0,
       10,
-      24
+      24,
+      63
     ],
     "timeOutsideOfWater": 8,
     "resultingItem": "minecraft:arrow",
@@ -93,8 +99,13 @@
     "biomeBlacklist": false,
     "biomeList": [
       0,
+      7,
       10,
-      24
+      11,
+      24,
+      44,
+      50,
+      63
     ],
     "timeOutsideOfWater": 12,
     "resultingItem": "minecraft:slime_ball",
@@ -129,7 +140,8 @@
     "biomeList": [
       0,
       10,
-      24
+      24,
+      63
     ],
     "timeOutsideOfWater": 10,
     "resultingItem": "minecraft:emerald",

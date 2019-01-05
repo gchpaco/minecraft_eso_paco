@@ -19,7 +19,7 @@ mods.embers.Melter.add(<liquid:nickel> * 432, <jaopca:item_clusternickel>);
 mods.embers.Melter.add(<liquid:octine> * 432, <jaopca:item_clusteroctine>);
 mods.embers.Melter.add(<liquid:platinum> * 432, <jaopca:item_clusterplatinum>);
 mods.embers.Melter.add(<liquid:syrmorite> * 432, <jaopca:item_clustersyrmorite>);
-mods.embers.Melter.add(<liquid:tungsten> * 432, <jaopca:item_clustertungsten>);
+//mods.embers.Melter.add(<liquid:tungsten> * 432, <jaopca:item_clustertungsten>);
 mods.embers.Melter.add(<liquid:zinc> * 432, <jaopca:item_clusterzinc>);
 mods.embers.Melter.add(<liquid:uranium> * 432, <jaopca:item_clusteruranium>);
 

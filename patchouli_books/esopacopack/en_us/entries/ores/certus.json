@@ -1,0 +1,27 @@
+{
+  "name": "Certus Quartz Ore",
+  "icon": "appliedenergistics2:quartz_ore",
+  "category": "ores",
+  "flag": "mod:embers",
+  "priority": false,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "oresample",
+      "height": "6-36",
+      "ore": "Certus Quartz Ore",
+      "biome": "Any",
+      "block": "appliedenergistics2:quartz_ore",
+      "sample": "simpleoresamples:sampleblockcertus",
+      "description": "$(italic)A particularly pure$(br)form of quartz suitable$(br)for converting matter$(br)to and from energy.$()"
+    },
+    {
+      "type": "oregen",
+      "height": "6-36",
+      "ore": "Charged Certus Quartz",
+      "biome": "Any",
+      "block": "appliedenergistics2:charged_quartz_ore",
+      "description": "$(italic)Some clusters of$(br)Certus Quartz retain a$(br)natural electrical charge.$()"
+    }
+  ]
+}

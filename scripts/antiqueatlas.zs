@@ -105,6 +105,7 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
 
         val bulkarray = [
                 <minecraft:coal_ore>,
+                <minecraft:redstone_ore>,
                 <minecraft:quartz_ore>,
                 <thaumcraft:ore_amber:0>,
                 <vanillafoodpantry:rock_salt_ore:0>,

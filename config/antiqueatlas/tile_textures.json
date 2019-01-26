@@ -58,6 +58,7 @@
     "npcVillageWell": "WELL",
     "parkTile": "park",
     "parkoccludedTile": "parkoccluded",
+    "ravine": "RAVINE",
     "ruinfloor1Tile": "ruinfloor1",
     "ruinfloor1occludedTile": "ruinfloor1occluded",
     "ruinfloor2Tile": "ruinfloor2",

@@ -191,15 +191,15 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
                 }
             }
 
+            if ((<minecraft:mob_spawner>.asBlock()) in (event.block)){
+                ismarkable = true;
+                thisname = event.block.displayName as string;
+                thisicon = "skull";
+            }
+
             if (ismarkable == true) {
                 mods.AAMarkerAPI.putMarker(event.world, false, atlasID, thisicon, thisname + " at Y=" + y as string, x, z);
                 event.player.sendMessage(thisname + " marked at Y=" + y as string);
-                event.cancel();
-            }
-
-            if ((<minecraft:mob_spawner>.asBlock()) in (event.block)){
-                mods.AAMarkerAPI.putMarker(event.world, false, atlasID, "skull", event.block.displayName , x, z);
-                event.player.sendMessage("Marker added");
                 event.cancel();
             }
         }

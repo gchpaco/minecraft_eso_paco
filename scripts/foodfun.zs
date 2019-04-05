@@ -79,7 +79,7 @@ recipes.addShaped(foodbundle,
      [<ore:portionWater>,<ore:foodRedMeatCooked>,null]]);
      
 // ATLcraft has madness foods
-recipes.remove(<atlcraft:atlcraft_bayberry_juice>);
-recipes.remove(<atlcraft:atlcraft_fried_potatoes>);
+//recipes.remove(<atlcraft:atlcraft_bayberry_juice>);
+//recipes.remove(<atlcraft:atlcraft_fried_potatoes>);
 
 

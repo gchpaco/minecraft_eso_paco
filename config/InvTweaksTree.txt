@@ -283,6 +283,8 @@
         <actAddSword7 id="actuallyadditions:item_sword_emerald"/>
         <actAddSword8 id="actuallyadditions:item_sword_obsidian"/>
         <actAddSword9 id="actuallyadditions:item_sword_quartz"/>
+        <rootsLivingSword id="roots:living_sword"/>
+        <railcraftSteelSword id="railcraft:tool_sword_steel"/>
         <embersSword0 id="embers:sword_dawnstone"/>
         <embersSword1 id="embers:sword_bronze"/>
         <embersSword2 id="embers:sword_electrum"/>
@@ -297,12 +299,19 @@
         <enderDagger id="botania:enderdagger"/>
         <manasteelSword id="botania:manasteelsword"/>
         <ironSword id="iron_sword"/>
+        <ironKnife id="roots:iron_knife"/>
         <diamondSword id="diamond_sword"/>
+        <diamondKnife id="roots:diamond_knife"/>
         <boneSword id="thebetweenlands:bone_sword"/>
+        <copperKnife id="roots:copper_knife"/>
+        <silverKnife id="roots:silver_knife"/>
         <stoneSword id="stone_sword"/>
+        <stoneKnife id="roots:stone_knife"/>
         <adobeSword id="adobeblocks:adobe_sword"/>
         <goldSword id="golden_sword"/>
+        <goldKnife id="roots:gold_knife"/>
         <woodSword id="wooden_sword"/>
+        <woodKnife id="roots:wood_knife"/>
       </sword>
       <shield>
         <spartanShield0 id="spartanshields:shield_basic_bronze"/>
@@ -336,6 +345,10 @@
       </shield>
       <munition>
         <bow>
+          <fireySpartanDragonboneCrossbow id="spartanfire:crossbow_fire_dragonbone"/>
+          <fireySpartanDragonboneLongbow id="spartanfire:longbow_fire_dragonbone"/>
+          <iceySpartanDragonboneCrossbow id="spartanfire:crossbow_ice_dragonbone"/>
+          <iceySpartanDragonboneLongbow id="spartanfire:longbow_ice_dragonbone"/>
           <spartanDragonboneCrossbow id="spartanfire:crossbow_dragonbone"/>
           <spartanDragonboneLongbow id="spartanfire:longbow_dragonbone"/>
           <aethericQuartzCrossbow id="aetherworks:item_crossbow_quartz"/>
@@ -369,6 +382,12 @@
           <spartanLongbowTin id="spartanweaponry:longbow_tin"/>
           <spartanLongbowWood id="spartanweaponry:longbow_wood"/>
           <spartanDragonboneJavelin id="spartanfire:javelin_dragonbone"/>
+          <fireySpartanDragonboneJavelin id="spartanfire:javelin_fire_dragonbone"/>
+          <iceySpartanDragonboneJavelin id="spartanfire:javelin_ice_dragonbone"/>
+          <spartanJungleStingerJavelin id="spartanfire:javelin_jungle_venom"/>
+          <spartanDesertStingerJavelin id="spartanfire:javelin_desert_venom"/>
+          <spartanJungleJavelin id="spartanfire:javelin_jungle"/>
+          <spartanDesertJavelin id="spartanfire:javelin_desert"/>
           <spartanJavelinBronze id="spartanweaponry:javelin_bronze"/>
           <spartanJavelinCopper id="spartanweaponry:javelin_copper"/>
           <spartanJavelinDiamond id="spartanweaponry:javelin_diamond"/>
@@ -473,6 +492,7 @@
         <elementiumPickaxe id="botania:elementiumpick"/>
         <tconPickaxe id="tconstruct:pickaxe"/>
         <diamondPickaxe id="diamond_pickaxe"/>
+        <livingPickaxe id="roots:living_pickaxe"/>
         <octinePickaxe id="thebetweenlands:octine_pickaxe"/>
         <actAddPickaxe1 id="actuallyadditions:item_pickaxe_crystal_black"/>
         <actAddPickaxe2 id="actuallyadditions:item_pickaxe_crystal_blue"/>
@@ -1236,6 +1256,9 @@
     <instrument>
       <clock id="clock"/>
       <compass id="compass"/>
+      <antiqueAtlas id="antiqueatlas:antique_atlas"/>
+      <emptyAtlas id="antiqueatlas:empty_antique_atlas"/>
+      <bibliocraftAtlas id="bibliocraft:atlasbook"/>
       <emptyMap id="map"/>
       <map id="filled_map"/>
       <filledMap id="filled_map"/>

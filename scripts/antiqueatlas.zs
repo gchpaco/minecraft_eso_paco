@@ -86,8 +86,8 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
                 <astralsorcery:blockcustomsandore>,
                 <deepresonance:resonating_ore>,
                 <iceandfire:sapphire_ore>,
-                <nex:amethyst_ore>,
-                <nex:rime_ore>,
+                <netherex:amethyst_ore>,
+                <netherex:rime_ore>,
                 <thaumcraft:crystal_aer:*>,
                 <thaumcraft:crystal_ignis:*>,
                 <thaumcraft:crystal_aqua:*>,
@@ -115,10 +115,10 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
                 <forestry:resources:0>, // apatite, bane of backpacks
                 <evilcraft:dark_ore:0>, // dark gems, to be specific
                 <ebwizardry:crystal_ore:0>,
-                <nex:quartz_ore:0>, // fiery quartz
-                <nex:quartz_ore:1>, // icy quartz
-                <nex:quartz_ore:2>, // lively quartz
-                <nex:quartz_ore:3>, // gloomy quartz
+                <netherex:quartz_ore:0>, // fiery quartz
+                <netherex:quartz_ore:1>, // icy quartz
+                <netherex:quartz_ore:2>, // lively quartz
+                <netherex:quartz_ore:3>, // gloomy quartz
                 <quark:biotite_ore>,
                 <thebetweenlands:sulfur_ore>,
                 <thebetweenlands:slimy_bone_ore>,

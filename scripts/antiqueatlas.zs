@@ -200,7 +200,6 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
             if (ismarkable == true) {
                 mods.AAMarkerAPI.putMarker(event.world, false, atlasID, thisicon, thisname + " at Y=" + y as string, x, z);
                 event.player.sendMessage(thisname + " marked at Y=" + y as string);
-                event.cancel();
             }
         }
     }

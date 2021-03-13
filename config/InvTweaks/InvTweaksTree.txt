@@ -437,6 +437,7 @@
           <spartanDragonboneThrowingKnife id="spartanfire:throwing_knife_dragonbone"/>
           <crystalBow id="botania:crystalbow"/>
           <livingWoodBow id="botania:livingwoodbow"/>
+          <wildwoodBow id="roots:wildwood_bow"/>
           <fluxBow id="redstonearsenal:tool.bow_flux"/>
           <crossbow id="tconstruct:crossbow"/>
           <longbow id="tconstruct:longbow"/>
@@ -452,6 +453,7 @@
         <ammunition>
           <quiverWithArrows id="lostquiver:quiver_with_arrows"/>
           <quiver id="lostquiver:quiver"/>
+          <wildwoodQuiver id="roots:wildwood_quiver"/>
           <spartanQuiver id="spartanweaponry:quiver_arrow"/>
           <spartanBoltQuiver id="spartanweaponry:quiver_bolt"/>
           <spartanBolt id="spartanweaponry:bolt"/>

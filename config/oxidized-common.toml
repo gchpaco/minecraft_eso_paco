@@ -1,0 +1,17 @@
+
+["Panning Drop Chances"]
+	"Iron Nugget" = 0.15
+	"Gold Nugget" = 0.15
+	Emerald = 0.02
+	Sand = 0.24
+	Gravel = 0.12
+
+[Misc]
+	#The range in blocks that copper rails will be powered for.
+	"Copper Rail Range" = 50
+	#The range in blocks that the copper pulsar can retrieve items from.
+	"Pulsar Reach" = 10
+
+["Copper Golem"]
+	"Copper Golem Button Press Probability" = 30
+

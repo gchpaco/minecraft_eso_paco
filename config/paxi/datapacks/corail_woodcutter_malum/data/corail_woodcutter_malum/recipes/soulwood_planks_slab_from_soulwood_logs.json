@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "malum"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corail_woodcutter"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "malum:soulwood_planks_slab"
+    }
+  ],
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "tag": "malum:soulwood_logs"
+  },
+  "result": "malum:soulwood_planks_slab",
+  "count": 8
+}

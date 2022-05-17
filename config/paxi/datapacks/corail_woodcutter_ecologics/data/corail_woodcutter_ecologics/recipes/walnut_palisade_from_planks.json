@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ecologics"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corail_woodcutter"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "ecologics:walnut_palisade"
+    }
+  ],
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "tag": "ecologics:walnut_planks"
+  },
+  "result": "ecologics:walnut_palisade",
+  "count": 1
+}

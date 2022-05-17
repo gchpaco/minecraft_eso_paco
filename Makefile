@@ -1,4 +1,4 @@
-DIRS=config mods scripts structures resources patchouli_books
+DIRS=config config.json defaultconfigs mods patchouli_books
 RSYNC_FLAGS=-cvrlFF --delete --exclude-from=.gitignore
 
 difflocal:

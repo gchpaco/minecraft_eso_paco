@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:ingots/aluminum"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_aluminum"
+  },
+  "crushing_time": 200,
+  "ignore_crushing_multiplier": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:ingots/lead"
+  },
+  "result": {
+    "item": "mysticalworld:lead_dust"
+  },
+  "crushing_time": 200,
+  "ignore_crushing_multiplier": true
+}

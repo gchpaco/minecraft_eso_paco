@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:ores/nickel"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_nickel",
+    "count": 2
+  },
+  "crushing_time": 200
+}

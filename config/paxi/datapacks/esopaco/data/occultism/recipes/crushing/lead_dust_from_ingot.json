@@ -4,7 +4,7 @@
     "tag": "forge:ingots/lead"
   },
   "result": {
-    "item": "mysticalworld:lead_dust"
+    "item": "immersiveengineering:dust_lead"
   },
   "crushing_time": 200,
   "ignore_crushing_multiplier": true

@@ -358,6 +358,8 @@
 		"Overleveled Books Glow Rainbow" = true
 		#Format is lootTable,weight. i.e. "minecraft:chests/stronghold_library,30"
 		"Loot Tables" = ["minecraft:chests/stronghold_library,30", "minecraft:chests/simple_dungeon,20", "minecraft:chests/bastion_treasure,25", "minecraft:chests/woodland_mansion,15", "minecraft:chests/nether_bridge,0", "minecraft:chests/underwater_ruin_big,0", "minecraft:chests/underwater_ruin_small,0", "quark:misc/monster_box,5"]
+		#Master Librarians will offer to exchange Ancient Tomes, provided you give them a max-level Enchanted Book of the Tome's enchantment too.
+		"Librarians Exchange Ancient Tomes" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
@@ -444,7 +446,7 @@
 		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
 		#Which blocks should right click harvesting simulate a click on instead of breaking?
 		#This is for blocks like sweet berry bushes, which have right click harvesting built in.
-		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines"]
+		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines", "hexerei:yellow_dock_bush", "hexerei:mugwort_bush", "hexerei:belladonna_flower", "hexerei:mandrake_flower", "neapolitan:strawberry_pips", "farmersdelight:tomatoes", "arsnouveau:sourceberry_bush"]
 
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
@@ -1624,6 +1626,8 @@
 		#An array of influences that other blocks should apply.
 		#Format is: "blockstate;strength;color;enchantments", i.e. "minecraft:sea_pickle[pickles=1,waterlogged=false];1;#008000;minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide" (etc) or "minecraft:anvil[facing=north];#808080;-minecraft:thorns,minecraft:unbreaking" (etc)
 		"States To Influences" = []
+		#Candles with soul sand below them or below the bookshelves dampen enchantments instead of influence them.
+		"Soul Candles Invert" = true
 
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable

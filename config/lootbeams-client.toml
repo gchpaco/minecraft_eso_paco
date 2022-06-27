@@ -7,7 +7,7 @@
 	render_rarity_color = true
 	#The radius of the Loot Beam.
 	#Range: 0.0 ~ 5.0
-	beam_radius = 1.0
+	beam_radius = 0.5
 	#The height of the Loot Beam.
 	#Range: 0.0 ~ 10.0
 	beam_height = 1.0

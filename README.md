@@ -1,330 +1,330 @@
 = Mod categories =
 == Decoration ==
-DustrialDecor
-BambooEverything
-Decorative Blocks
-FramedBlocks
-absentbydesign
+`DustrialDecor`
+`BambooEverything`
+`Decorative Blocks`
+`FramedBlocks`
+`absentbydesign`
 - stairs etc for most vanilla stuff
-engineersdecor
-essentials
-mcw-bridges
-mcw-fences
-mcw-paths
-rechiseled
-simplylight
-supplementaries
+`engineersdecor`
+`essentials`
+`mcw-bridges`
+`mcw-fences`
+`mcw-paths`
+`rechiseled`
+`simplylight`
+`supplementaries`
+`labels`
+- low impact labels for chests, etc
 
 == Food ==
-Aquaculture
-Delightful
-FarmersDelight
-FarmersRespite
-NethersDelight
-SoL-Carrot
-abnormals_delight
-appliedcooking
+`Aquaculture`
+`Delightful`
+`FarmersDelight`
+`FarmersRespite`
+`NethersDelight`
+`SoL-Carrot`
+`abnormals_delight`
+`appliedcooking`
 - bridge between cooking for blockheads and AE2
-cookingforblockheads
-farmingforblockheads
-nutritionalbalance
+`cookingforblockheads`
+`farmingforblockheads`
+`nutritionalbalance`
 
 == Create ==
-create
-createaddition
+`create`
+`createaddition`
 - elec stuff for create
-createchunkloading
+`createchunkloading`
 - chunk loader for create contraptions
-createdeco
+`createdeco`
 - decorative blocks
-ars_creo
+`ars_creo`
 - ars/create integ
-littlecontraptions
+`littlecontraptions`
 - liittlelogisstics/create integ
-Steam_Rails
+`Steam_Rails`
 - more stuff for create trains
 
 == Speed ==
-FastFurnace
-FastWorkbench
+`FastFurnace`
+`FastWorkbench`
 
 == Content ==
-Botania
-BiomesOPlenty
+`Botania`
+`BiomesOPlenty`
 - variety
-ImmersiveEngineering
-NaturesAura
-Quark
-QuarkOddities
-SereneSeasons
-Totemic
+`ImmersiveEngineering`
+`NaturesAura`
+`Quark`
+`QuarkOddities`
+`SereneSeasons`
+`Totemic`
 - kind of thin but still early game useful
-YungsBetterDesertTemples
-YungsBetterDungeons
-YungsBetterMineshafts
-YungsBridges
-YungsExtras
-appliedenergistics2
+`YungsBetterDesertTemples`
+`YungsBetterDungeons`
+`YungsBetterMineshafts`
+`YungsBridges`
+`YungsExtras`
+`appliedenergistics2`
 - this is still in some ways my favorite inventory mod
-ars_elemental
-ars_nouveau
+`ars_elemental`
+`ars_nouveau`
 - ars suite
-hexal
-hexcasting
-moreiotas
+`hexal`
+`hexcasting`
+`moreiotas`
 - hex casting stuff
-hexerei
+`hexerei`
 - joefoxe's work
-idas
+`idas`
 - dungeons and the like using quark and create stuff
-the_bumblezone
+`the_bumblezone`
 - has a very awkward to get to but extremely powerful dial a book thing
-twilightforest
-alexsmobs
+`twilightforest`
+`alexsmobs`
 - mobs and stuff.  maybe redundant, could probably stand to turn some off
-ecologics
+`ecologics`
 - vanilla biome updates with some things like coconuts
-forbidden_arcanus
+`forbidden_arcanus`
 - among other thinsg has a dial-an-enchant system that's quite tricky
-naturalist
+`naturalist`
 - passive stuff populating the world
-savage_and_ravage
+`savage_and_ravage`
 - additional pillager content
 
 == Utility ==
-AkashicTome
+`AkashicTome`
 - too many books
-ExplorersCompass
+`ExplorersCompass`
 - I hate chasing ender eyes
-FastLeafDecay
+`FastLeafDecay`
 - I hate waitig for trees to decay
-crafting-on-a-stick
+`crafting-on-a-stick`
 - simple crafting table on the move
-CosmeticArmorReworked
+`CosmeticArmorReworked`
 - I like this especially with apotheosis armors being rng
-Morph-o-Tool
+`Morph-o-Tool`
 - too many wrenches
-NaturesCompass
+`NaturesCompass`
 - biomes hard to find
-NyfsQuiver
+`NyfsQuiver`
 - quiver nice
-Paraglider
+`Paraglider`
 - glider nice
-Patchouli
+`Patchouli`
 - lots of stuff uses it for books
-Paxi
+`Paxi`
 - easier for resource packs etc
-PrettyPipes
+`PrettyPipes`
 - pleasant pipes
-ToolBelt
+`ToolBelt`
 - belt
-TrampleStopper
+`TrampleStopper`
 - hate trampling
-Uppers
+`Uppers`
 - reverse hoppers
-WaterStrainer
+`WaterStrainer`
 - strain water for simple resources
-SimplyTools
+`SimplyTools`
 - cheap nasty hammers/excavators
-TravelAnchors
+`TravelAnchors`
 - make it easier to get around the base
-allurement
+`allurement`
 - neat enchants
-artifacts
+`artifacts`
 - little utility things
-berry_good
+`berry_good`
 - berry pips so you don't accidentally plant bushes
-buildinggadgets
+`buildinggadgets`
 - building
-charginggadgets
+`charginggadgets`
 - charging gadgets
-constructionwand
+`constructionwand`
 - cheap easy construction for simple work
-chalk
+`chalk`
 - marking where you've been
-effortlessbuilding
+`effortlessbuilding`
 - building easier
-elevatorid
+`elevatorid`
 - getting around the base easier
-netherportalfix
-luggage
+`netherportalfix`
+`luggage`
 - cute little critter
-prettybeaches
+`prettybeaches`
 - mine sand without water shenanigans
-sophisticatedbackpacks
-sophisticatedstorage
+`sophisticatedbackpacks`
+`sophisticatedstorage`
 - really useful backpack mod
-rangedpumps
+`rangedpumps`
 - pump lava without drama
-scannable
+`scannable`
 - find shit
-walljump
+`walljump`
 - love this
-reliquary
+`reliquary`
 - general useful gadget fill-in
-trashslot
-torchmaster
+`trashslot`
+`torchmaster`
 - I really like these
-waystones
+`waystones`
 - get around the world
-xptome
+`xptome`
 - store XP
-buzzier_bees
+`buzzier_bees`
 - BEEEEEEEEZ
-carryon
+`carryon`
 - move things around easily
-mininggadgets
+`mininggadgets`
 - mining laser, not that married to it
-ironchest
+`ironchest`
 - bigger chests, maybe redundant with soph
-functionalstorage
+`functionalstorage`
 - drawers mod that's on 1.19.2
-comforts
+`comforts`
 - sleeping bags
-kleeslabs
+`kleeslabs`
 - allows breaking only half of a double slab block
-modular-routers
+`modular-routers`
 - the great big hammer of automation. on the cutlist
-lootr
+`lootr`
 - I like this so I can quickly ID which chests I've looted
-littlelogistics
+`littlelogistics`
 - boat transport and the like
-step
+`step`
 - step assist enchant
-Clumps
+`Clumps`
 - I find it useful
-BetterTridents
+`BetterTridents`
 - tridents get grown up enchants like sharpness and looting
-CobbleForDays
+`CobbleForDays`
 - in a lot of cobblework type machines, creating the cobblestone block and breaking it is a bottleneck for the server.
-EnigmaticGraves
+`EnigmaticGraves`
 - gravestone mod
-Simple Weapons
+`Simple Weapons`
 - possible useful weapons? on the cutlist
-SkyVillages
+`SkyVillages`
 - fun to have around.
-labels
-- low impact labels for chests, etc
 
 == UI ==
-BetterAdvancements
+`BetterAdvancements`
 - Easier to deal with advancements screen, theoretically?
-Controlling
+`Controlling`
 - keybind stuff
-EnchantmentDescriptions
+`EnchantmentDescriptions`
 - just generally nice to have
-Ding
+`Ding`
 - tell me when loaded
-Highlighter
+`Highlighter`
 - highlights newly picked up items
-Jade
-JadeAddons
+`Jade`
+`JadeAddons`
 - HWYLA fork
-JustEnoughResources
+`JustEnoughResources`
 - JEI plugin through REI compat
-LibX
+`LibX`
 - more vanilla tools?
-MouseTweaks
+`MouseTweaks`
 - needed for scroll to move items among other things
-Neat
-NekosEnchantedBooks
+`Neat`
+`NekosEnchantedBooks`
 - alternate icons for certain enchanted books to make them distinguishable
-REIPluginCompatibilities
-RoughlyEnoughItems
-RoughlyEnoughProfessions
+`REIPluginCompatibilities`
+`RoughlyEnoughItems`
+`RoughlyEnoughProfessions`
 - alternate to JEI with some neat features
-Runelic
+`Runelic`
 - rune-like font is neat
-ToastControl
+`ToastControl`
 - control notification shit
-XaerosWorldMap
-Xaeros_Minimap
+`XaerosWorldMap`
+`Xaeros_Minimap`
 - map mod; using this because it has waystone integration
-appleskin
+`appleskin`
 - food stuff
-extremesoundmuffler
-findme
-ftb-chunks
+`extremesoundmuffler`
+`findme`
+`ftb-chunks`
 - easy chunk claim / loader
-ftb-essentials
+`ftb-essentials`
 - /home and other nice things
-ftb-ultimine
+`ftb-ultimine`
 - imo the best veinminer
-ftbbackups2
+`ftbbackups2`
 - backups
-lootbeams
+`lootbeams`
 - where's stuff on the ground
-observable
+`observable`
 - profiler
-inventorysorter
+`inventorysorter`
 - I find it handy
-spark
+`spark`
 - profiler (redundant?)
-waymaker
+`waymaker`
 - xeros / waystone integration
-shutupexperimentalsettings
-bwncr
+`shutupexperimentalsettings`
+`bwncr`
 - don't get deafened by wither spawns
-catalogue
+`catalogue`
 - better mod list menu
-clienttweaks
-configured
+`clienttweaks`
+`configured`
 - easier keyboard config
-craftingtweaks
+`craftingtweaks`
 - things like the "spread this out evenly" button on crafting screens
-modnametooltip
-polymorph
+`modnametooltip`
+`polymorph`
 - pick which one you want if recipe conflicts
 
 == Library ==
-Iceberg
+`Iceberg`
 - needed for item highlighter
-AutoRegLib
+`AutoRegLib`
 - needed for Akashictome
-Pehkui
+`Pehkui`
 - Hex Casting stuff
-Placebo
+`Placebo`
 - apotheosis
-PuzzlesLib
+`PuzzlesLib`
 - better tridents
-YungsApi
+`YungsApi`
 - Yung stuff
-TerraBlender
+`TerraBlender`
 - BOP needs it
-ftb-library
-ftb-teams
-item-filters
-polylib
+`ftb-library`
+`ftb-teams`
+`item-filters`
+`polylib`
 - ftb support stuff
-sophisticatedcore
+`sophisticatedcore`
 - sophisticated support
-paucal
-kotlinforforge
+`paucal`
+`kotlinforforge`
 - hex casting library
-architectury
+`architectury`
 - bambooeverything
-balm
+`balm`
 - for blay09 mods
-blueprint
+`blueprint`
 - abnormals library
-citadel
+`citadel`
 - alex's mobs
-cloth-config
+`cloth-config`
 - config screen API
-curios
+`curios`
 - needed for a buncha different things
-geckolib
+`geckolib`
 - ars
-moonlight
+`moonlight`
 - idas
-sebastrnlib
+`sebastrnlib`
 - applied cooking
-supermartijn642configlib
-supermartijn642corelib
+`supermartijn642configlib`
+`supermartijn642corelib`
 - rechiseled
-titanium
+`titanium`
 - functional storage
-valhelsia_core
+`valhelsia_core`
 - forbidden and arcanus
-Bookshelf
+`Bookshelf`
 - enchantment descriptions, elevator, runelic

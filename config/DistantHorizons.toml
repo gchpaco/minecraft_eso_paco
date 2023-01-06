@@ -1,4 +1,4 @@
-_Versions = "1.6.3a"
+_version = 1
 # Show the lod button in the options screen next to fov
 optionsButton = true
 
@@ -18,7 +18,7 @@ optionsButton = true
 			# BLOCK: render 256 LODs for each Chunk (width of one block). 
 			#
 			# Lowest Quality: CHUNK Highest Quality: BLOCK
-			drawResolution = "BLOCK"
+			drawResolution = "FOUR_BLOCKS"
 			# The radius of the mod's render distance. (measured in chunks) 
 			#
 			lodChunkRenderDistance = 128

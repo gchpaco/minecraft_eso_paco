@@ -6,6 +6,8 @@
 	blockOnlyNaturalSpawns = true
 	#If this setting is enabled, the mega torch will block all natural spawn attempts from Lycanites Mobs in its radius
 	lycanitesMobsBlockAll = true
+	#If this setting is enabled, the mega torch will block village sieges from zombies
+	blockVillageSieges = true
 	#The radius of the mega torch in each direction (cube) with the torch at its center
 	#Range: > 0
 	megaTorchRadius = 64
@@ -45,6 +47,4 @@
 	logSpawnChecks = false
 	#Configures the spawn check to be more aggressive, effectivly overriding the CheckSpawn results of other mods
 	aggressiveSpawnChecks = false
-	#If this setting is enabled, the mega torch will block village sieges from zombies
-	blockVillageSieges = true
 

@@ -3,25 +3,25 @@ RSYNC_FLAGS=-cvrlFF --delete --exclude-from=.gitignore
 
 diff:
 	for dir in $(DIRS); do \
-		diff -bur multimc/$$dir/ $$dir; \
+		diff -bur instance/$$dir/ $$dir; \
 	done
 
 dry:
 	for dir in $(DIRS); do \
-		rsync $(RSYNC_FLAGS) --dry-run multimc/$$dir/ $$dir/; \
+		rsync $(RSYNC_FLAGS) --dry-run instance/$$dir/ $$dir/; \
 	done
 
-multimc2git:
+instance2git:
 	for dir in $(DIRS); do \
-		rsync $(RSYNC_FLAGS) multimc/$$dir/ $$dir/; \
+		rsync $(RSYNC_FLAGS) instance/$$dir/ $$dir/; \
 	done
 
-git2multimc:
+git2instance:
 	for dir in $(DIRS); do \
-		rsync $(RSYNC_FLAGS) $$dir/ multimc/$$dir/; \
+		rsync $(RSYNC_FLAGS) $$dir/ instance/$$dir/; \
 	done
 
 blocksummarize:
 	mlr --csv uniq -g "Mod name,BlockID" then stats1 -a count -f "BlockID" -g "Mod name" then sort -n "BlockID_count" < $$(ls -1Ur instance/config/tellme/blocks-csv* | head -1) | tee remote/blockcounts.csv
 
-.PHONY: diff dry multimc2git git2multimc blocksummarize
+.PHONY: diff dry instance2git git2instance blocksummarize

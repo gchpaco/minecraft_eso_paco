@@ -14,20 +14,20 @@
 	noOffhandTorchAtAll = false
 	#This prevents torches from being placed from your offhand if you have a block in your main hand.
 	noOffhandTorchWithBlock = true
+	#This prevents torches from being placed from your offhand if you have food in your main hand.
+	noOffhandTorchWithFood = true
 	#This prevents torches from being placed from your off hand if you have an empty main hand.
 	noOffhandTorchWithEmptyHand = false
 	#This restricts torches to be placed from the offhand only when you're holding a tool in your main hand.
 	offhandTorchWithToolOnly = false
 	#This option will disable step assist added by other mods.
 	disableStepAssist = false
+	#This option will disable log stripping.
+	disableLogStripping = false
 	#This adds back the master volume slider to the options screen. Saves you a click!
 	masterVolumeSlider = true
 	#This adds back the music volume slider to the options screen. Saves you a click!
 	musicVolumeSlider = true
-	#This prevents torches from being placed from your offhand if you have food in your main hand.
-	noOffhandTorchWithFood = true
-	#This option will disable log stripping.
-	disableLogStripping = false
 	#This option will make iron fences and glass panes have a bigger hitbox while placing them, making it easier to aim.
 	paneBuildingSupport = true
 	#This option makes the recipe book not shift the inventory when opened. Works best with smaller GUI scales / bigger resolutions.

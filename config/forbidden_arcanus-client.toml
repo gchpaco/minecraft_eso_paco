@@ -6,7 +6,7 @@
 		render = true
 		#X-Position of the Orb of Temporary Flight Overlay (if enabled) [default: 1]
 		#Range: 0 ~ 500
-		x_position = 1
+		x_position = 150
 		#Y-Position of the Orb of Temporary Flight Overlay (if enabled) [default: 1]
 		#Range: 0 ~ 500
 		y_position = 1

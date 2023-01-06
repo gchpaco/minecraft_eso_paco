@@ -40,10 +40,89 @@
 	# 
 	#-----------------------------------------------------
 	#
-	# Brood Blocks will automatically spawn bees until the number of active bees is the value below. 
-	# Set this higher to allow Brood Blocks to spawn more bees in a smaller area or set it to 0 to turn 
-	# off automatic Brood Block bee spawning.
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox plays this music disc.
+	#
+	#Range: 0 ~ 1000000
+	broodBlocksBeeSpawnCapacity = 84
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether Essence of the Bees's effect should stay on the player if they die and then respawn.
+	#
+	keepEssenceOfTheBeesOnRespawning = true
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox plays this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthHoneyBee = 216
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox plays this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthBeeLaxingWithTheHomBees = 300
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox plays this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscTimeLengthLaBeeDaLoca = 176
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether the Crystalline Flower block will eat any item entity that touches the block's collision box in the world
+	#
+	crystallineFlowerConsumeItemEntities = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether the Crystalline Flower block will pull in and eat any experience orb that touches it in the world
+	#
+	crystallineFlowerConsumeExperienceOrbEntities = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether the Crystalline Flower's GUI allows players to feed it items directly
+	#
+	crystallineFlowerConsumeItemUI = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether the Crystalline Flower's GUI allows players to feed it the player's experience
+	#
+	crystallineFlowerConsumeExperienceUI = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Controls how much "enchanting power" is used per tier to determine what enchantment shows up.
+	# Enchantments of higher levels or rarity requires more "enchanting power" before they show up in the UI.
+	# Think of this like how Enchanting Tables only shows stronger or rarer enchantments when you have more bookshelves.
+	# Except here, the flower's tier times this config value is used as the threshold to know what enchantment and level to show.
 	#
 	#Range: 0 ~ 1000
-	broodBlocksBeeSpawnCapacity = 60
+	crystallineFlowerEnchantingPowerAllowedPerTier = 8
+	# 
+	#-----------------------------------------------------
+	#
+	# How much extra experience is required to reach the next tier for the Crystalline Flower.
+	# Remember, item consuming is also affected as items are converted to experience when the flower consumes it.
+	#
+	#Range: -1000000 ~ 1000000
+	crystallineFlowerExtraXpNeededForTiers = 0
+	# 
+	#-----------------------------------------------------
+	#
+	# Increases or decreases the tier cost of all enchantments available by whatever value you set.
+	# The enchantment's tier cost will be capped between 1 and 6.
+	#
+	#Range: -5 ~ 5
+	crystallineFlowerExtraTierCost = 0
 

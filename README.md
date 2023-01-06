@@ -1,5 +1,5 @@
-= Mod categories =
-== Decoration ==
+# Mod categories #
+## Decoration ##
 `DustrialDecor`
 `BambooEverything`
 `Decorative Blocks`
@@ -17,7 +17,7 @@
 `labels`
 - low impact labels for chests, etc
 
-== Food ==
+## Food ##
 `Aquaculture`
 `Delightful`
 `FarmersDelight`
@@ -31,7 +31,7 @@
 `farmingforblockheads`
 `nutritionalbalance`
 
-== Create ==
+## Create ##
 `create`
 `createaddition`
 - elec stuff for create
@@ -46,11 +46,11 @@
 `Steam_Rails`
 - more stuff for create trains
 
-== Speed ==
+## Speed ##
 `FastFurnace`
 `FastWorkbench`
 
-== Content ==
+## Content ##
 `Botania`
 `BiomesOPlenty`
 - variety
@@ -93,7 +93,7 @@
 `savage_and_ravage`
 - additional pillager content
 
-== Utility ==
+## Utility ##
 `AkashicTome`
 - too many books
 `ExplorersCompass`
@@ -206,7 +206,7 @@
 `SkyVillages`
 - fun to have around.
 
-== UI ==
+## UI ##
 `BetterAdvancements`
 - Easier to deal with advancements screen, theoretically?
 `Controlling`
@@ -276,7 +276,7 @@
 `polymorph`
 - pick which one you want if recipe conflicts
 
-== Library ==
+## Library ##
 `Iceberg`
 - needed for item highlighter
 `AutoRegLib`

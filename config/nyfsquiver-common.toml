@@ -9,9 +9,9 @@ cyclingEnchantTable = true
 #Should Cycling show up on Books?
 cyclingBooks = true
 #Should Quinfinity show up in the Enchanting Table?
-quinfinityEnchantTable = true
+quinfinityEnchantTable = false
 #Should Quinfinity show up on Books?
-quinfinityBooks = true
+quinfinityBooks = false
 #How many rows does the basic quiver have?
 #Range: 1 ~ 13
 rowsBasic = 1
@@ -52,4 +52,3 @@ columnsNetherite = 9
 xPos = 76
 #Range: -1000 ~ 1000
 yPos = 24
-

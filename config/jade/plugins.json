@@ -79,8 +79,17 @@
   "modularrouters": {
     "router": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
   "appliedcooking": {
     "kitchen_station": true
+  },
+  "delightful": {
+    "crop_progress": true
   },
   "twilightforest": {
     "quest_ram_wool": true
@@ -93,9 +102,13 @@
   },
   "create": {
     "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": true,
     "blaze_burner": true,
     "exact_block": true,
     "crafting_blueprint": true,
+    "goggles.detailed": false,
     "placard": true
   },
   "waystones": {

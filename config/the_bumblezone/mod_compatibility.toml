@@ -98,6 +98,19 @@
 		#
 		#Range: 0.0 ~ 1.0
 		PBOreHoneycombSpawnRateSpiderBeeDungeon = 0.12
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow filled Bee Cages to turn Empty Honeycomb Brood blocks into 
+		# a regular Honeycomb Brood Block with a larva inside! 
+		#
+		allowProductiveBeesBeeCageRevivingEmptyBroodBlock = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Honeycomb Brood blocks fed by Dispenser to be able to have chance of spawning Productive Bees's bees.
+		#
+		allowProductiveBeesSpawnFromDispenserFedBroodBlock = true
 
 	["Mod Compatibility Options"."Friends and Foes Options"]
 		# 
@@ -190,6 +203,19 @@
 		# NOTE: Will require a restart of the world to take effect. 
 		#
 		spawnResourcefulBeesHoneycombVeins = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow filled Bee Jars to turn Empty Honeycomb Brood blocks into 
+		# a regular Honeycomb Brood Block with a larva inside! 
+		#
+		allowResourcefulBeesBeeJarRevivingEmptyBroodBlock = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Honeycomb Brood blocks fed by Dispenser to be able to have chance of spawning Resourceful Bees's bees.
+		#
+		allowResourcefulBeesSpawnFromDispenserFedBroodBlock = true
 
 	["Mod Compatibility Options"."Potion of Bees Options"]
 		# 
@@ -199,4 +225,44 @@
 		# a regular Honeycomb Brood Block with a larva inside! 
 		#
 		allowPotionOfBeesRevivingEmptyBroodBlock = true
+
+	["Mod Compatibility Options"."Beekeeper Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# Adds Bumblezone items to Beekeeper mod's Beekeeper trades!
+		#
+		allowBeekeeperTradesCompat = true
+
+	["Mod Compatibility Options"."Goodall Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Bottled Bees to turn Empty Honeycomb Brood blocks into 
+		# a regular Honeycomb Brood Block with a larva inside! 
+		#
+		allowGoodallBottledBeesRevivingEmptyBroodBlock = true
+
+	["Mod Compatibility Options"."Tropicraft Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# Spawn Tropicraft's Tropibee in The Bumblezone and from Honey Brood Blocks alongside
+		# regular bees at a spawnrateOfTropicraftBeesMobs chance when spawning regular bees.
+		#
+		spawnTropicraftBeesMob = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Chance of a Bee spawning from Honeycomb Brood Blocks in Bumblezone dimension being replaced by Tropicraft's Tropibee.
+		# 0 is no Tropicraft's mobs and 1 is max Tropicraft's mobs.
+		#
+		#Range: 0.0 ~ 1.0
+		spawnrateOfTropicraftBeesMobs = 0.05
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Honeycomb Brood blocks fed by Dispenser to be able to have chance of spawning Tropicraft's Tropibee.
+		#
+		allowTropicraftSpawnFromDispenserFedBroodBlock = true
 

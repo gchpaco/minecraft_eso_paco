@@ -15,5 +15,5 @@
 	gui_scale = 1.0
 	#The anchor point of the HUD Quiver.
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT, HOTBAR_LEFT, HOTBAR_RIGHT
-	ANCHOR = "TOP_LEFT"
+	ANCHOR = "BOTTOM_LEFT"
 

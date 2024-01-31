@@ -1,33 +1,26 @@
 {
 	"basics": {
 		"favorites": [
-			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
 			"{id:\"ftbessentials:trash_can\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/bin\",\"x\":150,\"click\":\"command:/trashcan\",\"required_server_mods\":[\"ftbessentials\"]}',type:\"ftblibrary:sidebar_button\"}",
+			"{id:\"ftbchunks:claim_chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map; tint\\\\u003d#FF80FFFF\",\"x\":400,\"click\":\"ftbchunks:open_claim_gui\"}',type:\"ftblibrary:sidebar_button\"}",
+			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
 			"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}",
-			"{data:{Count:1b,id:\"immersiveengineering:alloy_smelter\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:nether_bricks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"nyfsquiver:cycling_enchant\",lvl:1s}]},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"supplementaries:bomb\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"naturesaura:sky_shovel\",tag:{Damage:129},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"sophisticatedbackpacks:netherite_backpack\",tag:{RepairCost:0,borderColor:13061821,clothColor:13061821,contentsUuid:[I;-823168755,-1819391425,-1306979293,-1254762401],display:{Name:'{\"text\":\"Stuff\"}'},inventorySlots:120,openTabId:5,sortBy:\"count\",upgradeSlots:7},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:spruce_planks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:coal_ore\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"waterstrainer:strainer_base\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:stripped_mangrove_log\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:andesite\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"hexerei:mandrake_root\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"functionalstorage:storage_controller\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"functionalstorage:dark_oak_1\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"hexerei:willow_chest\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"twilightforest:knightmetal_axe\",tag:{Damage:0},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:cobbled_deepslate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:oak_sapling\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:weathered_copper\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"mcwfences:birch_pyramid_gate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"mcwfences:birch_stockade_fence\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"delightful:sinigang\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"naturesaura:token_fear\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"naturesaura:token_sorrow\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"malum:soulwood_totem_base\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:piston\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:sticky_piston\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"sophisticatedstorage:advanced_magnet_upgrade\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"ars_nouveau:wand\",tag:{},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"ars_nouveau:enchanters_mirror\",tag:{},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": false,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
@@ -83,7 +76,8 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}",
+				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
 			],
 			"filteringQuickCraftCategories": { },
 			"filteredStacks": []
@@ -149,7 +143,8 @@
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
 			"newFastEntryRendering": true,
-			"cachingFastEntryRendering": false
+			"cachingFastEntryRendering": false,
+			"cachingDisplayLookup": true
 		}
 	},
 	"appearance": {
@@ -180,7 +175,7 @@
 	"functionality": {
 		"inputMethod": null,
 		// Declares whether REI should remove the recipe book.
-		"disableRecipeBook": false,
+		"disableRecipeBook": true,
 		// Declares whether mob effects should be on the left side instead of the right side.
 		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.
